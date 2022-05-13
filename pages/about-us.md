@@ -56,5 +56,5 @@ In __datlas__, we can provide and deliver:
 
 
 ---
-### <center> Some of our main partners:</center>
+### <center> Some of datlas main partners:</center>
 ![All]({{ site.urlimg }}plate_all_logos.svg "Partners")
