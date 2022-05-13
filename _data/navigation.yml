@@ -50,8 +50,8 @@
   side: right
   dropdown:
 
-- title: "Jobs"
-  url: "/job-opportunities/"
+- title: "Join us"
+  url: "/join-us/"
   side: right
   dropdown:
     

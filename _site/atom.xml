@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>datlas</title>
-	<updated>2022-05-13T13:43:48+02:00</updated>
+	<updated>2022-05-13T14:40:00+02:00</updated>
 
 	<subtitle>Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.</subtitle>
 
@@ -53,6 +53,96 @@
 			
 
 			<published>2022-05-09T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/datlas/people/florian/</id>
+			<title>Welcome to Florian our new postdoc</title>
+			<link href="http://localhost:4000/datlas/people/florian/" rel="alternate" type="text/html" title="Welcome to Florian our new postdoc" />
+			<updated>2022-05-02T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>datlas</name>
+					
+					
+					
+				</author>
+			
+			<summary>Florian Leguillou has joined datlas for a short postdoc contract. </summary>
+			<content type="html" xml:base="http://localhost:4000/datlas/people/florian/">&lt;p&gt;&lt;a href=&quot;http://localhost:4000&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/team-CU.png&quot; alt=&quot;ON&quot; title=&quot;Start browsing our pages!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="datlas" />
+			
+				<category term="People" />
+			
+			
+
+			<published>2022-05-02T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/datlas/people/stephanie/</id>
+			<title>Welcome to Stephanie</title>
+			<link href="http://localhost:4000/datlas/people/stephanie/" rel="alternate" type="text/html" title="Welcome to Stephanie" />
+			<updated>2022-04-01T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>datlas</name>
+					
+					
+					
+				</author>
+			
+			<summary>Stephanie Leroux has joined datlas and will start developping activities on ocean and sea ice modelling and ensemble simulations. </summary>
+			<content type="html" xml:base="http://localhost:4000/datlas/people/stephanie/">&lt;p&gt;&lt;a href=&quot;http://localhost:4000&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/team-SL.jpg&quot; alt=&quot;ON&quot; title=&quot;Start browsing our pages!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="datlas" />
+			
+				<category term="People" />
+			
+			
+
+			<published>2022-04-01T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/datlas/people/Clement-Christine/</id>
+			<title>Welcome to Clément and Christine</title>
+			<link href="http://localhost:4000/datlas/people/Clement-Christine/" rel="alternate" type="text/html" title="Welcome to Clément and Christine" />
+			<updated>2022-01-01T00:00:00+01:00</updated>
+
+			
+				
+				<author>
+					
+						<name>datlas</name>
+					
+					
+					
+				</author>
+			
+			<summary>Clément Ubelmann and Christine André have started working in datlas. </summary>
+			<content type="html" xml:base="http://localhost:4000/datlas/people/Clement-Christine/">&lt;p&gt;&lt;a href=&quot;http://localhost:4000&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/team-CU.png&quot; alt=&quot;ON&quot; title=&quot;Start browsing our pages!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="datlas" />
+			
+				<category term="People" />
+			
+			
+
+			<published>2022-01-01T00:00:00+01:00</published>
 		</entry>
 	
 </feed>
