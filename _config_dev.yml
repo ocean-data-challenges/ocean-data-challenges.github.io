@@ -9,9 +9,9 @@ url: 		'http://localhost:4000'
 baseurl: 	''
 urlimg: 	/images/
 
-#url: 'https://ocean-next.github.io/docs'
+#url: 'https://datlas-ocean.github.io'
 #baseurl: ''
-#urlimg: 'https://ocean-next.github.io/docs/images/'
+#urlimg: 'https://datlas-ocean.github.io/images/'
 
 # See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
 gist:
