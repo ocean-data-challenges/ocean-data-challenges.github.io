@@ -2,7 +2,7 @@
 layout: pagepluswidgets
 title: "Meet our team"
 subheadline: ""
-teaser: "We are a team of scientists,  experts in numerical methods and numerical models applied to Earth data, ranging from observations to model simulations."
+teaser: "We are a team of scientists based in Grenoble, France, with complementary  expertises in numerical methods and numerical models applied to Earth data, ranging from observations to model simulations."
 permalink: "/team/"
 breadcrumb: true
 header:
