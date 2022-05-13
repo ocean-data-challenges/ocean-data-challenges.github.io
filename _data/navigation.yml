@@ -1,0 +1,61 @@
+- title: "Home"
+  url: "/"
+  side: left
+  dropdown:
+  
+- title: About Us
+  url: "/about-us/"
+  side: left
+  dropdown:
+  - title: "datlas"
+    url: "/about-us/"
+
+- title: "Our Team"
+  url: "/team/"
+  side: left
+  dropdown:
+  - title: "Our team "
+    url: "/team/"
+  - title: "Clement Ubelmann "
+    url: "/team/CU/"
+  - title: "Stephanie Leroux"
+    url: "/team/SL/" 
+# - title: "Sammy Metref"
+#    url: "/team/SM/" 
+# - title: "Laurent Brodeau"
+#    url: "/team/LB/" 
+  - title: "Christine Andre"
+    url: "/team/CA/"
+  - title: "Florian Leguillou"
+    url: "/team/FL/" 
+
+- title: "Our Expertise"
+  url: "/expertise/"
+  side: left
+  dropdown:
+  - title: "Our expertise and on-going activities"
+    url: "/expertise/"
+  - title: "Data inversion for altimetry and surface currents"
+    url: "/expertise/inversion/"
+  - title: "Ocean and sea-ice numerical modelling"
+    url: "/expertise/modeling/"
+  - title: "Ensemble approaches and uncertainty in ocean modelling"
+    url: "/expertise/uncertainty/"
+  - title: "Data challenge frameworks"
+    url: "/expertise/data-challenges/"
+
+    
+- title: "News"
+  url: "/blog/"
+  side: right
+  dropdown:
+
+- title: "Jobs"
+  url: "/job-opportunities/"
+  side: right
+  dropdown:
+    
+- title: "Contact us"
+  url: "/contact/"
+  side: right
+  dropdown:
