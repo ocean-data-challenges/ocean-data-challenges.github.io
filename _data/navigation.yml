@@ -3,6 +3,11 @@
   side: left
   dropdown:
   
+- title: "News"
+  url: "/blog/"
+  side: right
+  dropdown:
+
 - title: About Us
   url: "/about-us/"
   side: left
@@ -44,10 +49,9 @@
   - title: "Data challenge frameworks"
     url: "/expertise/data-challenges/"
 
-    
-- title: "News"
-  url: "/blog/"
-  side: right
+- title: "Codes & Data"
+  url: "/codes-data/"
+  side: left
   dropdown:
 
 - title: "Join us"
