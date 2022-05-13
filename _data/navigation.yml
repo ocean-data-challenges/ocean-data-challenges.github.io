@@ -5,7 +5,7 @@
   
 - title: "News"
   url: "/blog/"
-  side: right
+  side: left
   dropdown:
 
 - title: About Us
