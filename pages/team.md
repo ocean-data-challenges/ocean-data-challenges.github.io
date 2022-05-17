@@ -39,13 +39,13 @@ widget5:
   title: "Sammy Metref"
   url: /team/SM/
   image: team-SM.png
-  text: 'Might join us soon at datlas [...].'
+  text: '_[External collaborator]_. Expertise in data assimilation and data challenges [...].'
 
 widget6:
   title: "Laurent Brodeau"
   url: /team/LB/
   image: team-LB.jpg
-  text: 'Might join us next year at datlas [...].'
+  text: '_[External collaborator]_. Expertise in HPC computing and ocean & sea ice modelling [...].'
 
 
 
