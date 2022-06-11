@@ -48,6 +48,8 @@
     url: "/expertise/uncertainty/"
   - title: "Data challenge frameworks"
     url: "/expertise/data-challenges/"
+  - title: "Scientific visualisation and communication"
+    url: "/expertise/sci-vis/"
 
 - title: "Codes & Data"
   url: "/codes-data/"

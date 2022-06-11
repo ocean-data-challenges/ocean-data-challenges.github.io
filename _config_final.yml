@@ -45,7 +45,7 @@ improve_content:
 #
 #
 ### USE THIS TO build the developing site on github
-urlimg: 'https://datlas.fr/images/'
+urlimg: 'https://datlas-ocean.github.io/images/'
 
 ### USE THIS TO build the final site that will be publsihed at www.ocean-next.fr:
 ### urlimg: 'https://ocean-next.fr/images/'

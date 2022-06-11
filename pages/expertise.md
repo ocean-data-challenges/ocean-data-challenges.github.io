@@ -32,6 +32,12 @@ widget4:
   image: neuralnet_800x800.jpg
   text: 'Data challenge framework to  [...]'
 
+widget5:
+  title: "Scientific visualisation and communication"
+  url: /expertise/sci-vis/
+  image: eNATL60_zoom_800x800.jpg
+  text: 'High-level scientific visualisations  [...]'
+
 ---
 
 __Our on-going activities__  are related to spatial observations, modelling and forecasting of the ocean (ocean height, ocean currents, ocean physical properties such as salinity and temperature) and of sea ice:
