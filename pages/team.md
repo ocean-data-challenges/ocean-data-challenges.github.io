@@ -47,7 +47,7 @@ widget8:
   text: '[External collaborator] Expertise in HPC computing and ocean & sea ice modelling [...].'
 
 widget10:
-  title: "Joseph  Leguillou"
+  title: "Florian  Leguillou"
   url: /team/FL/
   image: avatar-homme.png
   text: '[Former Post-doc]: Expertise in data inversion methods for ocean altimetry [...]'
