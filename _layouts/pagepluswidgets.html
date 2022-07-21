@@ -71,10 +71,8 @@ format: page-fullwidth
 * Second check, if more than 3 widgets: add another line of widges
 *
 {% endcomment %}
-
-{% if page.widget4.title %}
-
 <div class="row t60">
+{% if page.widget4.title %}
 	{% if page.widget4.title %}
 		{% include _frontpage-widget.html widget=page.widget4 %}
 	{% endif %}
@@ -90,8 +88,55 @@ format: page-fullwidth
 {% endif %}
 
 {% comment %}
+
 *
-* First check, if there is a call for action-button
+* Third check, if more than 6 widgets: add another line of widges
+*
+{% endcomment %}
+
+{% if page.widget7.title %}
+<hr>
+<div class="font-size-h2 row t60"> External collaborators:</div>
+
+<div class="row t60">
+	{% if page.widget7.title %}
+		{% include _frontpage-widget.html widget=page.widget7 %}
+	{% endif %}
+
+	{% if page.widget8.title %}
+		{% include _frontpage-widget.html widget=page.widget8 %}
+	{% endif %}
+
+	{% if page.widget9.title %}
+		{% include _frontpage-widget.html widget=page.widget9 %}
+	{% endif %}	
+</div><!-- /.row -->
+{% endif %}
+
+{% if page.widget10.title %}
+<hr>
+<div class="font-size-h2 row t60"> Former Datlas members:</div>
+
+<div class="row t60">
+	{% if page.widget10.title %}
+		{% include _frontpage-widget.html widget=page.widget10 %}
+	{% endif %}
+
+	{% if page.widget11.title %}
+		{% include _frontpage-widget.html widget=page.widget11 %}
+	{% endif %}
+
+	{% if page.widget12.title %}
+		{% include _frontpage-widget.html widget=page.widget12 %}
+	{% endif %}	
+</div><!-- /.row -->
+{% endif %}
+
+
+
+{% comment %}
+*
+*  Check, if there is a call for action-button
 *
 {% endcomment %}
 {% if page.callforaction.url contains 'http' %}

@@ -10,7 +10,6 @@ header:
    logoalt: "logo_datlas_white_big.svg"
  
   
-  
 widget1:
   title: "Clément Ubelmann"
   url: /team/CU/
@@ -30,22 +29,28 @@ widget3:
   text: 'Legal & financial officer [...]'
 
 widget4:
-  title: "Florian Leguillou"
-  url: /team/FL/
-  image: avatar-homme.png
-  text: 'Posdoc: Expertise in data inversion methods for ocean altimetry [...]'
+  title: "Joseph  Jenkins"
+  url: /team/JJ/
+  image: avatarman2.jpg
+  text: 'PhD student: Estimatation of surface ocean currents by deep learning. CIFFRE PhD funding [...]'
 
-widget5:
+widget7:
   title: "Sammy Metref"
   url: /team/SM/
   image: team-SM.png
-  text: '_[External collaborator]_. Expertise in data assimilation and data challenges [...].'
+  text: '[External collaborator] Expertise in data assimilation and data challenges [...].'
 
-widget6:
+widget8:
   title: "Laurent Brodeau"
   url: /team/LB/
   image: team-LB.jpg
-  text: '_[External collaborator]_. Expertise in HPC computing and ocean & sea ice modelling [...].'
+  text: '[External collaborator] Expertise in HPC computing and ocean & sea ice modelling [...].'
+
+widget10:
+  title: "Joseph  Leguillou"
+  url: /team/FL/
+  image: avatar-homme.png
+  text: '[Former Post-doc]: Expertise in data inversion methods for ocean altimetry [...]'
 
 
 
