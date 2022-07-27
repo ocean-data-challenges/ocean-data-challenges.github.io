@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>datlas</title>
-	<updated>2022-07-27T16:14:44+02:00</updated>
+	<updated>2022-07-27T16:19:35+02:00</updated>
 
 	<subtitle>Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.</subtitle>
 
@@ -108,9 +108,10 @@ He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institut
 					
 				</author>
 			
-			<summary>Stephanie has participated  in the annual meeting of project SASIP, taking place in Grenoble, 20-23 June 2022.</summary>
-			<content type="html" xml:base="http://localhost:4000/datlas/web/sasip-am/">&lt;p&gt;3 days of inspiring science talks among 55 participants from 13 partners of the SASIP consortium.
-Check out the &lt;a href=&quot;https://sasip-climate.github.io&quot;&gt;SASIP website&lt;/a&gt;.
+			<summary>Stephanie and Laurent  have participated  in the annual meeting of project SASIP, taking place in Grenoble, 20-23 June 2022.</summary>
+			<content type="html" xml:base="http://localhost:4000/datlas/web/sasip-am/">&lt;p&gt;3 days of inspiring science talks about sea ice modeling with 55 participants from 13 partners of the SASIP consortium (France, US, New Zeland, UK, Norway, Germany, Canada).&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://sasip-climate.github.io&quot;&gt;SASIP website&lt;/a&gt;.
 &lt;a href=&quot;https://sasip-climate.github.io&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/SASIP_AM2022.jpeg&quot; alt=&quot;sasip-web&quot; title=&quot;Check out the SASIP website.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
 
