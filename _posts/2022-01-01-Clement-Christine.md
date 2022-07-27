@@ -15,4 +15,4 @@ image:
 show_meta: true
 ---
 [![ON]({{ site.urlimg }}team-CU.png
- "Start browsing our pages!")]({{ site.url }}{{ site.baseurl }})
+ "Find out more about Christine and Clément's background and expertises.")]({{ site.url }}{{ site.baseurl }}/team/)

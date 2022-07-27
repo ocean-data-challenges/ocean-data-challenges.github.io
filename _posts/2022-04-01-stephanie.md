@@ -14,5 +14,5 @@ image:
    thumb: team-SL.jpg
 show_meta: true
 ---
-[![ON]({{ site.urlimg }}team-SL.jpg
- "Start browsing our pages!")]({{ site.url }}{{ site.baseurl }})
+[![SL]({{ site.urlimg }}team-SL.jpg
+ "Find out more about Stephanie's background and experises.")]({{ site.url }}{{ site.baseurl }}/team/SL/)
