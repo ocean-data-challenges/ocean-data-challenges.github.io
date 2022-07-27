@@ -222,7 +222,12 @@
 
                       
 
-                      <li><a  href="http://localhost:4000/about-us/">datlas</a></li>
+                      <li><a  href="http://localhost:4000/about-us/">Our ambition</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/about-us/">Our values</a></li>
                     
                   </ul>
 
@@ -248,27 +253,7 @@
 
                       
 
-                      <li><a  href="http://localhost:4000/team/">Our team </a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/team/CU/">Clement Ubelmann </a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/team/SL/">Stephanie Leroux</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/team/CA/">Christine Andre</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/team/FL/">Florian Leguillou</a></li>
+                      <li><a  href="http://localhost:4000/team/">People </a></li>
                     
                   </ul>
 

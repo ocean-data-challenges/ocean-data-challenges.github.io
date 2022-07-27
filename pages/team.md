@@ -23,24 +23,25 @@ widget2:
   text: 'R&D scientist:  Expertise in ocean, atmosphere and sea ice modelling, data analysis and probabilistic approaches. [...]'
 
 widget3:
+  title: "Sammy Metref"
+  url: /team/SM/
+  image: team-SM.png
+  text: 'R&D scientist: Expertise in data assimilation, inversion methods and data challenges [...].'
+
+widget4:
   title: "Christine André "
   url: /team/CA/
   image: avatar_femme.png
   text: 'Legal & financial officer [...]'
 
-widget4:
+widget5:
   title: "Joseph  Jenkins"
   url: /team/JJ/
   image: avatarman2.jpg
-  text: 'PhD student: Estimatation of surface ocean currents by deep learning. CIFFRE PhD funding [...]'
+  text: 'PhD student (CIFRE funding): Prediction of Lagrangian drift by deep learning [...]'
+
 
 widget7:
-  title: "Sammy Metref"
-  url: /team/SM/
-  image: team-SM.png
-  text: '[External collaborator] Expertise in data assimilation and data challenges [...].'
-
-widget8:
   title: "Laurent Brodeau"
   url: /team/LB/
   image: team-LB.jpg
