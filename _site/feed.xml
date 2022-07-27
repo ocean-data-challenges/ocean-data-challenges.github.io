@@ -9,6 +9,15 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Starting a collaboration with Semaphore</title>
+				<link>http://localhost:4000/datlas/web/semaphore/</link>
+				<pubDate>Fri, 22 Jul 2022 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;&lt;a href=&quot;http://semaphore-communication.fr/semaphore/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logo_semaphore_sq.png&quot; alt=&quot;semaphore&quot; title=&quot;There website here.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/datlas/web/semaphore/</guid>
+			</item>
+		
+			<item>
 				<title>datlas has a  website</title>
 				<link>http://localhost:4000/datlas/web/website/</link>
 				<pubDate>Mon, 09 May 2022 00:00:00 +0200</pubDate>

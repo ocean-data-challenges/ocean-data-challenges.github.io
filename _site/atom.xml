@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>datlas</title>
-	<updated>2022-07-27T14:36:51+02:00</updated>
+	<updated>2022-07-27T14:50:24+02:00</updated>
 
 	<subtitle>Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.</subtitle>
 
@@ -24,6 +24,36 @@
 
 	<generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator>
 
+	
+		<entry>
+			<id>http://localhost:4000/datlas/web/semaphore/</id>
+			<title>Starting a collaboration with Semaphore</title>
+			<link href="http://localhost:4000/datlas/web/semaphore/" rel="alternate" type="text/html" title="Starting a collaboration with Semaphore" />
+			<updated>2022-07-22T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>datlas</name>
+					
+					
+					
+				</author>
+			
+			<summary>We have just started a collaboration with the Semaphore team, to help us find a nice logo and visual identity for Datlas.</summary>
+			<content type="html" xml:base="http://localhost:4000/datlas/web/semaphore/">&lt;p&gt;&lt;a href=&quot;http://semaphore-communication.fr/semaphore/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logo_semaphore_sq.png&quot; alt=&quot;semaphore&quot; title=&quot;There website here.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="datlas" />
+			
+				<category term="Web" />
+			
+			
+
+			<published>2022-07-22T00:00:00+02:00</published>
+		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/datlas/web/website/</id>
