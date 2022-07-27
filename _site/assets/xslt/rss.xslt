@@ -229,6 +229,11 @@
 
                       <li><a  href="http://localhost:4000/about-us/">Our values</a></li>
                     
+
+                      
+
+                      <li><a  href="http://localhost:4000/about-us/">Funding agencies &amp; partners</a></li>
+                    
                   </ul>
 
               </li>

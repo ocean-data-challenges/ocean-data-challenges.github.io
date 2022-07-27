@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-title: "<center>About datlas  </center>"
+title: ""
 subheadline: ""
 teaser: ""
 header:
@@ -12,8 +12,7 @@ breadcrumb: true
 
 ---
 
----
-### <center> Our ambition </center>
+## <center> Our ambition </center>
  <center> - </center>
 
  __Datlas__ was created in October 2021 by 4 scientists based in Grenoble, with the ambition to develop Research & Innovation opportunities at the interface between academic/institutionnal research  and operational stakeolders (such as the national and european spatial agencies or the european marine & climate services) in the domains of Earth & Environnmental sciences.
@@ -28,20 +27,10 @@ Building on the various science backgrounds and technical skills in the team, we
 
 [Read more here]({{ site.url }}{{ site.baseurl }}/expertise/) about the different science projects we are involved in.
 
----
-### <center> Our services and products </center>
- <center> - </center>
-In __Datlas__, we can provide and deliver:
-*  our scientific and technical expertise,
-*  prototypes of innovative algorithms and softwares,
-*  frameworks such as "data challenges" to set up and coordinate an intercomparison of algorithms applied to a well-posed science problem and a demonstration dataset,
-*  data products such as simulation outputs, pseudo-observation datasets, forcing datasets, pre-operational forecast products, 
-*  science communication (academic articles, visualisation, project websites, etc).
-
 
 ---
-### <center> Our values</center>
- <center> - </center>
+## <center> Our values</center>
+<center>-</center>
 
  __Datlas__ was created as a branch of the [Oxalis-SCOP](https://www.oxalis-scop.fr/) company (legal headquaters).
 
@@ -56,5 +45,6 @@ In __Datlas__, we can provide and deliver:
 
 
 ---
-### <center> Some of datlas main partners:</center>
-![All]({{ site.urlimg }}plate_all_logos.svg "Partners")
+## <center> Some of our funding agencies and partners:</center>
+
+![logos_funding_agencies_and_partners]({{ site.urlimg }}all_logos.png "Funding agencies and partners")
