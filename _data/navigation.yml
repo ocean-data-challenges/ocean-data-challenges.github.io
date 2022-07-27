@@ -44,18 +44,10 @@
   url: "/expertise/"
   side: left
   dropdown:
-  - title: "Our expertise and on-going activities"
+  - title: "Our services and products"
     url: "/expertise/"
-  - title: "Data inversion for altimetry and surface currents"
-    url: "/expertise/inversion/"
-  - title: "Ocean and sea-ice numerical modelling"
-    url: "/expertise/modeling/"
-  - title: "Ensemble approaches and uncertainty in ocean modelling"
-    url: "/expertise/uncertainty/"
-  - title: "Data challenge frameworks"
-    url: "/expertise/data-challenges/"
-  - title: "Scientific visualisation and communication"
-    url: "/expertise/sci-vis/"
+  - title: "On-going activities"
+    url: "/expertise/"
 
 - title: "Codes & Data"
   url: "/codes-data/"

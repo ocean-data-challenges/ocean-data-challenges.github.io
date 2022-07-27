@@ -10,11 +10,24 @@
 		
 			<item>
 				<title>Starting a collaboration with Semaphore</title>
-				<link>http://localhost:4000/datlas/web/semaphore/</link>
+				<link>http://localhost:4000/datlas/web/com'/semaphore/</link>
 				<pubDate>Fri, 22 Jul 2022 00:00:00 +0200</pubDate>
 				<description>&lt;p&gt;&lt;a href=&quot;http://semaphore-communication.fr/semaphore/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logo_semaphore.png&quot; alt=&quot;semaphore&quot; title=&quot;There website here.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/datlas/web/semaphore/</guid>
+				<guid isPermaLink="true">http://localhost:4000/datlas/web/com'/semaphore/</guid>
+			</item>
+		
+			<item>
+				<title>SLICING: a new Service Evolution CMEMS project.</title>
+				<link>http://localhost:4000/datlas/science/kickoffCMEMS/</link>
+				<pubDate>Thu, 07 Jul 2022 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;SLICING  stands for Sea Level Innovations and Collaborative Intercomparisons for the Next-Generation products. It is a CMEMS - Service Evolution project that will  build collaborative data challenges for the next-generation sea level anomaly metrics, observation and mapping products.&lt;/p&gt;
+
+&lt;p&gt;This is a starting collaboration between Sammy Metref and Clément Ubelmann in Datlas (lead) with Maxime Ballarotta and Clément Busché from Collecte Localisation Satellites (CLS), Ramonville St-Agne, France, and  Maxime Beauchamp from IMT Atlantique Bretagne-Pays de la Loire, Brest, France.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logos_SLICING.png&quot; alt=&quot;SLICING_partners&quot; /&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/datlas/science/kickoffCMEMS/</guid>
 			</item>
 		
 			<item>

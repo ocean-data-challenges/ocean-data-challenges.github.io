@@ -47,4 +47,4 @@ Building on the various science backgrounds and technical skills in the team, we
 ---
 ## <center> Some of our funding agencies and partners:</center>
 
-![logos_funding_agencies_and_partners]({{ site.urlimg }}all_logos.png "Funding agencies and partners")
+![logos_funding_agencies_and_partners]({{ site.urlimg }}all_logos2.png "Funding agencies and partners")

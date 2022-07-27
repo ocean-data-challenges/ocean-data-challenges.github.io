@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>datlas</title>
-	<updated>2022-07-27T16:41:51+02:00</updated>
+	<updated>2022-07-27T18:04:27+02:00</updated>
 
 	<subtitle>Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.</subtitle>
 
@@ -26,9 +26,9 @@
 
 	
 		<entry>
-			<id>http://localhost:4000/datlas/web/semaphore/</id>
+			<id>http://localhost:4000/datlas/web/com'/semaphore/</id>
 			<title>Starting a collaboration with Semaphore</title>
-			<link href="http://localhost:4000/datlas/web/semaphore/" rel="alternate" type="text/html" title="Starting a collaboration with Semaphore" />
+			<link href="http://localhost:4000/datlas/web/com'/semaphore/" rel="alternate" type="text/html" title="Starting a collaboration with Semaphore" />
 			<updated>2022-07-22T00:00:00+02:00</updated>
 
 			
@@ -42,17 +42,53 @@
 				</author>
 			
 			<summary>We have just started a collaboration with the Semaphore team, to help us find a nice logo and visual identity for Datlas.</summary>
-			<content type="html" xml:base="http://localhost:4000/datlas/web/semaphore/">&lt;p&gt;&lt;a href=&quot;http://semaphore-communication.fr/semaphore/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logo_semaphore.png&quot; alt=&quot;semaphore&quot; title=&quot;There website here.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/datlas/web/com'/semaphore/">&lt;p&gt;&lt;a href=&quot;http://semaphore-communication.fr/semaphore/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logo_semaphore.png&quot; alt=&quot;semaphore&quot; title=&quot;There website here.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="Datlas" />
+			
+				<category term="Web" />
+			
+				<category term="Com'" />
+			
+			
+
+			<published>2022-07-22T00:00:00+02:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/datlas/science/kickoffCMEMS/</id>
+			<title>SLICING: a new Service Evolution CMEMS project.</title>
+			<link href="http://localhost:4000/datlas/science/kickoffCMEMS/" rel="alternate" type="text/html" title="SLICING: a new Service Evolution CMEMS project." />
+			<updated>2022-07-07T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>datlas</name>
+					
+					
+					
+				</author>
+			
+			<summary>Sammy and Clément have organised the kickoff meeting of SLICING (CMEMS Service Evolution) on Jul 7th, 2022.  </summary>
+			<content type="html" xml:base="http://localhost:4000/datlas/science/kickoffCMEMS/">&lt;p&gt;SLICING  stands for Sea Level Innovations and Collaborative Intercomparisons for the Next-Generation products. It is a CMEMS - Service Evolution project that will  build collaborative data challenges for the next-generation sea level anomaly metrics, observation and mapping products.&lt;/p&gt;
+
+&lt;p&gt;This is a starting collaboration between Sammy Metref and Clément Ubelmann in Datlas (lead) with Maxime Ballarotta and Clément Busché from Collecte Localisation Satellites (CLS), Ramonville St-Agne, France, and  Maxime Beauchamp from IMT Atlantique Bretagne-Pays de la Loire, Brest, France.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logos_SLICING.png&quot; alt=&quot;SLICING_partners&quot; /&gt;&lt;/p&gt;
 </content>
 
 			
 				<category term="datlas" />
 			
-				<category term="Web" />
+				<category term="science" />
 			
 			
 
-			<published>2022-07-22T00:00:00+02:00</published>
+			<published>2022-07-07T00:00:00+02:00</published>
 		</entry>
 	
 		<entry>

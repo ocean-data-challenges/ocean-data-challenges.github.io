@@ -4,8 +4,9 @@ title: "Starting a collaboration with Semaphore"
 subheadline: ""
 teaser: "We have just started a collaboration with the Semaphore team, to help us find a nice logo and visual identity for Datlas."
 categories:
-    - "datlas"
+    - "Datlas"
     - "Web"
+    - "Com'"
 header:
    image_fullwidth: "Gulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg"
    logoalt: "logo_datlas_white_big.svg"
