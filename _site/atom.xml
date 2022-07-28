@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>datlas</title>
-	<updated>2022-07-28T14:43:26+02:00</updated>
+	<updated>2022-07-28T16:39:02+02:00</updated>
 
 	<subtitle>Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.</subtitle>
 
@@ -24,6 +24,37 @@
 
 	<generator uri="http://jekyllrb.com" version="3.8.4">Jekyll</generator>
 
+	
+		<entry>
+			<id>http://localhost:4000/datlas/people/sammy/</id>
+			<title>Sammy joins Datlas!</title>
+			<link href="http://localhost:4000/datlas/people/sammy/" rel="alternate" type="text/html" title="Sammy joins Datlas!" />
+			<updated>2022-07-28T00:00:00+02:00</updated>
+
+			
+				
+				<author>
+					
+						<name>datlas</name>
+					
+					
+					
+				</author>
+			
+			<summary>Sammy Métref will join us in Datlas next week (Aug. 1st). Welcome to him! </summary>
+			<content type="html" xml:base="http://localhost:4000/datlas/people/sammy/">&lt;p&gt;Sammy will bring to Datlas is expertise  in data assimilation, inversion methods and the setting up of data challenges. 
+&lt;a href=&quot;http://localhost:4000/team/SM/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/team-SM.jpg&quot; alt=&quot;SM&quot; title=&quot;Find out more about Sammy.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="datlas" />
+			
+				<category term="People" />
+			
+			
+
+			<published>2022-07-28T00:00:00+02:00</published>
+		</entry>
 	
 		<entry>
 			<id>http://localhost:4000/datlas/web/com'/semaphore/</id>
