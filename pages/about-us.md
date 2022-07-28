@@ -25,7 +25,7 @@ Building on the various science backgrounds and technical skills in the team, we
 
 
 
-[Read more here]({{ site.url }}{{ site.baseurl }}/expertise/) about the different science projects we are involved in.
+Read more [here]({{ site.url }}{{ site.baseurl }}/expertise/) about the different science projects we are involved in.
 
 
 ---
@@ -34,7 +34,7 @@ Building on the various science backgrounds and technical skills in the team, we
 
  __Datlas__ was created as a branch of the [Oxalis-SCOP](https://www.oxalis-scop.fr/) company (legal headquaters).
 
-![oxalis-scop]({{ site.urlimg }}oxalis-bandeau.png "oxalis-scop")
+![[Oxalis-SCOP](https://www.oxalis-scop.fr/)]({{ site.urlimg }}oxalis-bandeau.png "oxalis-scop")
 
  Oxalis-SCOP is a French cooperative of entrepreneurs created in 1997. It hosts more than 250 entrepreneurs spread all over the country. Its headquarters are located in Aix-les-Bains in Savoie region and seven regional branches are attached to it, including __Datlas__, which was created in October 2021. With a turnover of more than 11 million euros (2021) and a capital of 682K€, Oxalis-SCOP  is mainly owned by its employees, thus benefiting from a solid financial base thanks to its own funds. 
  
@@ -46,5 +46,6 @@ Building on the various science backgrounds and technical skills in the team, we
 
 ---
 ## <center> Some of our funding agencies and partners:</center>
+<center> - </center>
 
 ![logos_funding_agencies_and_partners]({{ site.urlimg }}all_logos2.png "Funding agencies and partners")
