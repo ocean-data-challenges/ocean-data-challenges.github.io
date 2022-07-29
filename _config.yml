@@ -29,7 +29,7 @@ author: Datlas
 #url: 'https://datlas.fr'
 #
 ### USE THIS TO build the developing site on github
-url: 'https://datlas-ocean.github.io'
+url: '//datlas-ocean.github.io'
 
 baseurl: ''
 
