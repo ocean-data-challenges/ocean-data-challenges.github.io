@@ -60,8 +60,8 @@
   dropdown:
 
 
-- title: "test"
-  url: "/test/"
+- title: "About"
+  url: "/about/"
   side: right
   dropdown:
 

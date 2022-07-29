@@ -150,7 +150,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/test/">test</a></li>
+              <li><a  href="http://localhost:4000/about/">About</a></li>
 
             
             
