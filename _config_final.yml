@@ -26,7 +26,7 @@ author: Datlas
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 ### USE THIS TO build the final site that will be publsihed at www.datlas.fr:
-url: 'https://www.datlas.fr'
+url: '//www.datlas.fr'
 #
 ### USE THIS TO build the developing site on github
 #url: 'https://datlas-ocean.github.io'

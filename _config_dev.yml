@@ -5,7 +5,7 @@
 #
 
 # Start development with › $ jekyll serve -w --config _config.yml,_config_dev.yml
-url: 		'http://localhost:4000'
+url: 		'//localhost:4000'
 baseurl: 	''
 urlimg: 	/images/
 
