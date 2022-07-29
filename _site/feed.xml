@@ -13,7 +13,7 @@
 				<link>http://localhost:4000/datlas/people/sammy/</link>
 				<pubDate>Thu, 28 Jul 2022 00:00:00 +0200</pubDate>
 				<description>&lt;p&gt;Sammy will bring to Datlas is expertise  in data assimilation, inversion methods and the setting up of data challenges. 
-&lt;a href=&quot;http://localhost:4000/team/SM/&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/team-SM.png&quot; alt=&quot;SM&quot; title=&quot;Find out more about Sammy.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;http://localhost:4000/team/SM/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/team-SM.png&quot; alt=&quot;SM&quot; title=&quot;Find out more about Sammy.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/people/sammy/</guid>
 			</item>
@@ -22,7 +22,7 @@
 				<title>Starting a collaboration with Semaphore</title>
 				<link>http://localhost:4000/datlas/web/com'/semaphore/</link>
 				<pubDate>Fri, 22 Jul 2022 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://semaphore-communication.fr/semaphore/&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/logo_semaphore.png&quot; alt=&quot;semaphore&quot; title=&quot;There website here.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;a href=&quot;http://semaphore-communication.fr/semaphore/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logo_semaphore.png&quot; alt=&quot;semaphore&quot; title=&quot;There website here.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/web/com'/semaphore/</guid>
 			</item>
@@ -35,7 +35,7 @@
 
 &lt;p&gt;This is a starting collaboration between Sammy Metref and Clément Ubelmann in Datlas (lead) with Maxime Ballarotta and Clément Busché from Collecte Localisation Satellites (CLS), Ramonville St-Agne, France, and  Maxime Beauchamp from IMT Atlantique Bretagne-Pays de la Loire, Brest, France.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.datlas.fr/images/logos_SLICING.png&quot; alt=&quot;SLICING_partners&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logos_SLICING.png&quot; alt=&quot;SLICING_partners&quot; /&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/science/kickoffCMEMS/</guid>
 			</item>
@@ -44,11 +44,11 @@
 				<title>Welcome to Joseph, PhD student</title>
 				<link>http://localhost:4000/datlas/people/joseph/</link>
 				<pubDate>Fri, 01 Jul 2022 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/JJ/&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/avatarman2.jpg&quot; alt=&quot;JJ&quot; title=&quot;Find out more about Joseph's PhD&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/JJ/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/avatarman2.jpg&quot; alt=&quot;JJ&quot; title=&quot;Find out more about Joseph's PhD&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Joseph’s PhD aims to investigate the use of machine learning for estimating the expected trajectories of floating objects at sea. Precise estimations of trajectories is important for applications such as search as rescue, but the achievable precision is currently limited by the precision of modelled surface currents. His work aims to overcome this limitation by leveraging the recent advancements of deep neural networks applied to structured data, for example by exploiting relevant information in ancillary data such as sea surface height and temperature.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.datlas.fr/images/logo_theseJJ.png&quot; alt=&quot;CIFRE_funding&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/logo_theseJJ.png&quot; alt=&quot;CIFRE_funding&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Joseph’s PhD is funded by a CIFRE grant, as a collaboration between the MIO and LIS institutes at the University of Toulon, France, and Datlas/Oxalis in Grenoble.
 He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institute of Oceanography, UMR CNRS) and Pr. Hervé Glotin, LIS (Laboratoire d’Informatique &amp;amp; des Systèmes,  UMR CNRS), in collaboration with Clément Ubelmann, as his scientific and industrial advisor from Datlas, Grenoble.&lt;/em&gt;&lt;/p&gt;
@@ -63,7 +63,7 @@ He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institut
 				<description>&lt;p&gt;3 days of inspiring science talks and discussions about sea ice modeling with 55 participants of 7 countries (France, US, New Zeland, UK, Norway, Germany, Canada) from the 13 institutions  of the SASIP consortium.&lt;/p&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;https://sasip-climate.github.io&quot;&gt;SASIP website&lt;/a&gt;.
-&lt;a href=&quot;https://sasip-climate.github.io&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/SASIP_AM2022.jpeg&quot; alt=&quot;sasip-web&quot; title=&quot;Check out the SASIP website.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://sasip-climate.github.io&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/SASIP_AM2022.jpeg&quot; alt=&quot;sasip-web&quot; title=&quot;Check out the SASIP website.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/web/sasip-am/</guid>
 			</item>
@@ -72,7 +72,7 @@ He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institut
 				<title>Datlas has a  website!</title>
 				<link>http://localhost:4000/datlas/web/website/</link>
 				<pubDate>Mon, 09 May 2022 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/outils-collaboratifs-gestion-de-projet_sq.png&quot; alt=&quot;ON&quot; title=&quot;Start browsing our pages!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/outils-collaboratifs-gestion-de-projet_sq.png&quot; alt=&quot;ON&quot; title=&quot;Start browsing our pages!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/web/website/</guid>
 			</item>
@@ -81,7 +81,7 @@ He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institut
 				<title>Welcome to Florian our new postdoc</title>
 				<link>http://localhost:4000/datlas/people/florian/</link>
 				<pubDate>Mon, 02 May 2022 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/avatar-homme.png&quot; alt=&quot;FL&quot; title=&quot;FL&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/avatar-homme.png&quot; alt=&quot;FL&quot; title=&quot;FL&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/people/florian/</guid>
 			</item>
@@ -90,7 +90,7 @@ He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institut
 				<title>Welcome to Stephanie</title>
 				<link>http://localhost:4000/datlas/people/stephanie/</link>
 				<pubDate>Fri, 01 Apr 2022 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/SL/&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/team-SL.jpg&quot; alt=&quot;SL&quot; title=&quot;Find out more about Stephanie's background and experises.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/SL/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/team-SL.jpg&quot; alt=&quot;SL&quot; title=&quot;Find out more about Stephanie's background and experises.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/people/stephanie/</guid>
 			</item>
@@ -99,7 +99,7 @@ He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institut
 				<title>Welcome to Clément and Christine</title>
 				<link>http://localhost:4000/datlas/people/Clement-Christine/</link>
 				<pubDate>Sat, 01 Jan 2022 00:00:00 +0100</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/&quot;&gt;&lt;img src=&quot;https://www.datlas.fr/images/team-CU.png&quot; alt=&quot;ON&quot; title=&quot;Find out more about Christine and Clément's background and expertises.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/&quot;&gt;&lt;img src=&quot;https://datlas-ocean.github.io/images/team-CU.png&quot; alt=&quot;ON&quot; title=&quot;Find out more about Christine and Clément's background and expertises.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/people/Clement-Christine/</guid>
 			</item>
