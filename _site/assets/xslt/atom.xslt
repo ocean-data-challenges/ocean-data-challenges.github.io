@@ -150,20 +150,6 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/about/">About</a></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-            
-            
-              <li class="divider"></li>
               <li><a  href="http://localhost:4000/join-us/">Join us</a></li>
 
             
@@ -227,10 +213,31 @@
 
             
             
-              <li><a  href="http://localhost:4000/about-us/">About us</a></li>
-              <li class="divider"></li>
 
-            
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/about/">About us</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/about/">Our ambition</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/about/">Our values</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/about/">Funding agencies &amp; partners</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
             
           
         
@@ -304,12 +311,6 @@
 
             
             
-          
-        
-
-              
-
-          
           
         
 

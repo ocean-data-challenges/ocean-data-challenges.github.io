@@ -8,10 +8,21 @@
   side: left
   dropdown:
 
+#- title: "About us"
+#  url: "/about-us/"
+#  side: left
+#  dropdown:
+
 - title: "About us"
-  url: "/about-us/"
+  url: "/about/"
   side: left
   dropdown:
+  - title: "Our ambition"
+    url: "/about/"
+  - title: "Our values"
+    url: "/about/"
+  - title: "Funding agencies & partners"
+    url: "/about/"
 
 #- title: "About Us"
 #  url: "/about-us/"
@@ -60,10 +71,7 @@
   dropdown:
 
 
-- title: "About"
-  url: "/about/"
-  side: right
-  dropdown:
+
 
 - title: "Join us"
   url: "/join-us/"
