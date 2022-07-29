@@ -26,7 +26,7 @@ author: Datlas
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 ### USE THIS TO build the final site that will be publsihed at www.datlas.fr:
-url: 'http://www.datlas.fr'
+url: 'https://www.datlas.fr'
 #
 ### USE THIS TO build the developing site on github
 #url: 'https://datlas-ocean.github.io'
@@ -48,7 +48,7 @@ improve_content:
 #urlimg: 'https://datlas-ocean.github.io/images/'
 
 ### USE THIS TO build the final site that will be publsihed at www.datlas.fr:
-urlimg: 'http://www.datlas.fr/images/'
+urlimg: 'https://www.datlas.fr/images/'
 #
 # Logo size is 600x80 pixels
 #logo: "ON-logo-03-blue@2x.png"
