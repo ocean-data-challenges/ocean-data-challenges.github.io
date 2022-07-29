@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: //datlas-ocean.github.io/sitemap.xml
+Sitemap: https://datlas-ocean.github.io/sitemap.xml

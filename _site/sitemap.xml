@@ -5,24 +5,9 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/404.html</loc>
+	<loc>https://datlas-ocean.github.io/404.html</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/about-us/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -35,9 +20,9 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/about/</loc>
+	<loc>https://datlas-ocean.github.io/about-us/</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -50,9 +35,9 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/blog/archive/</loc>
+	<loc>https://datlas-ocean.github.io/about/</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -64,12 +49,10 @@
 	
 
 	
-
-	
 	<url>
-	<loc>//datlas-ocean.github.io/atom.xml</loc>
+	<loc>https://datlas-ocean.github.io/blog/archive/</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -84,163 +67,9 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/contact/</loc>
+	<loc>https://datlas-ocean.github.io/atom.xml</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/expertise/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/feed.xml</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/humans.txt</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/blog/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/join-us/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/ml/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/projects/slicing/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/robots.txt</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/sitemap.xml</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -255,24 +84,9 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/team/</loc>
+	<loc>https://datlas-ocean.github.io/contact/</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/team/CU/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -285,24 +99,9 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/team/JJ/</loc>
+	<loc>https://datlas-ocean.github.io/expertise/</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>//datlas-ocean.github.io/team/SL/</loc>
-	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -315,9 +114,9 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/team/SM/</loc>
+	<loc>https://datlas-ocean.github.io/feed.xml</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -330,9 +129,210 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/blog/page2/</loc>
+	<loc>https://datlas-ocean.github.io/humans.txt</loc>
 	
-		<lastmod>2022-07-29T14:19:19+02:00</lastmod>
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/blog/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/join-us/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/ml/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/projects/slicing/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/robots.txt</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/sitemap.xml</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/team/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/team/CU/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/team/JJ/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/team/SL/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/team/SM/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://datlas-ocean.github.io/blog/page2/</loc>
+	
+		<lastmod>2022-07-29T14:37:13+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -348,7 +348,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/people/sammy/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/people/sammy/</loc>
 	
 		<lastmod>2022-07-28T00:00:00+02:00</lastmod>
 	
@@ -363,7 +363,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/web/com'/semaphore/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/web/com'/semaphore/</loc>
 	
 		<lastmod>2022-07-22T00:00:00+02:00</lastmod>
 	
@@ -378,7 +378,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/science/kickoffCMEMS/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/science/kickoffCMEMS/</loc>
 	
 		<lastmod>2022-07-07T00:00:00+02:00</lastmod>
 	
@@ -393,7 +393,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/people/joseph/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/people/joseph/</loc>
 	
 		<lastmod>2022-07-01T00:00:00+02:00</lastmod>
 	
@@ -408,7 +408,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/web/sasip-am/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/web/sasip-am/</loc>
 	
 		<lastmod>2022-06-25T00:00:00+02:00</lastmod>
 	
@@ -423,7 +423,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/web/website/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/web/website/</loc>
 	
 		<lastmod>2022-05-09T00:00:00+02:00</lastmod>
 	
@@ -438,7 +438,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/people/florian/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/people/florian/</loc>
 	
 		<lastmod>2022-05-02T00:00:00+02:00</lastmod>
 	
@@ -453,7 +453,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/people/stephanie/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/people/stephanie/</loc>
 	
 		<lastmod>2022-04-01T00:00:00+02:00</lastmod>
 	
@@ -468,7 +468,7 @@
 
 	
 	<url>
-	<loc>//datlas-ocean.github.io/datlas/people/Clement-Christine/</loc>
+	<loc>https://datlas-ocean.github.io/datlas/people/Clement-Christine/</loc>
 	
 		<lastmod>2022-01-01T00:00:00+01:00</lastmod>
 	

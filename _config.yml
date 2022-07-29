@@ -29,9 +29,9 @@ author: Datlas
 #url: 'https://datlas.fr'
 #
 ### USE THIS TO build the developing site on github
-url: '//datlas-ocean.github.io'
+url: 'https://datlas-ocean.github.io'
 
-#baseurl: ''
+baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages  https://github.com/Phlow/feeling-responsive/edit/gh-pages
