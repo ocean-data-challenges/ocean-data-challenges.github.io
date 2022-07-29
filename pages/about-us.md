@@ -3,7 +3,7 @@ layout: page
 title: ""
 teaser: ""
 breadcrumb: true
-permalink: "/about-us/"
+permalink: "/about-us/index.html"
 header:
    image_fullwidth: "Gulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg"
    logoalt: "logo_datlas_white_big.svg"
