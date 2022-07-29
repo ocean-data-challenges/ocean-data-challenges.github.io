@@ -337,7 +337,7 @@
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="http://localhost:4000/" title="Datlas – Numerical methods & modelling for Earth sciences">
-				<img src="http://localhost:4000/assets/img/logo_datlas_white_big.svg" alt="Datlas – Numerical methods & modelling for Earth sciences">
+				<img src="http://localhost:4000/assets/img/logo_03_blue_big.svg" alt="Datlas – Numerical methods & modelling for Earth sciences">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
