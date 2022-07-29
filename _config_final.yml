@@ -48,7 +48,7 @@ improve_content:
 #urlimg: 'https://datlas-ocean.github.io/images/'
 
 ### USE THIS TO build the final site that will be publsihed at www.datlas.fr:
-urlimg: 'https://www.datlas.fr/images/'
+urlimg: '/images/'
 #
 # Logo size is 600x80 pixels
 #logo: "ON-logo-03-blue@2x.png"
