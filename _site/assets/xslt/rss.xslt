@@ -47,7 +47,7 @@
 	<meta property="og:url" content="http://localhost:4000/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="datlas">
+	<meta property="og:site_name" content="Datlas">
 	
 	
 
@@ -97,7 +97,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-ON"> datlas</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-ON"> Datlas</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -336,8 +336,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/" title="datlas – Numerical methods & modelling for Earth sciences">
-				<img src="http://localhost:4000/assets/img/logo_datlas_white_big.svg" alt="datlas – Numerical methods & modelling for Earth sciences">
+			<a id="logo" href="http://localhost:4000/" title="Datlas – Numerical methods & modelling for Earth sciences">
+				<img src="http://localhost:4000/assets/img/logo_datlas_white_big.svg" alt="Datlas – Numerical methods & modelling for Earth sciences">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
