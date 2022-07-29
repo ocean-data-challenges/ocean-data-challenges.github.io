@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>RSS Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="//localhost:4000/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="//datlas-ocean.github.io/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="//localhost:4000/assets/js/modernizr.min.js"></script>
+	<script src="//datlas-ocean.github.io/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -38,13 +38,13 @@
 	
 	
 	
-	<link rel="canonical" href="//localhost:4000/assets/xslt/rss.xslt">
+	<link rel="canonical" href="//datlas-ocean.github.io/assets/xslt/rss.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
 	<meta property="og:description" content="Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.">
-	<meta property="og:url" content="//localhost:4000/assets/xslt/rss.xslt">
+	<meta property="og:url" content="//datlas-ocean.github.io/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Datlas">
@@ -54,34 +54,34 @@
 
 	
 
-	<link type="text/plain" rel="author" href="//localhost:4000/humans.txt">
+	<link type="text/plain" rel="author" href="//datlas-ocean.github.io/humans.txt">
 
 	
 
 	
 
-	<link rel="icon" sizes="32x32" href="//localhost:4000/assets/img/favicon.ico">
+	<link rel="icon" sizes="32x32" href="//datlas-ocean.github.io/assets/img/favicon.ico">
 
-	<link rel="icon" sizes="192x192" href="//localhost:4000/assets/img/touch-icon-180x180.png">
+	<link rel="icon" sizes="192x192" href="//datlas-ocean.github.io/assets/img/touch-icon-180x180.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="//localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-180x180-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="//localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-152x152-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-144x144-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="//localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-120x120-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-114x114-precomposed.png">
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="//localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-72x72-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" href="//localhost:4000/assets/img/apple-touch-icon-precomposed.png">	
+	<link rel="apple-touch-icon-precomposed" href="//datlas-ocean.github.io/assets/img/apple-touch-icon-precomposed.png">	
 
-	<meta name="msapplication-TileImage" content="//localhost:4000/assets/img/msapplication_tileimage.png">
+	<meta name="msapplication-TileImage" content="//datlas-ocean.github.io/assets/img/msapplication_tileimage.png">
 
 	<meta name="msapplication-TileColor" content="#fabb00">
 
@@ -97,7 +97,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="//localhost:4000" class="icon-ON"> Datlas</a></h1>
+      <h1 class="show-for-small-only"><a href="//datlas-ocean.github.io" class="icon-ON"> Datlas</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -150,7 +150,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="//localhost:4000/join-us/">Join us</a></li>
+              <li><a  href="//datlas-ocean.github.io/join-us/">Join us</a></li>
 
             
             
@@ -164,7 +164,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="//localhost:4000/contact/">Contact us</a></li>
+              <li><a  href="//datlas-ocean.github.io/contact/">Contact us</a></li>
 
             
             
@@ -183,7 +183,7 @@
 
             
             
-              <li><a  href="//localhost:4000/index.html">Home</a></li>
+              <li><a  href="//datlas-ocean.github.io/index.html">Home</a></li>
               <li class="divider"></li>
 
             
@@ -198,7 +198,7 @@
 
             
             
-              <li><a  href="//localhost:4000/blog/">News</a></li>
+              <li><a  href="//datlas-ocean.github.io/blog/">News</a></li>
               <li class="divider"></li>
 
             
@@ -215,24 +215,24 @@
             
 
               <li class="has-dropdown">
-                <a  href="//localhost:4000/about/">About us</a>
+                <a  href="//datlas-ocean.github.io/about/">About us</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="//localhost:4000/about/">Our ambition</a></li>
+                      <li><a  href="//datlas-ocean.github.io/about/">Our ambition</a></li>
                     
 
                       
 
-                      <li><a  href="//localhost:4000/about/">Our values</a></li>
+                      <li><a  href="//datlas-ocean.github.io/about/">Our values</a></li>
                     
 
                       
 
-                      <li><a  href="//localhost:4000/about/">Funding agencies &amp; partners</a></li>
+                      <li><a  href="//datlas-ocean.github.io/about/">Funding agencies &amp; partners</a></li>
                     
                   </ul>
 
@@ -251,14 +251,14 @@
             
 
               <li class="has-dropdown">
-                <a  href="//localhost:4000/team/">Our Team</a>
+                <a  href="//datlas-ocean.github.io/team/">Our Team</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="//localhost:4000/team/">People </a></li>
+                      <li><a  href="//datlas-ocean.github.io/team/">People </a></li>
                     
                   </ul>
 
@@ -277,19 +277,19 @@
             
 
               <li class="has-dropdown">
-                <a  href="//localhost:4000/expertise/">Our Expertise</a>
+                <a  href="//datlas-ocean.github.io/expertise/">Our Expertise</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="//localhost:4000/expertise/">Our services and products</a></li>
+                      <li><a  href="//datlas-ocean.github.io/expertise/">Our services and products</a></li>
                     
 
                       
 
-                      <li><a  href="//localhost:4000/expertise/">On-going activities</a></li>
+                      <li><a  href="//datlas-ocean.github.io/expertise/">On-going activities</a></li>
                     
                   </ul>
 
@@ -306,7 +306,7 @@
 
             
             
-              <li><a  href="//localhost:4000/codes-data/">Codes &amp; Data</a></li>
+              <li><a  href="//datlas-ocean.github.io/codes-data/">Codes &amp; Data</a></li>
               <li class="divider"></li>
 
             
@@ -336,8 +336,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="//localhost:4000/" title="Datlas – Numerical methods & modelling for Earth sciences">
-				<img src="//localhost:4000/assets/img/logo_datlas_white_big.svg" alt="Datlas – Numerical methods & modelling for Earth sciences">
+			<a id="logo" href="//datlas-ocean.github.io/" title="Datlas – Numerical methods & modelling for Earth sciences">
+				<img src="//datlas-ocean.github.io/assets/img/logo_datlas_white_big.svg" alt="Datlas – Numerical methods & modelling for Earth sciences">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -415,7 +415,7 @@
 
             <p class="shadow-black">
               Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.
-              <a href="//localhost:4000/about-us/">More ›</a>
+              <a href="//datlas-ocean.github.io/about-us/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -437,22 +437,22 @@
               
                 
                   <li >
-                    <a href="//localhost:4000"  title=""></a>
+                    <a href="//datlas-ocean.github.io"  title=""></a>
                   </li>
               
                 
                   <li >
-                    <a href="//localhost:4000/contact/"  title="Contact">Contact</a>
+                    <a href="//datlas-ocean.github.io/contact/"  title="Contact">Contact</a>
                   </li>
               
                 
                   <li >
-                    <a href="//localhost:4000/ml/"  title="Mentions légales">Mentions Légales</a>
+                    <a href="//datlas-ocean.github.io/ml/"  title="Mentions légales">Mentions Légales</a>
                   </li>
               
                 
                   <li >
-                    <a href="//localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                    <a href="//datlas-ocean.github.io/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
@@ -491,7 +491,7 @@
 		
 
 
-<script src="//localhost:4000/assets/js/javascript.min.js"></script>
+<script src="//datlas-ocean.github.io/assets/js/javascript.min.js"></script>
 
 
 

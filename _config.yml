@@ -29,8 +29,8 @@ author: Datlas
 #url: 'https://datlas.fr'
 #
 ### USE THIS TO build the developing site on github
-#url: '//datlas-ocean.github.io'
-url: //localhost:4000
+url: '//datlas-ocean.github.io'
+
 #baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
