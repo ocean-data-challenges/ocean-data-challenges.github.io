@@ -3,7 +3,7 @@
 * To see our rendered page go here: [https://www.datlas.fr](https://www.datlas.fr).
 
 
-* __To modify the content of the website from github directly: __
+* __To modify the content of the website from github directly:__
     * Edit the given page in the `pages` directory,
     * New images should be uploaded in the  `images` directory,
     * New blog entries (for the "news" section) should be added in the `_posts` directory,
