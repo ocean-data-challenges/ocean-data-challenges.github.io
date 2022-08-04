@@ -17,7 +17,7 @@ Joseph's PhD aims to investigate the use of machine learning for estimating the 
 ![CIFRE_funding]({{ site.urlimg }}logo_theseJJ.png)
 
 _Joseph's PhD is funded by a CIFRE grant, as a collaboration between the MIO and LIS institutes at the University of Toulon, France, and Datlas/Oxalis in Grenoble.
-He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institute of Oceanography, UMR CNRS) and Pr. Hervé Glotin, LIS (Laboratoire d’Informatique & des Systèmes,  UMR CNRS), in collaboration with Clément Ubelmann, as his scientific and industrial advisor from Datlas, Grenoble._
+He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institute of Oceanography, UMR CNRS), Dr Adeline Paiement and Pr. Hervé Glotin, LIS (Laboratoire d’Informatique & des Systèmes,  UMR CNRS), in collaboration with Clément Ubelmann, as his scientific and industrial advisor from Datlas, Grenoble._
 
 <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/team/">Meet with the rest of the team ›</a>
 
