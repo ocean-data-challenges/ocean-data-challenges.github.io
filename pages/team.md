@@ -37,7 +37,7 @@ widget4:
 widget5:
   title: "Christine André "
   url: /team/CA/
-  image: avatar_femme.png
+  image: team-CA.png
   text: 'Legal & financial officer [...]'
 
 widget6:
