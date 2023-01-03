@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "Sammy Métref"
+title: "Sammy Metref"
 subheadline: "R&D scientist"
 teaser: ""
 breadcrumb: true
