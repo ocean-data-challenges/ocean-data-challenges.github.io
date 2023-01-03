@@ -2,8 +2,7 @@
 layout: post
 title: "ESA WOC user meeting"
 subheadline: ""
-teaser: "Clément, Sally and Stephanie from Datlas have attended the WOC (World Ocean Circulation) user meeting organized by ESA in Frascati (Rome) Italy, 10-12 Oct. 2022. 
-"
+teaser: "Clément, Sally and Stephanie from Datlas have attended the WOC (World Ocean Circulation) user meeting organized by ESA in Frascati (Rome) Italy, 10-12 Oct. 2022. "
 categories:
     - "datlas"
     - "conference"

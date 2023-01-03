@@ -6,8 +6,8 @@ teaser: "We are a team of scientists based in Grenoble, France, with complementa
 permalink: "/team/"
 breadcrumb: true
 header:
-   image_fullwidth: "Gulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg"
-   logoalt: "logo_datlas_white_big.svg"
+   image_fullwidth: "gs_w.jpg"
+   logoalt: "logo-text.svg"
  
   
 widget1:
@@ -29,23 +29,24 @@ widget3:
   text: 'R&D scientist: Expertise in data assimilation, inversion methods and data challenges [...].'
 
 widget4:
+  title: "Laurent Brodeau"
+  url: /team/LB/
+  image: team-LB.jpg
+  text: 'R&D scientist: Expertise in HPC computing and ocean & sea ice modelling [...].'
+
+widget5:
   title: "Christine André "
   url: /team/CA/
   image: avatar_femme.png
   text: 'Legal & financial officer [...]'
 
-widget5:
+widget6:
   title: "Joseph  Jenkins"
   url: /team/JJ/
   image: avatarman2.jpg
   text: 'PhD student (CIFRE funding): Prediction of Lagrangian drift by deep learning [...]'
 
 
-widget7:
-  title: "Laurent Brodeau"
-  url: /team/LB/
-  image: team-LB.jpg
-  text: '[External collaborator] Expertise in HPC computing and ocean & sea ice modelling [...].'
 
 widget10:
   title: "Florian  Leguillou"

@@ -5,8 +5,8 @@ teaser: ""
 breadcrumb: true
 permalink: "/expertise/"
 header:
-   image_fullwidth: "Gulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg"
-   logoalt: "logo_datlas_white_big.svg"
+   image_fullwidth: "gs_w.jpg"
+   logoalt: "logo-text.svg"
 
 widget2:
   title: "World Ocean Circulation project (WOC/ESA): "

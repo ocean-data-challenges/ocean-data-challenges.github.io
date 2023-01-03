@@ -7,8 +7,8 @@
 layout: frontpage
 permalink: "/index.html"
 header:
-   image_fullwidth: "Gulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg"
-   logoalt: "logo_datlas_white_big.svg"
+   image_fullwidth: "gs_w.jpg"
+   logoalt: "logo-text.svg"
 widget1:
   title: "About datlas"
   url: /about/
@@ -22,7 +22,7 @@ widget2:
 widget3:
   title: "Our expertise"
   url: /expertise/
-  image: ens_600x600.jpg
+  image: icesq.png
   text: 'Our on-going activities  are related to the  observation, modelling and forecasting of the ocean and sea ice. They involve both the devlopment of numerical methods for data inversion and processing, and the development of numerical models.  [...]'
 
 #
