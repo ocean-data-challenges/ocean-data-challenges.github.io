@@ -28,19 +28,19 @@ widget3:
 
 widget4:
   title: "SASIP project (VESRI): "
-  url: /projects/sasip/
+  url: https://sasip-climate.github.io/
   image: SASIP-ice_sq.png
   text: 'A better understanding of the impact of amplified warming in polar regions, through the development of a new sea ice modelling paradigm [...]'
 
 widget5:
   title: "IMHOTEP (OSTST/CNES):"
-  url: /projects/imhotep/
+  url: https://doc-imhotep.readthedocs.io/en/latest/
   image: imhotep.png
   text: 'Quantification of the ocean response to the time-varying freshwater discharges (river unoffs and Greenland melt), based on ensembles of ocean numerical simulations [...]'
 
 widget6:
   title: "MEDWEST60 (IGE collab.):"
-  url: /projects/medwest60/
+  url: https://github.com/ocean-next/MEDWEST60
   image: westmed60.png
   text: 'Kilometric-scale  modelling over the West Mediterranean sea and probabilistic quantification  of short-term predictability of the ocean
 dynamics [...]'

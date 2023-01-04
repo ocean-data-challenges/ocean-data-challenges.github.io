@@ -65,8 +65,8 @@
   - title: "On-going activities"
     url: "/expertise/"
 
-- title: "Codes & Data"
-  url: "/codes-data/"
+- title: "Code & Data"
+  url: "/code-data/"
   side: left
   dropdown:
 
