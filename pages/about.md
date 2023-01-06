@@ -18,7 +18,7 @@ breadcrumb: true
 ## <center> Our ambition </center>
  <center> - </center>
 
- __Datlas__ was created in October 2021 by 4 scientists based in Grenoble, with the ambition to develop Research & Innovation opportunities at the interface between academic/institutionnal research  and operational stakeolders (such as the national and european spatial agencies or the european marine & climate services) in the domains of Earth & Environnmental sciences.
+ __Datlas__ was created in October 2021 by 5 co-founders based in Grenoble and Aix-les-Bain, with the ambition to develop Research & Innovation opportunities at the interface between academic/institutionnal research  and operational stakeolders (such as the national and european spatial agencies or the european marine & climate services) in the domains of Earth & Environnmental sciences.
 
 In __Datlas__, we gather a team of experts in numerical methods and numerical models applied to Earth data, ranging from observations to model simulations.  Our on-going activities  are related to spatial observations, modelling and forecasting of the ocean (ocean height, ocean currents, ocean physical properties such as salinity and temperature) and of sea ice:
 * We are involved in activities to design future observationnal missions, which builds on high-quality and hight-resolution simulations of the ocean, in order to anticipate the future observation data and to develop innovative numerical methods and models to get ready to process and exploit these future data when they arrive. 
