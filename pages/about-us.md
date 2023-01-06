@@ -10,6 +10,10 @@ header:
 
 ---
 
+## <center> Datlas in short </center>
+ <center> - </center>
+![in short]({{ site.urlimg }}about-us-in-short.png "in short")
+
 ## <center> Our ambition </center>
  <center> - </center>
 
