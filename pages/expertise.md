@@ -47,6 +47,10 @@ dynamics [...]'
 
 ---
 
+our activities in short: 
+
+![in short]({{ site.urlimg }}activities-in-short.png "in short")
+
 __Our on-going activities__  are related to spatial observations, modelling and forecasting of the ocean (ocean height, ocean currents, ocean physical properties such as salinity and temperature) and of sea ice:
 * We are involved in activities to design future observationnal missions, which builds on high-quality and hight-resolution simulations of the ocean, in order to anticipate the future observation data and to develop innovative numerical methods and models to get ready to process and exploit these future data when they arrive. 
 * We are also involved in activities to develop and improve numerical models of the ocean and sea ice in order to better understand existing observations and the physical processes at play, and to better forecast the physical properties that matters for operational stakeolders and end users.
@@ -57,6 +61,8 @@ __The products and services__ we provide are:
 - data products such as simulation outputs, pseudo-observation datasets, forcing datasets, pre-operational forecast products, 
 - data challenge frameworks (to set up and coordinate an intercomparison of algorithms applied to a well-posed science problem and a demonstration dataset),  
 - science communication (academic articles, visualisation, project websites, etc).
+
+
 
 ---
 # Read more about some past and on-going  science activities we are involved in:
