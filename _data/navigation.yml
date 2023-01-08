@@ -17,6 +17,8 @@
   url: "/about/"
   side: left
   dropdown:
+  - title: "Datlas in short"
+    url: "/about/"
   - title: "Our ambition"
     url: "/about/"
   - title: "Our values"
