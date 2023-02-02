@@ -1,5 +1,5 @@
 ---
-layout: pagepluswidgets
+layout: pagepluswidgets_dc
 title: What we do
 teaser: ""
 breadcrumb: true
