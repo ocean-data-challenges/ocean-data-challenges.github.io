@@ -3,7 +3,7 @@ layout: pagepluswidgets_dc
 title: What we do
 teaser: ""
 breadcrumb: true
-permalink: "/expertise/"
+permalink: "/datachallenges/"
 header:
    image_fullwidth: "gs_w.jpg"
    logoalt: "logo-text.svg"
