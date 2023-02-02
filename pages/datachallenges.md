@@ -1,6 +1,6 @@
 ---
 layout: pagepluswidgets_dc
-title: What we do
+title:  
 teaser: ""
 breadcrumb: true
 permalink: "/datachallenges/"
