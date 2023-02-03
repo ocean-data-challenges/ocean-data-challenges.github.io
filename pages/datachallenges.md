@@ -5,8 +5,7 @@ teaser: ""
 breadcrumb: true
 permalink: "/datachallenges/"
 header:
-   image_fullwidth: "gs_w.jpg"
-   logoalt: "logo-text.svg"
+   image_fullwidth: "gs_w.jpg" 
 
 widget2:
   title: "World Ocean Circulation project (WOC/ESA): "
