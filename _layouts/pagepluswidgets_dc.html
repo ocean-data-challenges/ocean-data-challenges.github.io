@@ -45,19 +45,42 @@ format: page-fullwidth
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
+
+
+{% if page.widget10.title %}
+<hr>
+<div class="font-size-h2 row t60"> Former Datlas members:</div>
+
 <div class="row t60">
-	{% if page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
+{% if page.widget10.title %}
+	{% if page.widget10.title %}
+		{% include _frontpage-widget.html widget=page.widget10 %}
+	{% endif %}
+
+	{% if page.widget11.title %}
+		{% include _frontpage-widget.html widget=page.widget11 %}
+	{% endif %}
+
+	{% if page.widget12.title %}
+		{% include _frontpage-widget.html widget=page.widget12 %}
+	{% endif %}	
+</div><!-- /.row -->
+{% endif %}
+
+<div class="row t60">
+{% if page.widget7.title %}
+	{% if page.widget7.title %}
+		{% include _frontpage-widget.html widget=page.widget7 %}
 	{% endif %}
 
 
-	{% if page.widget2.title %}
-		{% include _frontpage-widget.html widget=page.widget2 %}
+	{% if page.widget8.title %}
+		{% include _frontpage-widget.html widget=page.widget8 %}
 	{% endif %}
 
 
-	{% if page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
+	{% if page.widget9.title %}
+		{% include _frontpage-widget.html widget=page.widget9 %}
 	{% endif %}
 	
 </div><!-- /.row -->
@@ -90,40 +113,21 @@ format: page-fullwidth
 *
 {% endcomment %}
 
-{% if page.widget7.title %}
+{% if page.widget1.title %}
 <hr>
 <div class="font-size-h2 row t60"> External collaborators:</div>
 
 <div class="row t60">
-	{% if page.widget7.title %}
-		{% include _frontpage-widget.html widget=page.widget7 %}
+	{% if page.widget1.title %}
+		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
 
-	{% if page.widget8.title %}
-		{% include _frontpage-widget.html widget=page.widget8 %}
+	{% if page.widget2.title %}
+		{% include _frontpage-widget.html widget=page.widget2 %}
 	{% endif %}
 
-	{% if page.widget9.title %}
-		{% include _frontpage-widget.html widget=page.widget9 %}
-	{% endif %}	
-</div><!-- /.row -->
-{% endif %}
-
-{% if page.widget10.title %}
-<hr>
-<div class="font-size-h2 row t60"> Former Datlas members:</div>
-
-<div class="row t60">
-	{% if page.widget10.title %}
-		{% include _frontpage-widget.html widget=page.widget10 %}
-	{% endif %}
-
-	{% if page.widget11.title %}
-		{% include _frontpage-widget.html widget=page.widget11 %}
-	{% endif %}
-
-	{% if page.widget12.title %}
-		{% include _frontpage-widget.html widget=page.widget12 %}
+	{% if page.widget3.title %}
+		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}	
 </div><!-- /.row -->
 {% endif %}
