@@ -23,19 +23,19 @@ widget2021a:
 widget2022a:
   title: "2022a SWOT karin error filtering "
   url: https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering
-  image: DC_2020a.png
+  image: DC_2022a.png
   text: 'A challenge on the SWOT Karin instrumental error filtering organised by Datlas, IMT Altlantique and CLS. [...]'
 
 widget2022b:
   title: "2022b Altimetric mapping on a quasi-geostrophy model "
   url: https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping
-  image: SASIP-ice_sq.png
+  image: DC_2022b.png
   text: 'A challenge on mapping pseudo altimetric data on a QG model created by Datlas and MEOM-IGE. [...]'
 
 widget2022c:
   title: "2022c SWOT error calibration Gulf Stream"
   url: https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS
-  image: imhotep.png
+  image: DC_2022c.png
   text: 'A challenge on the SWOT satellite error calibration organised by Datlas, IGE, IMT Altlantique and CLS. [...]'
 
 widget2023a:
