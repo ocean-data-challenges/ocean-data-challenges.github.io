@@ -8,38 +8,38 @@ header:
    image_fullwidth: "gs_w.jpg" 
    logoalt: "logo-text.svg"
 
-widget1:
-  title: "SSH Mapping Data Challenge 2020a"
+widget2020a:
+  title: "**2020a** SSH Mapping Data Challenge"
   url: https://github.com/ocean-data-challenges/2020a_SSH_mapping_NATL60
   image: earth20161122_800x800.jpg
   text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps artificial nadir and SWOT satellite altimetry observations. [...]'
 
-widget2:
-  title: "SSH Mapping Data Challenge 2021a"
+widget2021a:
+  title: "**2021a** SSH Mapping Data Challenge"
   url: https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE
   image: WOC.png
   text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps from real nadir satellite altimetry observations. [...]'
   
-widget3:
-  title: "SWOT karin error filtering 2022a"
+widget2022a:
+  title: "**2022a** SWOT karin error filtering "
   url: https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering
   image: neuralnet_800x800.jpg
   text: 'A challenge on the SWOT Karin instrumental error filtering organised by Datlas, IMT Altlantique and CLS. [...]'
 
-widget4:
-  title: "Altimetric mapping on a quasi-geostrophy model 2022b "
+widget2022b:
+  title: "**2022b** Altimetric mapping on a quasi-geostrophy model "
   url: https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping
   image: SASIP-ice_sq.png
   text: 'A challenge on mapping pseudo altimetric data on a QG model created by Datlas and MEOM-IGE. [...]'
 
-widget5:
-  title: "SWOT error calibration Gulf Stream 2022c"
+widget2022c:
+  title: "**2022c** SWOT error calibration Gulf Stream"
   url: https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS
   image: imhotep.png
   text: 'A challenge on the SWOT satellite error calibration organised by Datlas, IGE, IMT Altlantique and CLS. [...]'
 
-widget6:
-  title: "Real SSH mapping data challenge in the Western Mediterranean Sea 2023a"
+widget2023a:
+  title: "**2023a** Real SSH mapping data challenge in the Western Mediterranean Sea"
   url: https://github.com/SammyMetref/DC_MapMed_OSE
   image: westmed60.png
   text: 'A challenge on mapping real altimetric data in the Mediterranean Sea created by Datlas and MEOM-IGE. [...]'
