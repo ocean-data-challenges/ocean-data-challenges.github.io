@@ -51,6 +51,7 @@ urlimg: '/images/'
 #urlimg: 'https://datlas.fr/images/'
 #
 # Logo
+logo: "logo_datlas_white_big.svg"
 
 # Gems
 gems:
