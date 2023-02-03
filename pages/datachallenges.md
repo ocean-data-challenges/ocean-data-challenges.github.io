@@ -8,42 +8,41 @@ header:
    image_fullwidth: "gs_w.jpg" 
    logoalt: "logo-text.svg"
 
-widget2:
-  title: "World Ocean Circulation project (WOC/ESA): "
-  url: /projects/woc/
-  image: WOC.png
-  text: 'Innovative data inversion methods for better World Ocean Current products [...]'
-  
 widget1:
-  title: "Participation to the SWOT science team (CNES): "
-  url: /projects/swot/
+  title: "SSH Mapping Data Challenge 2020a"
+  url: https://github.com/ocean-data-challenges/2020a_SSH_mapping_NATL60
   image: earth20161122_800x800.jpg
-  text: 'Innovative data inversion methods in preparation for the coming observation data from the wide-swath altimetry mission SWOT [...]'
+  text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps artificial nadir and SWOT satellite altimetry observations. [...]'
 
+widget2:
+  title: "SSH Mapping Data Challenge 2021a"
+  url: https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE
+  image: WOC.png
+  text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps from real nadir satellite altimetry observations. [...]'
+  
 widget3:
-  title: "SLICING  project (CMEMS Service Evolution):"
-  url: /projects/slicing/
+  title: "SWOT karin error filtering 2022a"
+  url: https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering
   image: neuralnet_800x800.jpg
-  text: ' Collaborative data challenges for the next-generation sea level anomaly metrics, observation and mapping products. [...]'
+  text: 'A challenge on the SWOT Karin instrumental error filtering organised by Datlas, IMT Altlantique and CLS. [...]'
 
 widget4:
-  title: "SASIP project (VESRI): "
-  url: https://sasip-climate.github.io/
+  title: "Altimetric mapping on a quasi-geostrophy model 2022b "
+  url: https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping
   image: SASIP-ice_sq.png
-  text: 'A better understanding of the impact of amplified warming in polar regions, through the development of a new sea ice modelling paradigm [...]'
+  text: 'A challenge on mapping pseudo altimetric data on a QG model created by Datlas and MEOM-IGE. [...]'
 
 widget5:
-  title: "IMHOTEP (OSTST/CNES):"
-  url: https://doc-imhotep.readthedocs.io/en/latest/
+  title: "SWOT error calibration Gulf Stream 2022c"
+  url: https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS
   image: imhotep.png
-  text: 'Quantification of the ocean response to the time-varying freshwater discharges (river unoffs and Greenland melt), based on ensembles of ocean numerical simulations [...]'
+  text: 'A challenge on the SWOT satellite error calibration organised by Datlas, IGE, IMT Altlantique and CLS. [...]'
 
 widget6:
-  title: "MEDWEST60 (IGE collab.):"
-  url: https://github.com/ocean-next/MEDWEST60
+  title: "Real SSH mapping data challenge in the Western Mediterranean Sea 2023a"
+  url: https://github.com/SammyMetref/DC_MapMed_OSE
   image: westmed60.png
-  text: 'Kilometric-scale  modelling over the West Mediterranean sea and probabilistic quantification  of short-term predictability of the ocean
-dynamics [...]'
+  text: 'A challenge on mapping real altimetric data in the Mediterranean Sea created by Datlas and MEOM-IGE. [...]'
 
 --- 
 
