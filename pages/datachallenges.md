@@ -26,6 +26,25 @@ widget3:
   image: neuralnet_800x800.jpg
   text: ' Collaborative data challenges for the next-generation sea level anomaly metrics, observation and mapping products. [...]'
 
+widget4:
+  title: "SASIP project (VESRI): "
+  url: https://sasip-climate.github.io/
+  image: SASIP-ice_sq.png
+  text: 'A better understanding of the impact of amplified warming in polar regions, through the development of a new sea ice modelling paradigm [...]'
+
+widget5:
+  title: "IMHOTEP (OSTST/CNES):"
+  url: https://doc-imhotep.readthedocs.io/en/latest/
+  image: imhotep.png
+  text: 'Quantification of the ocean response to the time-varying freshwater discharges (river unoffs and Greenland melt), based on ensembles of ocean numerical simulations [...]'
+
+widget6:
+  title: "MEDWEST60 (IGE collab.):"
+  url: https://github.com/ocean-next/MEDWEST60
+  image: westmed60.png
+  text: 'Kilometric-scale  modelling over the West Mediterranean sea and probabilistic quantification  of short-term predictability of the ocean
+dynamics [...]'
+
 --- 
 
 ![banner]({{ site.urlimg }}DCbanner.png "banner")
@@ -34,3 +53,4 @@ The concept of data challenges is fairly new and originates from the artificial 
 
 In our case, Datlas advocates for a more collaborative data challenge where the problem is co-defined in conjunction with the participants. Also, the algorithms used by the participants are open and shared. The results of all the methods are then discussed and analyzed as a group. This way, collaborative data challenges are appropriate platforms to gather forces and unite scientific groups. Moreover, in this configuration, the outcome of the challenges is not only the best solution to a problem but also a more nuanced and rich scientific understanding.
  
+---
