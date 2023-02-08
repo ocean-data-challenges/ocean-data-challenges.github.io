@@ -84,3 +84,9 @@
   url: "/contact/"
   side: right
   dropdown:
+
+ 
+- title: "Data challenges"
+  url: "/datachallenges/"
+  side: left
+  dropdown:
