@@ -44,6 +44,12 @@ widget2023a:
   image: DC_2023a.png
   text: 'A challenge on mapping real altimetric data in the Mediterranean Sea created by Datlas and MEOM-IGE. [...]'
 
+widget2023b:
+  title: "2023b High frequency dynamic mapping data dhallenge in California Xover"
+  url: github.com/SammyMetref/2023b_SSHmapping_HF_California
+  image: DC_2023b.png
+  text: 'A challenge on mapping high frequency SSH with artificial SWOT and nadir data in the Californian SWOT X-over created by Datlas and MEOM-IGE. [...]'
+
 --- 
 
 ![banner]({{ site.urlimg }}DCbanner.png "banner")
