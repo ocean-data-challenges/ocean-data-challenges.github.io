@@ -52,7 +52,7 @@ widget2023b:
 
 --- 
 
-![banner]({{ site.urlimg }}DCbanner.png "banner")
+![banner]({{ site.urlimg }}DCbanner2.png "banner")
 
 The concept of data challenges is fairly new and originates from the artificial intelligence community. It is now used by many instances to address targeted problems. The principle is straightforward: a problem of interest is introduced, adequately described and a set of data is provided to the participants in order to solve it. The goal is then to find the most accurate solution according to predefined metrics. Data challenges are often proposed by companies or entities to obtain a unique solution, the best solution, to their problem. 
 
