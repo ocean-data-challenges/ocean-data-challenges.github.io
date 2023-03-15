@@ -6,7 +6,6 @@ breadcrumb: true
 permalink: "/expertise/"
 header:
    image_fullwidth: "gs_w.jpg"
-   logoalt: "logo-text.svg"
 
 widget2:
   title: "World Ocean Circulation project (WOC/ESA): "

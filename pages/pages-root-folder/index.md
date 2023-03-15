@@ -8,7 +8,6 @@ layout: frontpage
 permalink: "/index.html"
 header:
    image_fullwidth: "gs_w.jpg"
-   logoalt: "logo-text.svg"
 widget1:
   title: "About datlas"
   url: /about/

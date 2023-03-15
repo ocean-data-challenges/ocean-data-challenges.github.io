@@ -6,7 +6,6 @@ teaser: ""
 breadcrumb: true
 header:
    image_fullwidth: "gs_w.jpg"
-   logoalt: "logo-text.svg"
 permalink: /projects/slicing/
 ---
 

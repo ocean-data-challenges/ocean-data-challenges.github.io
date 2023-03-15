@@ -7,7 +7,6 @@ permalink: "/team/"
 breadcrumb: true
 header:
    image_fullwidth: "gs_w.jpg"
-   logoalt: "logo-text.svg"
  
   
 widget1:

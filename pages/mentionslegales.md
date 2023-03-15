@@ -8,7 +8,6 @@ breadcrumb: true
 permalink: "/ml/"
 header:
    image_fullwidth: "gs_w.jpg"
-   logoalt: "logo-text.svg"
 ---
 
 ### Mentions légales

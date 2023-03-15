@@ -52,7 +52,7 @@ urlimg: '/images/'
 #
 # Logo size is 600x80 pixels
 #logo: "ON-logo-03-blue@2x.png"
-logo: "logo_03_blue_big.svg"
+#logo: "logo_03_blue_big.svg"
 
 # Gems
 gems:

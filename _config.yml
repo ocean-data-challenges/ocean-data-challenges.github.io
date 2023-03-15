@@ -8,10 +8,10 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Datlas'
+#title: 'Datlas'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Numerical methods & modelling for Earth sciences'
+#slogan: 'Numerical methods & modelling for Earth sciences'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.'
@@ -51,7 +51,7 @@ urlimg: '/images/'
 #urlimg: 'https://datlas.fr/images/'
 #
 # Logo
-logo: "logo_datlas_white_big.svg"
+#logo: "logo_datlas_white_big.svg"
 
 # Gems
 gems:

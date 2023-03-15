@@ -7,7 +7,6 @@ teaser: ""
 permalink: "/about/"
 header:
    image_fullwidth: "gs_w.jpg"
-   logoalt: "logo-text.svg"
 breadcrumb: true
 ---
 

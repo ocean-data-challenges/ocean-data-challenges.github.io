@@ -6,7 +6,6 @@ breadcrumb: true
 permalink: "/datachallenges/"
 header:
    image_fullwidth: "gs_w.jpg" 
-   logoalt: "logo-text.svg"
 
 widget2020a:
   title: "2020a SSH Mapping Data Challenge"
