@@ -10,9 +10,16 @@ header:
 breadcrumb: true
 ---
 
-* [We are currently hiring a research engineer for 12 months. Please click here to read and apply to our job offer here on the APEC page.](https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/170508585W?motsCles=Ing%C3%A9nieur%20en%20Oc%C3%A9anographie&typesConvention=143684&typesConvention=143685&typesConvention=143686&typesConvention=143687&partenaire=false&selectedIndex=2&page=0)
+![hiring]({{ site.urlimg }}hiring-news.png)
 
+* _2023-03-20_: We have opened a research engineer position  related to a couple of collaborative projects in which Datlas is engaged, starting in 2023 (in numerical oceanography and remote-sensing ocean data inversion). [Check out and apply to the position  here](https://euraxess.ec.europa.eu/jobs/85390).
 
-* If you want be informed about other future opportunities, please reach us at:
+---
+
+* Feel free to contact us if you'd like more info about this position and/or about other future opportunities:
+
 ![]({{ site.urlimg }}contactdatlas.png "Contact us")
+
+---
+
 

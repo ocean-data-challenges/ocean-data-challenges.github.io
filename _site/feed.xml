@@ -9,6 +9,43 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>11th International Workshop on Sea Ice Modelling, Assimilation, Observations, Predictions and Verification</title>
+				<link>http://localhost:4000/datlas/science/conference/IICWGDA11/</link>
+				<pubDate>Wed, 22 Mar 2023 00:00:00 +0100</pubDate>
+				<description>&lt;p&gt;This event is  hosted by the Norwegian Meteorological Institute, in Oslo, Norway.&lt;/p&gt;
+
+&lt;p&gt;It is a  joint workshop of the International Ice Charting Working Group (IICWG), the Norwegian Meteorological Institute, the EUMETSAT Ocean and Satellite Application Facility (OSI SAF), the European Space Agency Climate Change Initiative for Sea Ice (ESA CCI), and the Sea Ice Retrieval and Data Assimilation in Norway (SIRANO).
+It is the 11th in a series organized with the International Ice Charting Working Group (IICWG), and it aims at improving international capabilities to perform sea ice prediction on timescales ranging from hours to a season. The aim of the workshop is to discuss cross-cutting issues in sea ice modelling, assimilation and observations and how deficiencies of current systems can be diagnosed and addressed more efficiently. 
+General topics (sessions) include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sea ice data assimilation (methods and results)&lt;/li&gt;
+  &lt;li&gt;Sea ice observations and uncertainties&lt;/li&gt;
+  &lt;li&gt;Sea ice model parameterizations and coupling to ocean and atmosphere models&lt;/li&gt;
+  &lt;li&gt;Verification approaches for sea ice analyses and forecasts&lt;/li&gt;
+  &lt;li&gt;Recent research to sea ice operation transfer—Automated prediction systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://iicwg-da-11.met.no/&quot;&gt;Read more and find out about the full program here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/iicwg-news.png&quot; alt=&quot;iicwg&quot; /&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/datlas/science/conference/IICWGDA11/</guid>
+			</item>
+		
+			<item>
+				<title>Research engineer position in remote-sensing ocean data inversion</title>
+				<link>http://localhost:4000/datlas/HIRING/</link>
+				<pubDate>Mon, 20 Mar 2023 00:00:00 +0100</pubDate>
+				<description>&lt;p&gt;We have opened a research engineer position  related to a couple of collaborative projects in which Datlas is engaged, starting in 2023 (in numerical oceanography and remote-sensing ocean data inversion).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://euraxess.ec.europa.eu/jobs/85390&quot;&gt;Check out and apply to the position  here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/hiring-news.png&quot; alt=&quot;hiring&quot; /&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/datlas/HIRING/</guid>
+			</item>
+		
+			<item>
 				<title>Laurent joins Datlas!</title>
 				<link>http://localhost:4000/datlas/people/laurent/</link>
 				<pubDate>Mon, 02 Jan 2023 00:00:00 +0100</pubDate>
@@ -97,24 +134,6 @@ He is co-directed in his work by Dr Yann Ourmières, MIO (Mediterranean Institut
 &lt;a href=&quot;https://sasip-climate.github.io&quot;&gt;&lt;img src=&quot;/images/SASIP_AM2022.jpeg&quot; alt=&quot;sasip-web&quot; title=&quot;Check out the SASIP website.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/datlas/web/sasip-am/</guid>
-			</item>
-		
-			<item>
-				<title>Datlas has a  website!</title>
-				<link>http://localhost:4000/datlas/web/website/</link>
-				<pubDate>Mon, 09 May 2022 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000&quot;&gt;&lt;img src=&quot;/images/outils-collaboratifs-gestion-de-projet_sq.png&quot; alt=&quot;ON&quot; title=&quot;Start browsing our pages!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/datlas/web/website/</guid>
-			</item>
-		
-			<item>
-				<title>Welcome to Florian our new postdoc</title>
-				<link>http://localhost:4000/datlas/people/florian/</link>
-				<pubDate>Mon, 02 May 2022 00:00:00 +0200</pubDate>
-				<description>&lt;p&gt;&lt;a href=&quot;http://localhost:4000/team/&quot;&gt;&lt;img src=&quot;/images/avatar-homme.png&quot; alt=&quot;FL&quot; title=&quot;FL&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/datlas/people/florian/</guid>
 			</item>
 		
 	</channel>
