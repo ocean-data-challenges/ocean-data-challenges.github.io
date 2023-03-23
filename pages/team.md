@@ -42,7 +42,7 @@ widget5:
 widget6:
   title: "Joseph  Jenkins"
   url: /team/JJ/
-  image: avatarman2.jpg
+  image: team-JJ.jpg
   text: 'PhD student (CIFRE funding): Prediction of Lagrangian drift by deep learning [...]'
 
 

@@ -8,8 +8,7 @@ categories:
     - "Web"
     - "Com'"
 header:
-   image_fullwidth: "Gulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg"
-   logoalt: "logo_datlas_white_big.svg"
+   image_fullwidth: "gs_w.jpg"
 image:
    thumb: logo_semaphore.png
 show_meta: true

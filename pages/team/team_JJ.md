@@ -9,7 +9,7 @@ header:
 permalink: /team/JJ/
 ---
 
-![Real photo of Joseph coming soon!]({{ site.urlimg }}avatarman2.jpg "Joseph Jenkins")
+![Joseph Jenkins]({{ site.urlimg }}team-JJ.jpg "Joseph Jenkins")
 
 Joseph's PhD aims to investigate the use of machine learning for estimating the expected trajectories of floating objects at sea. Precise estimations of trajectories is important for applications such as search as rescue, but the achievable precision is currently limited by the precision of modelled surface currents. His work aims to overcome this limitation by leveraging the recent advancements of deep neural networks applied to structured data, for example by exploiting relevant information in ancillary data such as sea surface height and temperature.
 
