@@ -8,7 +8,7 @@
    * Laurent Brodeau's sofwares (Sosie, Gonzag, Climporn, Aerobulk): [https://github.com/brodeau](https://github.com/brodeau)
 
 ## Internal note:
-* __To modify the content of the website from github directly:__
+* __To modify the content of the website from github on-line interface:__
     * Edit the given page in the `pages` directory,
     * New images should be uploaded in the  `images` directory,
     * New blog entries (for the "news" section) should be added in the `_posts` directory,
