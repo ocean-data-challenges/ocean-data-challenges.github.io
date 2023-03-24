@@ -1,6 +1,6 @@
-## This repo is where we develop our website. To see the rendered version go to  [https://www.datlas.fr](https://www.datlas.fr) 
+## This repo is where we develop our website. To see the rendered version go directly to  [https://www.datlas.fr](https://www.datlas.fr) 
 
-## You can also browse some other github projects Datlas is/has been involved :
+## You can also browse some other github projects Datlas is/has been involved in :
    * MEDWEST60: [https://github.com/ocean-next/MEDWEST60](https://github.com/ocean-next/MEDWEST60)
    * SASIP: [https://github.com/sasip-climate](https://github.com/sasip-climate)
    * IMHOTEP: [https://github.com/imhotep-project](https://github.com/imhotep-project)
