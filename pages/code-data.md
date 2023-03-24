@@ -16,6 +16,5 @@ breadcrumb: true
    * MEDWEST60: [https://github.com/ocean-next/MEDWEST60](https://github.com/ocean-next/MEDWEST60)
    * SASIP: [https://github.com/sasip-climate](https://github.com/sasip-climate)
    * IMHOTEP: [https://github.com/imhotep-project](https://github.com/imhotep-project)
-   * SWOT Data challenge: 
-   * SLICING: 
+   * Datlas data challenges: [https://www.datlas.fr/datachallenges/](https://www.datlas.fr/datachallenges/)
    * Laurent Brodeau's sofwares (Sosie, Gonzag, Climporn, Aerobulk): [https://github.com/brodeau](https://github.com/brodeau)
