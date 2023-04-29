@@ -7,25 +7,23 @@
 layout: frontpage
 permalink: "/index.html"
 header:
-   image_fullwidth: "gs_w.jpg"
+   image_fullwidth: "odc-banner.png"
 widget1:
-  title: "About datlas"
-  url: /about/
-  image: outils-collaboratifs-gestion-de-projet_sq.png
-  text: 'datlas was created in 2021 in the aim to develop Research & Innovation opportunities and cooperations at the interface between academic research  and operational stakeolders in the domains of Earth & Environnmental sciences. [...]'
+  title: "DC concept"
+  url: /concept/
+  image: odc_frontpage1.png
+  text: 'The concept of data challenges is fairly new and originates from the artificial intelligence community. It is now used by [...]'
 widget2:
-  title: "Our team"
-  url: /team/
-  image: grenoble.png
-  text: 'We are a team of  scientists based in Grenoble, with complementary  expertises in numerical methods and numerical models applied to Earth data, ranging from observation data to model simulations and outputs.  [...]'
+  title: "Projects"
+  url: /projects0/
+  image: odc_frontpage2.png
+  text: 'The efforts made to create these data challenges were only possible thanks to the fundings of several projects [...]'
 widget3:
-  title: "Our expertise"
-  url: /expertise/
-  image: icesq.png
-  text: 'Our on-going activities  are related to the  observation, modelling and forecasting of the ocean and sea ice. They involve both the devlopment of numerical methods for data inversion and processing, and the development of numerical models.  [...]'
+  title: "The ODC group"
+  url: /team/
+  image: odc_frontpage3.png
+  text: 'We are a group of French scientists from different research teams and companies [...]'
 
-#
-# Use the call for action to show a button on the frontpage
 #
 # To make internal links, just use a permalink like this
 # url: /getting-started/
@@ -35,8 +33,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: /contact/
-  text: Contact us ›
+  url: /team/
+  text: Contact the group ›
   style: alert
 permalink: /index.html
 #

@@ -5,7 +5,7 @@ teaser: ""
 breadcrumb: true
 permalink: "/expertise/"
 header:
-   image_fullwidth: "gs_w.jpg"
+   image_fullwidth: "odc-banner.png"
 
 widget2:
   title: "World Ocean Circulation project (WOC/ESA): "

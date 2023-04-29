@@ -1,41 +1,30 @@
 ---
 layout: page
 title: 
-meta_title: "Mentions Legales"
+meta_title: "Legal mentions"
 subheadline: ""
 teaser: 
 breadcrumb: true
 permalink: "/ml/"
 header:
-   image_fullwidth: "gs_w.jpg"
+   image_fullwidth: "odc-banner.png"
 ---
 
-### Mentions légales
-Vous êtes sur le site internet de  datlas, établissement secondaire de la SCOP Oxalis (siège social). Pour toute information liée à son fonctionnement ou à son utilisation, nous vous prions de bien vouloir nous contacter par email, ou par courrier postal, aux adresses indiquées ci-dessous.
+### Legal mentions
+You are on the Ocean Data Challenges website, a community of scientists from various research teams and private companies. 
+For any information related to its operation or use, we kindly ask you to contact us by email at the addresses indicated in Services.
 
-![]({{ site.urlimg }}contactdatlas.png "Contact us").
+---
 
-
-
-- Webmasters : Stephanie Leroux (datlas),
-- Gestion du contenu : [Jekyll](https://jekyllrb.com/) (inspired from the template [Feeling Responsive](https://github.com/Phlow/feeling-responsive)),
-- Hébergeur : [o2switch](https://www.o2switch.fr).
-
-### Siège social Oxalis:
-* Adresse siège: 603 Boulevard Président Wilson, 73100 Aix Les Bains, France.
-* Identifiant SIRET du siège: 410 829 477 00216.    
-
-### Etablissement secondaire datlas:
-* Adresse physique: Maison Climat Planète, campus universitaire, 70 rue de la physique, 38400 Saint Maertin d'Hères
-* Identifiant SIRET de l'établissement secondaire datlas: 410 829 477 00265
+- Webmasters : Sammy Metref (datlas),
+- Content : [Jekyll](https://jekyllrb.com/) (inspired from the template [Feeling Responsive](https://github.com/Phlow/feeling-responsive)),
+- Hébergeur : [github](https://www.github.com).
 
 ### Conditions d’utilisation:
 
-__Propriété intellectuelle -__  Le site web de datlas est une œuvre de création propriété exclusive de datlas et protégée par la législation française et internationale sur le droit de la propriété intellectuelle. Aucune reproduction ou représentation ne peut être réalisée en contravention avec les droits de datlas issus de la législation susvisée.
+__-Intellectual property -__ The ODC web site is a work of creation exclusive property of the ODC group and protected by the French and international legislation on the right of the intellectual property. No reproduction or representation can be realized in contravention of the rights of datlas resulting from the above mentioned legislation.
 
-__Clause de non-responsabilité -__ La responsabilité de datlas ne peut, en aucune manière, être engagée quant au contenu des informations figurant sur ce site ou aux conséquences pouvant résulter de leur utilisation ou interprétation.
+__-Non-responsability clause-__ The responsibility of the ODC group cannot, in any way, be engaged as for the contents of the information appearing on this site or the consequences which can result from their use or interpretation.
 
-__Liens hypertextes -__ La mise en place de liens hypertextes par des tiers vers des pages ou des documents diffusés sur le site web de datlas est autorisée sous réserve que les liens ne contreviennent pas aux intérêts de datlas et qu’ils garantissent la possibilité pour l’utilisateur d’identifier l’origine et l’auteur du document.
-
-
+__-Hyperlinks -__ The setting up of hyperlinks by third parties to pages or documents published on the datlas website is authorized provided that the links do not contravene the interests of datlas and that they guarantee the possibility for the user to identify the origin and the author of the document.
 

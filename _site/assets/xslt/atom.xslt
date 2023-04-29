@@ -31,7 +31,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.">
+	<meta name="description" content="The concept of data challenges is fairly new and originates from the artificial intelligence community.">
 	
 	
 	
@@ -43,7 +43,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
-	<meta property="og:description" content="Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.">
+	<meta property="og:description" content="The concept of data challenges is fairly new and originates from the artificial intelligence community.">
 	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -123,34 +123,10 @@
 
           
           
-        
-
-              
-
-          
-          
-        
-
-              
-
-          
-          
-        
-
-              
-
-          
-          
-        
-
-              
-
-          
-          
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/join-us/">Join us</a></li>
+              <li><a  href="http://localhost:4000/team/">ODC group</a></li>
 
             
             
@@ -161,13 +137,23 @@
 
           
           
-            
-            
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/contact/">Contact us</a></li>
+        
 
-            
-            
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
           
         
 
@@ -189,22 +175,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/index.html">Home</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-
-            
-            
-              <li><a  href="http://localhost:4000/blog/">News</a></li>
+              <li><a  href="http://localhost:4000/index.html">ODC</a></li>
               <li class="divider"></li>
 
             
@@ -221,29 +192,61 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/about/">About us</a>
+                <a  href="http://localhost:4000/concept/">Concept</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/about/">Datlas in short</a></li>
+                      <li><a  href="http://localhost:4000/concept/">Description</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/about/">Our ambition</a></li>
+                      <li><a  href="http://localhost:4000/projects0/">Projects</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/about/">Our values</a></li>
+                      <li><a  href="http://localhost:4000/otherdc/">Other data challenges</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/dc_L3/">L3 SWOT</a>
+
+                  <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/about/">Funding agencies &amp; partners</a></li>
+                      <li><a  href="http://localhost:4000/dc_2022a/">OSSE SWOT Filtering North Atlantic</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/dc_2022c/">OSSE SWOT Calibration Gulf Stream</a></li>
                     
                   </ul>
 
@@ -262,14 +265,14 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/team/">Our Team</a>
+                <a  href="http://localhost:4000/dc_L4_QG/">Map Toy Models</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/team/">People </a></li>
+                      <li><a  href="http://localhost:4000/dc_2022b/">OSSE mapping QG simulation</a></li>
                     
                   </ul>
 
@@ -288,19 +291,19 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/expertise/">Our Expertise</a>
+                <a  href="http://localhost:4000/dc_L4_GS/">Map Gulf Stream</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/expertise/">Our services and products</a></li>
+                      <li><a  href="http://localhost:4000/dc_2020a/">OSSE SWOT/nadirs mapping Gulf Stream</a></li>
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/expertise/">On-going activities</a></li>
+                      <li><a  href="http://localhost:4000/dc_2021a/">OSE nadirs mapping Gulf Stream</a></li>
                     
                   </ul>
 
@@ -317,10 +320,21 @@
 
             
             
-              <li><a  href="http://localhost:4000/code-data/">Code &amp; Data</a></li>
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/dc_L4_Med/">Map Mediterranean</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/dc_2023a/">OSE nadirs mapping Mediterranean</a></li>
+                    
+                  </ul>
+
+              </li>
               <li class="divider"></li>
-
-            
             
           
         
@@ -329,25 +343,24 @@
 
           
           
-        
-
-              
-
-          
-          
-        
-
-              
-
-          
-          
 
             
             
-              <li><a  href="http://localhost:4000/datachallenges/">Data challenges</a></li>
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/dc_L4_Cali/">Map California</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/dc_2023b/">OSSE SWOT/nadirs HF mapping Californian Xover</a></li>
+                    
+                  </ul>
+
+              </li>
               <li class="divider"></li>
-
-            
             
           
         
@@ -440,8 +453,8 @@
             <h5 class="shadow-black">About</h5>
 
             <p class="shadow-black">
-              Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.
-              <a href="http://localhost:4000/about-us/">More ›</a>
+              The concept of data challenges is fairly new and originates from the artificial intelligence community.
+              <a href="http://localhost:4000/concept/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -468,12 +481,12 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                    <a href="http://localhost:4000/team/"  title="Contact the ODC group">Contact the ODC group</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/ml/"  title="Mentions légales">Mentions Légales</a>
+                    <a href="http://localhost:4000/ml/"  title="Legal mentions">Legal mentions</a>
                   </li>
               
                 

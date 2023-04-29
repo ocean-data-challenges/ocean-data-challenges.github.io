@@ -4,7 +4,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title></title>
-		<description>Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.</description>
+		<description>The concept of data challenges is fairly new and originates from the artificial intelligence community.</description>
 		<link>http://localhost:4000/</link>
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
@@ -25,7 +25,7 @@ General topics (sessions) include:&lt;/p&gt;
   &lt;li&gt;Recent research to sea ice operation transfer—Automated prediction systems&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://iicwg-da-11.met.no/&quot;&gt;Read more and find out about the full program here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://iicwg-da-11.met.no/programme&quot;&gt;Read more and find out about the full program here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/iicwg-news.png&quot; alt=&quot;iicwg&quot; /&gt;&lt;/p&gt;
 </description>

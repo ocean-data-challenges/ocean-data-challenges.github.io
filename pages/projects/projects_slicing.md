@@ -5,7 +5,7 @@ subheadline: "Service Evolution CMEMS project"
 teaser: ""
 breadcrumb: true
 header:
-   image_fullwidth: "gs_w.jpg"
+   image_fullwidth: "odc-banner.png"
 permalink: /projects/slicing/
 ---
 

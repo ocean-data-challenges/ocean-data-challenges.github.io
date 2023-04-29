@@ -1,11 +1,4 @@
-## This repo is where we develop our website. To see the rendered version go directly to  [https://www.datlas.fr](https://www.datlas.fr) 
-
-## You can also browse some other github projects Datlas is/has been involved in :
-   * MEDWEST60: [https://github.com/ocean-next/MEDWEST60](https://github.com/ocean-next/MEDWEST60)
-   * SASIP: [https://github.com/sasip-climate](https://github.com/sasip-climate)
-   * IMHOTEP: [https://github.com/imhotep-project](https://github.com/imhotep-project)
-   * Datlas data challenges: [https://www.datlas.fr/datachallenges/](https://www.datlas.fr/datachallenges/)
-   * Laurent Brodeau's sofwares (Sosie, Gonzag, Climporn, Aerobulk): [https://github.com/brodeau](https://github.com/brodeau)
+## This repo is where we develop our website. To see the rendered version go directly to  [https://www.ocean-data-challenges.fr](https://www.ocean-data-challenges.fr) 
 
 ## Internal note:
 * __To modify the content of the website from github on-line interface:__

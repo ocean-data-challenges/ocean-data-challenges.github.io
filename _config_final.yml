@@ -11,22 +11,22 @@
 title: 'Datlas'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Numerical methods & modelling for Earth sciences'
+slogan: 'Open science for robust algoritOpen science for robust algorithms, for faster integration, for better services.'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.'
+description: 'The concept of data challenges is fairly new and originates from the artificial intelligence community. '
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Follow our work  on Github:</p>'
 
 # Main author of the website
 # See > authors.yml
-author: Datlas
+author: ODC
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 ### USE THIS TO build the final site that will be publsihed at www.datlas.fr:
-url: '//www.datlas.fr'
+url: '//www.ocean-data-challenges.fr'
 #
 ### USE THIS TO build the developing site on github
 #url: 'https://datlas-ocean.github.io'

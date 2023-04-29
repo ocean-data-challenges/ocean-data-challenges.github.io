@@ -5,7 +5,7 @@ subheadline: "R&D scientist"
 teaser: ""
 breadcrumb: true
 header:
-   image_fullwidth: "Gulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg"
+   image_fullwidth: "odc-banner.png"
 permalink: /team/SM/
 ---
 

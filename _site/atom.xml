@@ -4,15 +4,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title></title>
-	<updated>2023-03-23T08:24:47+01:00</updated>
+	<updated>2023-04-29T21:37:13+02:00</updated>
 
-	<subtitle>Datlas was created in 2021 by a team of scientists experts in numerical modeling and numerical methods in Earth and Environmental sciences.</subtitle>
+	<subtitle>The concept of data challenges is fairly new and originates from the artificial intelligence community.</subtitle>
 
 	
 		
 		<author>
 			
-				<name>Datlas</name>
+				<name>ODC</name>
 			
 			
 			
@@ -22,7 +22,7 @@
 	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
 	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
 
-	<generator uri="http://jekyllrb.com" version="4.3.1">Jekyll</generator>
+	<generator uri="http://jekyllrb.com" version="4.3.2">Jekyll</generator>
 
 	
 		<entry>
@@ -55,7 +55,7 @@ General topics (sessions) include:&lt;/p&gt;
   &lt;li&gt;Recent research to sea ice operation transfer—Automated prediction systems&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://iicwg-da-11.met.no/&quot;&gt;Read more and find out about the full program here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://iicwg-da-11.met.no/programme&quot;&gt;Read more and find out about the full program here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/iicwg-news.png&quot; alt=&quot;iicwg&quot; /&gt;&lt;/p&gt;
 </content>

@@ -1,30 +1,28 @@
-- title: "Home"
+- title: "ODC"
   url: "/index.html"
   side: left
   dropdown:
   
-- title: "News"
-  url: "/blog/"
-  side: left
-  dropdown:
+#- title: "News"
+#  url: "/blog/"
+#  side: left
+#  dropdown:
 
 #- title: "About us"
 #  url: "/about-us/"
 #  side: left
 #  dropdown:
 
-- title: "About us"
-  url: "/about/"
+- title: "Concept"
+  url: "/concept/"
   side: left
   dropdown:
-  - title: "Datlas in short"
-    url: "/about/"
-  - title: "Our ambition"
-    url: "/about/"
-  - title: "Our values"
-    url: "/about/"
-  - title: "Funding agencies & partners"
-    url: "/about/"
+  - title: "Description"
+    url: "/concept/"
+  - title: "Projects"
+    url: "/projects0/"
+  - title: "Other data challenges"
+    url: "/otherdc/"
 
 #- title: "About Us"
 #  url: "/about-us/"
@@ -37,13 +35,7 @@
 #  - title: "Funding agencies & partners"
 #    url: "/about-us/"
 
-- title: "Our Team"
-  url: "/team/"
-  side: left
-  dropdown:
-  - title: "People "
-    url: "/team/"
- # - title: "Clement Ubelmann "
+# - title: "Clement Ubelmann "
  #   url: "/team/CU/"
  # - title: "Stephanie Leroux"
  #   url: "/team/SL/" 
@@ -57,36 +49,75 @@
 #    url: "/team/LB/" 
 #  - title: "Florian Leguillou"
 #    url: "/team/FL/" 
-
-- title: "Our Expertise"
-  url: "/expertise/"
-  side: left
-  dropdown:
-  - title: "Our services and products"
-    url: "/expertise/"
-  - title: "On-going activities"
-    url: "/expertise/"
-
-- title: "Code & Data"
-  url: "/code-data/"
-  side: left
-  dropdown:
-
-
+#
+#- title: "Our Expertise"
+#  url: "/expertise/"
+#  side: left
+#  dropdown:
+#  - title: "Our services and products"
+#    url: "/expertise/"
+#  - title: "On-going activities"
+#    url: "/expertise/"
+#
+#- title: "Code & Data"
+#  url: "/code-data/"
+#  side: left
+#  dropdown:
 
 
-- title: "Join us"
-  url: "/join-us/"
-  side: right
-  dropdown:
+
+
+#- title: "Join us"
+#  url: "/join-us/"
+#  side: right
+#  dropdown:
     
-- title: "Contact us"
-  url: "/contact/"
+- title: "ODC group"
+  url: "/team/"
   side: right
   dropdown:
 
  
-- title: "Data challenges"
-  url: "/datachallenges/"
+- title: "L3 SWOT"
+  url: "/dc_L3/"
+  side: left
+  dropdown: 
+  - title: "OSSE SWOT Filtering North Atlantic"
+    url: "/dc_2022a/"
+  - title: "OSSE SWOT Calibration Gulf Stream"
+    url: "/dc_2022c/"
+
+
+- title: "Map Toy Models"
+  url: "/dc_L4_QG/"
   side: left
   dropdown:
+  - title: "OSSE mapping QG simulation"
+    url: "/dc_2022b/"
+
+
+- title: "Map Gulf Stream"
+  url: "/dc_L4_GS/"
+  side: left
+  dropdown:
+  - title: "OSSE SWOT/nadirs mapping Gulf Stream"
+    url: "/dc_2020a/"
+  - title: "OSE nadirs mapping Gulf Stream"
+    url: "/dc_2021a/"
+
+
+- title: "Map Mediterranean"
+  url: "/dc_L4_Med/"
+  side: left
+  dropdown:
+  - title: "OSE nadirs mapping Mediterranean"
+    url: "/dc_2023a/"
+
+- title: "Map California"
+  url: "/dc_L4_Cali/"
+  side: left
+  dropdown:
+  - title: "OSSE SWOT/nadirs HF mapping Californian Xover"
+    url: "/dc_2023b/"
+
+
