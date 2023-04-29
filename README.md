@@ -1,4 +1,4 @@
-## This repo is where we develop our website. To see the rendered version go directly to  [https://www.ocean-data-challenges.fr](https://www.ocean-data-challenges.fr) 
+## This repo is where we develop our website. To see the rendered version go directly to  [https://www.ocean-data-challenges.github.io](https://www.ocean-data-challenges.github.io) 
 
 ## Internal note:
 * __To modify the content of the website from github on-line interface:__
