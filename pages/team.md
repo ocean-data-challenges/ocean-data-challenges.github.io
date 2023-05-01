@@ -1,8 +1,8 @@
 ---
 layout: pagepluswidgets
-title: "ODC group"
+title: "The ODC group"
 subheadline: ""
-teaser: "We are a group of scientists from different research teams and companies. "
+teaser: "We are a group of scientists from different research teams and companies gathered to improve oceanographic algorithms and products. "
 permalink: "/team/"
 breadcrumb: true
 header:

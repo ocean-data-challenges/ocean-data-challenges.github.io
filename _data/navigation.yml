@@ -78,46 +78,57 @@
   dropdown:
 
  
-- title: "L3 SWOT"
+- title: "L3 preprocessing"
   url: "/dc_L3/"
   side: left
   dropdown: 
-  - title: "OSSE SWOT Filtering North Atlantic"
+  - title: "SWOT: OSSE Filtering North Atlantic"
     url: "/dc_2022a/"
-  - title: "OSSE SWOT Calibration Gulf Stream"
+  - title: "SWOT: OSSE Calibration Gulf Stream"
     url: "/dc_2022c/"
 
 
-- title: "Map Toy Models"
+- title: "Toy Model Mapping"
   url: "/dc_L4_QG/"
   side: left
   dropdown:
-  - title: "OSSE mapping QG simulation"
+  - title: "QG simulation: OSSE SSH"
     url: "/dc_2022b/"
 
 
-- title: "Map Gulf Stream"
-  url: "/dc_L4_GS/"
+- title: "SSH Regional Mapping"
+  url: "/dc_L4_Reg/"
   side: left
   dropdown:
-  - title: "OSSE SWOT/nadirs mapping Gulf Stream"
+  - title: "Gulf Stream: OSSE SWOT/nadirs"
     url: "/dc_2020a/"
-  - title: "OSE nadirs mapping Gulf Stream"
+  - title: "Gulf Stream: OSE nadirs"
     url: "/dc_2021a/"
-
-
-- title: "Map Mediterranean"
-  url: "/dc_L4_Med/"
-  side: left
-  dropdown:
-  - title: "OSE nadirs mapping Mediterranean"
+  - title: "Mediterranean: OSE nadirs"
     url: "/dc_2023a/"
+  - title: "Californian Xover: OSSE SWOT/nadirs high-frequency"
+    url: "/dc_2023b/"
 
-- title: "Map California"
-  url: "/dc_L4_Cali/"
+
+- title: "SSH Global Mapping"
+  url: "/dc_L4_Glob/"
   side: left
   dropdown:
-  - title: "OSSE SWOT/nadirs HF mapping Californian Xover"
-    url: "/dc_2023b/"
+  - title: "OSE nadirs"
+    url: "/dc_2023c/"
+
+#- title: "Map Mediterranean"
+#  url: "/dc_L4_Med/"
+#  side: left
+#  dropdown:
+#  - title: "OSE nadirs mapping Mediterranean"
+#    url: "/dc_2023a/"
+#
+#- title: "Map California"
+#  url: "/dc_L4_Cali/"
+#  side: left
+#  dropdown:
+#  - title: "OSSE SWOT/nadirs HF mapping Californian Xover"
+#    url: "/dc_2023b/"
 
 
