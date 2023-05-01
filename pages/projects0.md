@@ -6,7 +6,7 @@ subheadline: ""
 teaser: "The efforts made to create these data challenges were only possible thanks to the fundings of several projects."
 permalink: "/projects0/"
 header:
-   image_fullwidth: "odc-banner.png"
+   image_fullwidth: "odc-banner.jpg"
 breadcrumb: true
 ---
 

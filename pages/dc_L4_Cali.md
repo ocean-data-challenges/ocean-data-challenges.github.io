@@ -5,7 +5,7 @@ teaser: ""
 breadcrumb: true
 permalink: "/dc_L4_Cali/"
 header:
-   image_fullwidth: "odc-banner.png" 
+   image_fullwidth: "odc-banner.jpg" 
 
 
 widget2023a:

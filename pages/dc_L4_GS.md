@@ -5,7 +5,7 @@ teaser: ""
 breadcrumb: true
 permalink: "/dc_L4_GS/"
 header:
-   image_fullwidth: "odc-banner.png" 
+   image_fullwidth: "odc-banner.jpg" 
 
 widget2020a:
   title: "2020a SSH Mapping Data Challenge"

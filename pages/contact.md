@@ -6,7 +6,7 @@ subheadline: ""
 teaser: "Contact us at:"
 permalink: "/contact/"
 header:
-   image_fullwidth: "odc-banner.png"
+   image_fullwidth: "odc-banner.jpg"
 breadcrumb: true
 ---
 

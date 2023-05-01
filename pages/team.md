@@ -6,7 +6,7 @@ teaser: "We are a group of scientists from different research teams and companie
 permalink: "/team/"
 breadcrumb: true
 header:
-   image_fullwidth: "odc-banner.png"
+   image_fullwidth: "odc-banner.jpg"
  
   
 widget1:

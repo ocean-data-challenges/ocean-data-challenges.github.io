@@ -6,7 +6,7 @@ subheadline: ""
 teaser: "Data challenges that share similarities with the ODC concept."
 permalink: "/otherdc/"
 header:
-   image_fullwidth: "odc-banner.png"
+   image_fullwidth: "odc-banner.jpg"
 breadcrumb: true
 ---
 

@@ -5,7 +5,7 @@ subheadline: "R&D scientist"
 teaser: ""
 breadcrumb: true
 header:
-   image_fullwidth: "odc-banner.png"
+   image_fullwidth: "odc-banner.jpg"
 permalink: /team/SM/
 ---
 

@@ -6,7 +6,7 @@ subheadline: ""
 teaser: ""
 permalink: "/code-data/"
 header:
-   image_fullwidth: "odc-banner.png"
+   image_fullwidth: "odc-banner.jpd"
 breadcrumb: true
 ---
 

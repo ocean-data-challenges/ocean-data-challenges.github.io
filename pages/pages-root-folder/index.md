@@ -7,7 +7,7 @@
 layout: frontpage
 permalink: "/index.html"
 header:
-   image_fullwidth: "odc-banner.png"
+   image_fullwidth: "odc-banner.jpg"
 widget1:
   title: "DC concept"
   url: /concept/

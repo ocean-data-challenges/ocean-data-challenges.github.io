@@ -5,7 +5,7 @@ teaser: ""
 breadcrumb: true
 permalink: "/dc_L4_Med/"
 header:
-   image_fullwidth: "odc-banner.png" 
+   image_fullwidth: "odc-banner.jpg" 
 
 widget2023a:
   title: "2023a Real SSH mapping data challenge in the Western Mediterranean Sea"
