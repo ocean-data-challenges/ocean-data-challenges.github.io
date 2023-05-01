@@ -18,9 +18,9 @@ For any information related to its operation or use, we kindly ask you to contac
 
 - Webmasters : Sammy Metref (datlas),
 - Content : [Jekyll](https://jekyllrb.com/) (inspired from the template [Feeling Responsive](https://github.com/Phlow/feeling-responsive)),
-- Hébergeur : [github](https://www.github.com).
+- Host : [github](https://www.github.com).
 
-### Conditions d’utilisation:
+### Conditions of use:
 
 __-Intellectual property -__ The ODC web site is a work of creation exclusive property of the ODC group and protected by the French and international legislation on the right of the intellectual property. No reproduction or representation can be realized in contravention of the rights of datlas resulting from the above mentioned legislation.
 
