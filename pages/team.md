@@ -2,7 +2,7 @@
 layout: pagepluswidgets
 title: "ODC group"
 subheadline: ""
-teaser: "We are a group of French scientists from different research teams and companies. "
+teaser: "We are a group of scientists from different research teams and companies. "
 permalink: "/team/"
 breadcrumb: true
 header:
