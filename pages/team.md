@@ -56,11 +56,12 @@ widget7:
   image: odc_flg.jpg
   text: 'European Spatial Agency'
 
+
 widget8:
-  title: "Adekunle Ajayi"
-  url: /team/AAd/
-  image: odc_aad.jpg
-  text: 'Talend'
+  title: "Clément Ubelmann"
+  url: /team/CU/
+  image: odc_cu.jpg
+  text: 'Datlas'
 
 widget9:
   title: "Quentin Febvre"
@@ -68,4 +69,10 @@ widget9:
   image: odc_qf.jpg
   text: 'IMT-Atlantique Bretagne-Pays de la Loire'
 
+
+widget10:
+  title: "Adekunle Ajayi"
+  url: /team/AAd/
+  image: odc_aad.jpg
+  text: 'Talend'
 ---
