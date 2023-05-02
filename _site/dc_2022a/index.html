@@ -468,27 +468,233 @@ In no way the targets that are available during the evaluation period should be 
 <p>and can be downloaded using:</p>
 
 <h2 id="leaderboard">Leaderboard</h2>
-<p>| Method   | Field                          |   µ(RMSE global) |   µ(RMSE coastal) |   µ(RMSE offshore lowvar) |   µ(RMSE offshore highvar) |    λ(SNR1) [km] | Reference                  |
-|:———|——–:|—————–:|———————-:|——————————:|——————————-:|——————————-:|:—————————|
-| NO FILTER   | Sea Surface Height [m]|            0.013 |              0.012 |                    0.013 |                     0.014 |                            44.5  |  <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a> |
-| NO FILTER   | Geostrophic current [m.s<sup>-1</sup>]|            0.917   |        0.801   |                1.073  |                0.545    |                           687.5  |  <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a> |
-| NO FILTER   | Relative vorticity []|            18.733 |        14.396 |                22.559 |                4.719 |                           &gt;=1000  |  <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a> |
-| | | | | | | | | |
-| MEDIAN   | Sea Surface Height [m]|            0.028 |              0.045 |                    0.004 |                     0.008 |                           23.3 | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a> |
-| MEDIAN   | Geostrophic current [m.s<sup>-1</sup>]|            0.203   |        0.311   |                0.085  |                0.117    |                           28.7 | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a> |
-| MEDIAN   | Relative vorticity []|            1.846 |        2.666 |                1.247 |                0.619 |                          &gt;=1000   | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a> |
-| | | | | | | | | |
-| GOMEZ    | Sea Surface Height [m]|            0.025 |             0.040 |                    <strong>0.002</strong> |                     <strong>0.003</strong> |                             21.5 | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_GOMEZ.ipynb">demo_benchmark_GOMEZ.ipynb</a> |
-| GOMEZ    | Geostrophic current [m.s<sup>-1</sup>]|       0.202   |        0.323   |                0.064  |                0.056   |                            23.4 | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_GOMEZ.ipynb">demo_benchmark_GOMEZ.ipynb</a> |
-| GOMEZ    | Relative vorticity []|       1.671 |        2.569 |                0.871 |                0.329 |                          812.3 | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_GOMEZ.ipynb">demo_benchmark_GOMEZ.ipynb</a> | 
-| | | | | | | | | |
-| CNN      | Sea Surface Height [m]|           <strong>0.002</strong> |            <strong>0.002</strong> |                    <strong>0.002</strong> |                     <strong>0.003</strong> |                           <strong>10.5</strong> | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_CNN.ipynb">demo_benchmark_CNN.ipynb</a> |
-| CNN      | Geostrophic current [m.s<sup>-1</sup>]|       <strong>0.055</strong>  |        0.068  |               <strong>0.043</strong>   |                 <strong>0.051</strong>   |                           <strong>9.4</strong> | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_CNN.ipynb">demo_benchmark_CNN.ipynb</a> |
-| CNN      | Relative vorticity []|       0.637 |        0.881 |               0.475 |                 0.303 |                           <strong>15.4</strong> | <a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_CNN.ipynb">demo_benchmark_CNN.ipynb</a> | 
-| | | | | | | | | |
-| GOMEZ_V2      | Sea Surface Height [m]|           <strong>0.002</strong> |            0.0026 |                    <strong>0.002</strong> |                     <strong>0.003</strong> |                           14.8 | no notebook available, spat. variable param |
-| GOMEZ_V2      | Geostrophic current [m.s<sup>-1</sup>]|       0.056  |        <strong>0.065</strong>  |               0.050   |                 0.057   |                           12.5 | no notebook available, spat. variable param |
-| GOMEZ_V2      | Relative vorticity []|       0.65 |        0.882 |               0.504 |                 0.321 |                           26.6 | no notebook available, spat. variable param |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Method</th>
+      <th style="text-align: right">Field</th>
+      <th style="text-align: right">µ(RMSE global)</th>
+      <th style="text-align: right">µ(RMSE coastal)</th>
+      <th style="text-align: right">µ(RMSE offshore lowvar)</th>
+      <th style="text-align: right">µ(RMSE offshore highvar)</th>
+      <th style="text-align: right">λ(SNR1) [km]</th>
+      <th style="text-align: left">Reference</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">NO FILTER</td>
+      <td style="text-align: right">Sea Surface Height [m]</td>
+      <td style="text-align: right">0.013</td>
+      <td style="text-align: right">0.012</td>
+      <td style="text-align: right">0.013</td>
+      <td style="text-align: right">0.014</td>
+      <td style="text-align: right">44.5</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">NO FILTER</td>
+      <td style="text-align: right">Geostrophic current [m.s<sup>-1</sup>]</td>
+      <td style="text-align: right">0.917</td>
+      <td style="text-align: right">0.801</td>
+      <td style="text-align: right">1.073</td>
+      <td style="text-align: right">0.545</td>
+      <td style="text-align: right">687.5</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">NO FILTER</td>
+      <td style="text-align: right">Relative vorticity []</td>
+      <td style="text-align: right">18.733</td>
+      <td style="text-align: right">14.396</td>
+      <td style="text-align: right">22.559</td>
+      <td style="text-align: right">4.719</td>
+      <td style="text-align: right">&gt;=1000</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MEDIAN</td>
+      <td style="text-align: right">Sea Surface Height [m]</td>
+      <td style="text-align: right">0.028</td>
+      <td style="text-align: right">0.045</td>
+      <td style="text-align: right">0.004</td>
+      <td style="text-align: right">0.008</td>
+      <td style="text-align: right">23.3</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MEDIAN</td>
+      <td style="text-align: right">Geostrophic current [m.s<sup>-1</sup>]</td>
+      <td style="text-align: right">0.203</td>
+      <td style="text-align: right">0.311</td>
+      <td style="text-align: right">0.085</td>
+      <td style="text-align: right">0.117</td>
+      <td style="text-align: right">28.7</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MEDIAN</td>
+      <td style="text-align: right">Relative vorticity []</td>
+      <td style="text-align: right">1.846</td>
+      <td style="text-align: right">2.666</td>
+      <td style="text-align: right">1.247</td>
+      <td style="text-align: right">0.619</td>
+      <td style="text-align: right">&gt;=1000</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_MEDIAN.ipynb">demo_benchmark_MEDIAN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GOMEZ</td>
+      <td style="text-align: right">Sea Surface Height [m]</td>
+      <td style="text-align: right">0.025</td>
+      <td style="text-align: right">0.040</td>
+      <td style="text-align: right"><strong>0.002</strong></td>
+      <td style="text-align: right"><strong>0.003</strong></td>
+      <td style="text-align: right">21.5</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_GOMEZ.ipynb">demo_benchmark_GOMEZ.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GOMEZ</td>
+      <td style="text-align: right">Geostrophic current [m.s<sup>-1</sup>]</td>
+      <td style="text-align: right">0.202</td>
+      <td style="text-align: right">0.323</td>
+      <td style="text-align: right">0.064</td>
+      <td style="text-align: right">0.056</td>
+      <td style="text-align: right">23.4</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_GOMEZ.ipynb">demo_benchmark_GOMEZ.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GOMEZ</td>
+      <td style="text-align: right">Relative vorticity []</td>
+      <td style="text-align: right">1.671</td>
+      <td style="text-align: right">2.569</td>
+      <td style="text-align: right">0.871</td>
+      <td style="text-align: right">0.329</td>
+      <td style="text-align: right">812.3</td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_GOMEZ.ipynb">demo_benchmark_GOMEZ.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CNN</td>
+      <td style="text-align: right">Sea Surface Height [m]</td>
+      <td style="text-align: right"><strong>0.002</strong></td>
+      <td style="text-align: right"><strong>0.002</strong></td>
+      <td style="text-align: right"><strong>0.002</strong></td>
+      <td style="text-align: right"><strong>0.003</strong></td>
+      <td style="text-align: right"><strong>10.5</strong></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_CNN.ipynb">demo_benchmark_CNN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CNN</td>
+      <td style="text-align: right">Geostrophic current [m.s<sup>-1</sup>]</td>
+      <td style="text-align: right"><strong>0.055</strong></td>
+      <td style="text-align: right">0.068</td>
+      <td style="text-align: right"><strong>0.043</strong></td>
+      <td style="text-align: right"><strong>0.051</strong></td>
+      <td style="text-align: right"><strong>9.4</strong></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_CNN.ipynb">demo_benchmark_CNN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CNN</td>
+      <td style="text-align: right">Relative vorticity []</td>
+      <td style="text-align: right">0.637</td>
+      <td style="text-align: right">0.881</td>
+      <td style="text-align: right">0.475</td>
+      <td style="text-align: right">0.303</td>
+      <td style="text-align: right"><strong>15.4</strong></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering/blob/main/notebook/demo_benchmark_CNN.ipynb">demo_benchmark_CNN.ipynb</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GOMEZ_V2</td>
+      <td style="text-align: right">Sea Surface Height [m]</td>
+      <td style="text-align: right"><strong>0.002</strong></td>
+      <td style="text-align: right">0.0026</td>
+      <td style="text-align: right"><strong>0.002</strong></td>
+      <td style="text-align: right"><strong>0.003</strong></td>
+      <td style="text-align: right">14.8</td>
+      <td style="text-align: left">no notebook available, spat. variable param</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GOMEZ_V2</td>
+      <td style="text-align: right">Geostrophic current [m.s<sup>-1</sup>]</td>
+      <td style="text-align: right">0.056</td>
+      <td style="text-align: right"><strong>0.065</strong></td>
+      <td style="text-align: right">0.050</td>
+      <td style="text-align: right">0.057</td>
+      <td style="text-align: right">12.5</td>
+      <td style="text-align: left">no notebook available, spat. variable param</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GOMEZ_V2</td>
+      <td style="text-align: right">Relative vorticity []</td>
+      <td style="text-align: right">0.65</td>
+      <td style="text-align: right">0.882</td>
+      <td style="text-align: right">0.504</td>
+      <td style="text-align: right">0.321</td>
+      <td style="text-align: right">26.6</td>
+      <td style="text-align: left">no notebook available, spat. variable param</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
 <p>with:</p>
 
