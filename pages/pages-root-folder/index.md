@@ -9,7 +9,7 @@ permalink: "/index.html"
 header:
    image_fullwidth: "odc-banner.jpg"
 widget1:
-  title: "DC concept"
+  title: "Data challenges"
   url: /concept/
   image: odc_frontpage1.png
   text: 'The concept of data challenges is fairly new and originates from the artificial intelligence community. It is now used by [...]'
