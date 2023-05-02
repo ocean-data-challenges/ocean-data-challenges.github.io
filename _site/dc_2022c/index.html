@@ -400,8 +400,7 @@
 
 			<div itemprop="articleSection">
 			<hr />
-<p><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS"><img src="/images/odc_ongithub.png" width="200" />  </a>
-—</p>
+<p><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS"><img src="/images/odc_ongithub.png" width="200" />  </a></p>
 
 <hr />
 
@@ -480,7 +479,7 @@ In no way the targets that are available during the evaluation period should be 
 <h3 id="22-baseline">2.2 Baseline</h3>
 
 <p>The baseline method is a very simple and straightforward method that removes the averaged on the pass of a linear trend across track. This is supposed to remove all the signal that has the same structure as the roll error (if the roll error was constant over the region). This method is flowed since (1) there are other errors, (2) the roll error is not constant over the region and (3) the method also removes signals that happens to have a linear structure across track but is actual SSH. 
-The baseline is performed in the notebook <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/demo_generate_baseline.ipynb">demo_generate_baseline</a>.</p>
+The baseline is performed in the notebook <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/demo_generate_baseline.ipynb">demo_generate_baseline</a>.</p>
 
 <p><a name="sec23"></a></p>
 <h3 id="23-evaluations">2.3 Evaluations</h3>
@@ -489,21 +488,21 @@ The baseline is performed in the notebook <a href="https://github.com/SammyMetre
 
 <h4 id="evaluation-on-swot-swath">Evaluation on SWOT swath</h4>
 
-<p>The first evaluation of the calibration methods is based on the comparison of the SWOT calibrated swaths with the error-free SWOT swaths. It includes two scores, one based on the Root-Mean-Square Error (RMSE), the other a noise-to-signal ratio based on an isotropic 2D Fourier wavenumber spectra. The evaluation notebook <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/demo_evaluate_onswot_baseline.ipynb">demo_evaluate_onswot_baseline</a> implements the computation of these two scores for the baseline as they appear in the first leaderboard.</p>
+<p>The first evaluation of the calibration methods is based on the comparison of the SWOT calibrated swaths with the error-free SWOT swaths. It includes two scores, one based on the Root-Mean-Square Error (RMSE), the other a noise-to-signal ratio based on an isotropic 2D Fourier wavenumber spectra. The evaluation notebook <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/demo_evaluate_onswot_baseline.ipynb">demo_evaluate_onswot_baseline</a> implements the computation of these two scores for the baseline as they appear in the first leaderboard.</p>
 
 <p>After running the evaluation notebook for a method, the files stat_‘METHOD’.nc (RMSE data), psd_‘METHOD’.nc (PSD and SNR data) and ldb_‘METHOD’.nc (Leaderboard data) are saved in the chosen foler.</p>
 
-<p>A comparison notebook, <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/compare_evaluations_onswot.ipynb">compare_evaluations_onswot</a>, is available to plot and compare the statistics and the spectral diagnostics of multiple methods in the same figures. Also, the leaderboard for each method can be printed.</p>
+<p>A comparison notebook, <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/compare_evaluations_onswot.ipynb">compare_evaluations_onswot</a>, is available to plot and compare the statistics and the spectral diagnostics of multiple methods in the same figures. Also, the leaderboard for each method can be printed.</p>
 
 <h4 id="evaluation-on-nadirs-tracks">Evaluation on Nadirs tracks</h4>
 
-<p>The second evaluation of the calibration methods is based on the comparison of the true SWOT data interpolated on Nadir tracks. It also includes two scores, one based on the Root-Mean-Square Error (RMSE), the other a noise-to-signal ratio based on a one-dimensional (along Nadir tracks crossing the swath) Fourier wavenumber spectra. The evaluation notebook <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluate_onnadirs_baseline.ipynb">demo_evaluate_onnadirs_baseline</a> implements the computation of these two scores for the baseline as they appear in the second leaderboard.</p>
+<p>The second evaluation of the calibration methods is based on the comparison of the true SWOT data interpolated on Nadir tracks. It also includes two scores, one based on the Root-Mean-Square Error (RMSE), the other a noise-to-signal ratio based on a one-dimensional (along Nadir tracks crossing the swath) Fourier wavenumber spectra. The evaluation notebook <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluate_onnadirs_baseline.ipynb">demo_evaluate_onnadirs_baseline</a> implements the computation of these two scores for the baseline as they appear in the second leaderboard.</p>
 
 <h4 id="evaluation-on-an-independant-nadir">Evaluation on an independant nadir</h4>
 
 <p>This third evaluation is exactly the same as the previous one (Nadir tracks) but using an independant nadir track. Here, the cryosat altimeter data has been simulated on the NAtl60 reference simulation and should not have been used in any way to tune the SWOT calibration.</p>
 
-<p>The evaluation notebook <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a> implements the computation of these two scores for the baseline as they appear in the third leaderboard.</p>
+<p>The evaluation notebook <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a> implements the computation of these two scores for the baseline as they appear in the third leaderboard.</p>
 
 <p><a name="togetstarted"></a></p>
 <h2 id="3-to-get-started">3. To get started</h2>
@@ -579,7 +578,7 @@ The baseline is performed in the notebook <a href="https://github.com/SammyMetre
 
 <p>See the <strong>Baseline</strong> section above.</p>
 
-<p>Notebook available: <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/demo_generate_baseline.ipynb">demo_generate_baseline.ipynb</a></p>
+<p>Notebook available: <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/demo_generate_baseline.ipynb">demo_generate_baseline.ipynb</a></p>
 
 <h4 id="cer-method">CER method</h4>
 
@@ -591,14 +590,14 @@ The ensemble is projected onto the SWOT swath and both the SWOT data and the pro
 Using the projected ensemble, the detrended ensemble and the detrended SWOT data, an assimilation analysis is performed (using an Ensemble Transform Kalman Filter). 
 The ensemble average of this analysis constitutes the calibrated SWOT data.</p>
 
-<p>Notebook available: <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/generate_CERmethod_calibration.ipynb">generate_CERmethod_calibration.ipynb</a></p>
+<p>Notebook available: <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/generate_CERmethod_calibration.ipynb">generate_CERmethod_calibration.ipynb</a></p>
 
 <h4 id="projection-method">Projection method</h4>
 
 <p>The projection method is very similar to the CER method. The projection method interpolates the SSH map created with the OI method and 5 nadirs (see CER method) onto the SWOT track. The difference between the SWOT with error data and the interpolated SSH map is then “projected”, i.e., using a min square method the signal in this difference that has the same geometry as the expected SWOT errors (linear across track for the roll error, quadratic for the baseline dilation error …). The residual is then added back onto the interpolated OI SSH map (containing mostly larger scales). 
 A low-pass and high-pass filter is also performed so to leave untouch the mesoscale that is already accurate in the OI SSH map and that can be wrongly projected onto the error geometry.</p>
 
-<p>Notebook available: <a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/generate_Projmethod_calibration.ipynb">generate_Projmethod_calibration.ipynb</a></p>
+<p>Notebook available: <a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_generate_calibrations/generate_Projmethod_calibration.ipynb">generate_Projmethod_calibration.ipynb</a></p>
 
 <h4 id="calcnn">CalCNN</h4>
 
@@ -633,7 +632,7 @@ Finally this correction is added to the input interpolated field to produce the 
       <td style="text-align: right">Sea Surface Height $[m]$</td>
       <td style="text-align: right">3.395</td>
       <td style="text-align: right">116.3</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/demo_evaluate_onswot_baseline.ipynb">demo_evaluate_onswot_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/demo_evaluate_onswot_baseline.ipynb">demo_evaluate_onswot_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left">—</td>
@@ -654,7 +653,7 @@ Finally this correction is added to the input interpolated field to produce the 
       <td style="text-align: right">Sea Surface Height $[m]$</td>
       <td style="text-align: right">0.145</td>
       <td style="text-align: right">83.9</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/demo_evaluate_onswot_baseline.ipynb">demo_evaluate_onswot_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/demo_evaluate_onswot_baseline.ipynb">demo_evaluate_onswot_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left">—</td>
@@ -675,7 +674,7 @@ Finally this correction is added to the input interpolated field to produce the 
       <td style="text-align: right">Sea Surface Height $[m]$</td>
       <td style="text-align: right">0.074</td>
       <td style="text-align: right"><strong>4.2</strong></td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/evaluate_onswot_CERmethod.ipynb">evaluate_onswot_CERmethod</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/evaluate_onswot_CERmethod.ipynb">evaluate_onswot_CERmethod</a></td>
     </tr>
     <tr>
       <td style="text-align: left">—</td>
@@ -696,7 +695,7 @@ Finally this correction is added to the input interpolated field to produce the 
       <td style="text-align: right">Sea Surface Height $[m]$</td>
       <td style="text-align: right">0.037</td>
       <td style="text-align: right"><strong>4.2</strong></td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/evaluate_onswot_Projmethod.ipynb">evaluate_onswot_Projmethod</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/evaluate_onswot_Projmethod.ipynb">evaluate_onswot_Projmethod</a></td>
     </tr>
     <tr>
       <td style="text-align: left">—</td>
@@ -717,7 +716,7 @@ Finally this correction is added to the input interpolated field to produce the 
       <td style="text-align: right">Sea Surface Height $[m]$</td>
       <td style="text-align: right"><strong>0.014</strong></td>
       <td style="text-align: right"><strong>4.2</strong></td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/evaluate_onswot_CalCNNmethod.ipynb">evaluate_onswot_CalCNNmethod</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_swot/evaluate_onswot_CalCNNmethod.ipynb">evaluate_onswot_CalCNNmethod</a></td>
     </tr>
     <tr>
       <td style="text-align: left">—</td>
@@ -761,42 +760,42 @@ Finally this correction is added to the input interpolated field to produce the 
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.013</td>
       <td style="text-align: right">15.561</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onnadirs_baseline.ipynb">demo_evaluation_onnadirs_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onnadirs_baseline.ipynb">demo_evaluation_onnadirs_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>No Calib</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">4.041</td>
       <td style="text-align: right">NaN</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onnadirs_baseline.ipynb">demo_evaluation_onnadirs_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onnadirs_baseline.ipynb">demo_evaluation_onnadirs_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Baseline</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.218</td>
       <td style="text-align: right">30.270</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onnadirs_baseline.ipynb">demo_evaluation_onnadirs_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/demo_evaluation_onnadirs_baseline.ipynb">demo_evaluation_onnadirs_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>CER-method</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.074</td>
       <td style="text-align: right">23.800</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/evaluation_onnadirs_CERmethod.ipynb">evaluation_onnadirs_CERmethod</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/evaluation_onnadirs_CERmethod.ipynb">evaluation_onnadirs_CERmethod</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Projmethod</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.037</td>
       <td style="text-align: right">25.647</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/evaluation_onnadirs_Projmethod.ipynb">evaluation_onnadirs_Projmethod</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/evaluation_onnadirs_Projmethod.ipynb">evaluation_onnadirs_Projmethod</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>CalCNN</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right"><strong>0.0134</strong></td>
       <td style="text-align: right"><strong>19.772</strong></td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/evaluation_onnadirs_CalCNN.ipynb">evaluation_onnadirs_CalCNN</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_nadirs/evaluation_onnadirs_CalCNN.ipynb">evaluation_onnadirs_CalCNN</a></td>
     </tr>
   </tbody>
 </table>
@@ -826,35 +825,35 @@ Finally this correction is added to the input interpolated field to produce the 
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.016</td>
       <td style="text-align: right">22.616</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>No Calib</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">4.078</td>
       <td style="text-align: right">NaN</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Baseline</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.171</td>
       <td style="text-align: right">38.132</td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/demo_evaluation_onindepnadir_baseline.ipynb">demo_evaluation_onindepnadir_baseline</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>CER-method</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.076</td>
       <td style="text-align: right"><strong>18.656</strong></td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/evaluation_onindepnadir_CERmethod.ipynb">evaluation_onnadirs_CERmethod</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/evaluation_onindepnadir_CERmethod.ipynb">evaluation_onnadirs_CERmethod</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>Projmethod</strong></td>
       <td style="text-align: right">SSH $[m]$</td>
       <td style="text-align: right">0.033</td>
       <td style="text-align: right"><strong>22.312</strong></td>
-      <td style="text-align: left"><a href="https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/evaluation_onindepnadir_Projmethod.ipynb">evaluation_onnadirs_Projmethod</a></td>
+      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS/blob/main/notebooks_evaluate_on_independant-nadir/evaluation_onindepnadir_Projmethod.ipynb">evaluation_onnadirs_Projmethod</a></td>
     </tr>
     <tr>
       <td style="text-align: left"><strong>CalCNN</strong></td>

@@ -9,7 +9,7 @@ header:
 
 widget2023a:
   title: "2023a Real SSH mapping data challenge in the Western Mediterranean Sea"
-  url: https://github.com/SammyMetref/DC_MapMed_OSE
+  url: https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE
   image: DC_2023a.png
   text: 'A challenge on mapping real altimetric data in the Mediterranean Sea created by Datlas and MEOM-IGE. [...]'
 

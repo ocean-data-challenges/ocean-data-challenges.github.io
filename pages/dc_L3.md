@@ -16,7 +16,7 @@ widget2022a:
 
 widget2022c:
   title: "2022c SWOT error calibration Gulf Stream"
-  url: https://github.com/SammyMetref/2022c_SWOT_error_calibration_GS
+  url: https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS
   image: DC_2022c.png
   text: 'A challenge on the SWOT satellite error calibration organised by Datlas, IGE, IMT Altlantique and CLS. [...]'
 
