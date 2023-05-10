@@ -10,7 +10,7 @@ header:
 breadcrumb: true
 ---
 
-## <center> Upcoming data challenges </center>
+## <center> <b> Upcoming data challenges </b> </center>
 
 
 ---
@@ -18,19 +18,30 @@ breadcrumb: true
 ### <span style="color: #00b2bb;"> <u> SSH mapping </u>  </span>
 
 <br> 
--  OSSE separation balanced motion/internal waves MITgcm [<span style="color: blue;"><b>CNES</b></span> with <span style="color: orange;"><b>Datlas</b></span>, IGE]
-
+<b> with conventional nadirs </b>
+<br>
 
 - OSE global SSH altimetry mapping (ongoing) [SLICING-CMEMS with <span style="color: orange;"><b>Datlas</b></span>, <span style="color: red;"><b>CLS</b></span>)
 
+<br>
+<b> with conventional nadirs and SWOT </b>
+<br> 
+
+- OSSE separation balanced motion/internal waves MITgcm [<span style="color: blue;"><b>CNES</b></span> with <span style="color: orange;"><b>Datlas</b></span>, IGE]
+
 - OSE mapping real SWOT on a Xover (Med?) ? [<span style="color: blue;"><b>CNES</b></span> ?]
+
+
+<br>
+<b> with conventional nadirs and SST </b>
+<br> 
 
 - OSE SSH-SST in Mediterranean Sea ?  
 
 ### <span style="color: #00b2bb;"> <u> SSH forecasting </u>  </span>
 <br>
 
-- OSE focusing on SSH forecast [<span style="color: blue;"><b>CNES</b></span> with <span style="color: orange;"><b>Datlas</b></span>, IGE]
+- OSE focusing on SSH forecast [<span style="color: blue;"><b>CNES</b></span> with <span style="color: orange;"><b>Datlas</b></span>, IGE, Lab-STICC]
 
 ### <span style="color: #00b2bb;"> <u> Currents mapping </u>  </span>
 <br>
