@@ -72,11 +72,6 @@
 #  side: right
 #  dropdown:
     
-- title: "ODC group"
-  url: "/team/"
-  side: right
-  dropdown:
-
  
 - title: "L3 preprocessing"
   url: "/dc_L3/"
@@ -116,6 +111,19 @@
   dropdown:
   - title: "OSE nadirs"
     url: "/dc_2023c/"
+
+
+- title: "Upcoming"
+  url: "/upcoming/"
+  side: right
+  dropdown:
+
+- title: "ODC group"
+  url: "/team/"
+  side: right
+  dropdown:
+
+
 
 #- title: "Map Mediterranean"
 #  url: "/dc_L4_Med/"
