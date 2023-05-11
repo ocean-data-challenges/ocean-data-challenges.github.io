@@ -38,7 +38,7 @@ breadcrumb: true
 <b> with conventional nadirs and SST </b>
 <br> 
 
-- OSE SSH-SST in Mediterranean Sea ?  
+- OSE SSH-SST in Mediterranean Sea (Fablet et al., Martin et al., Le Guillou et al., Buongiorno et al. ...)  ?  
 
 ### <span style="color: #00b2bb;"> <u> SSH forecasting </u>  </span>
 <br>
