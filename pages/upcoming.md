@@ -23,6 +23,8 @@ breadcrumb: true
 
 - OSE global SSH altimetry mapping (ongoing) [SLICING-CMEMS with <span style="color: orange;"><b>Datlas</b></span>, <span style="color: red;"><b>CLS</b></span>)
 
+- OSE nadirs in Mediterranean Sea for 4D reconstructions [4DMed-Sea, ESA with <span style="color: orange;"><b>Datlas</b></span>, <span style="color: red;"><b>CLS</b></span>]
+
 <br>
 <b> with conventional nadirs and SWOT </b>
 <br> 
