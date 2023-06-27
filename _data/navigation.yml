@@ -118,6 +118,11 @@
   side: right
   dropdown:
 
+- title: "Articles"
+  url: "/articles/"
+  side: right
+  dropdown:
+
 - title: "ODC group"
   url: "/team/"
   side: right

@@ -164,6 +164,20 @@
             
             
               <li class="divider"></li>
+              <li><a  href="http://localhost:4000/articles/">Articles</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
               <li><a  href="http://localhost:4000/team/">ODC group</a></li>
 
             
@@ -348,6 +362,12 @@
               </li>
               <li class="divider"></li>
             
+          
+        
+
+              
+
+          
           
         
 

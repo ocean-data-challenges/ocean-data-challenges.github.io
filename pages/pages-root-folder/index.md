@@ -19,10 +19,16 @@ widget2:
   image: odc_frontpage2.png
   text: 'The efforts made to create these data challenges were only possible thanks to the fundings of several projects [...]'
 widget3:
-  title: "The ODC group"
-  url: /team/
+  title: "Related articles"
+  url: /articles/
   image: odc_frontpage3.png
-  text: 'We are a group of French scientists from different research teams and companies [...]'
+  text: 'Here are listed the published scientific articles related to the data challenges [...]'
+
+#widget3:
+#  title: "The ODC group"
+#  url: /team/
+#  image: odc_frontpage3.png
+#  text: 'We are a group of French scientists from different research teams and companies [...]'
 
 #
 # To make internal links, just use a permalink like this
