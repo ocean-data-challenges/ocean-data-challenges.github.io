@@ -53,17 +53,36 @@ homepage: true
 <center>
 <p float="center">
 
-<a href="https://www.datlas.fr"><img src="/images/datlas_logo_texte.png" width="200" />  
+<a href="https://www.datlas.fr"><img src="/images/datlas_logo_texte.png" width="100" />  
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   
 
-<a href="https://www.cls.fr"><img src="/images/CLS_logo.png " width="200" />   
+<a href="https://www.cls.fr"><img src="/images/CLS_logo.png " width="100" />   
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
-<a href="https://www.ige-grenoble.fr"><img src="/images/logo_ige.jpg" width="200" />   
+<a href="https://www.ige-grenoble.fr"><img src="/images/logo_ige.jpg" width="100" />   
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
-<a href="https://www.esa.int"><img src="/images/logo_ESA.png" width="200" />  
+<a href="https://www.imt-atlantique.fr"><img src="/images/IMT-Atlantique.jpg" width="100" />
 
+<br>
+
+<br>
+
+<a href="https://www.esa.int"><img src="/images/logo_ESA.png" width="100" />
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+<a href="https://marine.copernicus.eu/news/cmems-service-evolution-projects"><img src="/images/logo_SE-CMEMS.png" width="100" />
+
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+<a href="https://www.cnes.fr"><img src="/images/partners-CNES.png" width="100" />
+
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+<a href="https://www.cnrs.fr"><img src="/images/partners-CNRS.png" width="100" />
