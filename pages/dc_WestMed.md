@@ -7,6 +7,7 @@ permalink: "/dc_WestMed/"
 header:
    image_fullwidth: "odc-banner.jpg" 
 
+
 widget2023a:
   title: "2023a Real SSH mapping data challenge in the Western Mediterranean Sea"
   url: https://github.com/SammyMetref/DC_MapMed_OSE
@@ -15,6 +16,9 @@ widget2023a:
 
 
 --- 
+
+
+# Data challenges in the Californian Current
 
   
 ---

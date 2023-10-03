@@ -8,7 +8,8 @@ header:
    image_fullwidth: "odc-banner.jpg" 
 
 
-widget2023b:
+
+widget2023a:
   title: "2023b High frequency dynamic mapping data dhallenge in California Xover"
   url: https://github.com/SammyMetref/2023b_SSHmapping_HF_California
   image: DC_2023b.png
@@ -17,5 +18,7 @@ widget2023b:
 
 --- 
 
+
+# Data challenges in the Western Mediterranean
   
 ---
