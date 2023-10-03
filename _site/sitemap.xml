@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 63 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 64 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
 	<loc>http://localhost:4000/404.html</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -22,7 +22,7 @@
 	<url>
 	<loc>http://localhost:4000/about/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -37,7 +37,7 @@
 	<url>
 	<loc>http://localhost:4000/blog/archive/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -52,7 +52,7 @@
 	<url>
 	<loc>http://localhost:4000/articles/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -69,7 +69,7 @@
 	<url>
 	<loc>http://localhost:4000/atom.xml</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -86,7 +86,7 @@
 	<url>
 	<loc>http://localhost:4000/code-data/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -101,7 +101,7 @@
 	<url>
 	<loc>http://localhost:4000/concept/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -116,7 +116,7 @@
 	<url>
 	<loc>http://localhost:4000/contact/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -131,7 +131,7 @@
 	<url>
 	<loc>http://localhost:4000/datachallenges/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -146,7 +146,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2020a/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -161,7 +161,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2021a/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -176,7 +176,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2022a/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -191,7 +191,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2022b/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -206,7 +206,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2022c/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -221,7 +221,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2023a/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -236,7 +236,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2023b/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -251,7 +251,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_2023d/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -266,7 +266,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_Cali/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -281,7 +281,22 @@
 	<url>
 	<loc>http://localhost:4000/dc_GS/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/dc_Glob/</loc>
+	
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -296,7 +311,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_L3/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -311,7 +326,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_L4_Cali/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -326,7 +341,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_L4_GS/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -341,7 +356,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_L4_Glob/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -356,7 +371,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_L4_Med/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -371,7 +386,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_L4_QG/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -386,7 +401,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_L4_Reg/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -401,7 +416,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_NorthAtl/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -416,7 +431,7 @@
 	<url>
 	<loc>http://localhost:4000/dc_WestMed/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -431,7 +446,7 @@
 	<url>
 	<loc>http://localhost:4000/expertise/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -446,7 +461,7 @@
 	<url>
 	<loc>http://localhost:4000/feed.xml</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -461,7 +476,7 @@
 	<url>
 	<loc>http://localhost:4000/humans.txt</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -476,7 +491,7 @@
 	<url>
 	<loc>http://localhost:4000/blog/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -491,7 +506,7 @@
 	<url>
 	<loc>http://localhost:4000/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -506,7 +521,7 @@
 	<url>
 	<loc>http://localhost:4000/join-us/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -521,7 +536,7 @@
 	<url>
 	<loc>http://localhost:4000/ml/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -536,7 +551,7 @@
 	<url>
 	<loc>http://localhost:4000/otherdc/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -551,7 +566,7 @@
 	<url>
 	<loc>http://localhost:4000/projects0/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -566,7 +581,7 @@
 	<url>
 	<loc>http://localhost:4000/projects/slicing/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -581,7 +596,7 @@
 	<url>
 	<loc>http://localhost:4000/robots.txt</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -600,7 +615,7 @@
 	<url>
 	<loc>http://localhost:4000/sitemap.xml</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -617,7 +632,7 @@
 	<url>
 	<loc>http://localhost:4000/team/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -632,7 +647,7 @@
 	<url>
 	<loc>http://localhost:4000/team/AA/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -647,7 +662,7 @@
 	<url>
 	<loc>http://localhost:4000/team/AAd/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -662,7 +677,7 @@
 	<url>
 	<loc>http://localhost:4000/team/CU/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -677,7 +692,7 @@
 	<url>
 	<loc>http://localhost:4000/team/EC/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -692,7 +707,7 @@
 	<url>
 	<loc>http://localhost:4000/team/FLG/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -707,7 +722,7 @@
 	<url>
 	<loc>http://localhost:4000/team/JJ/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -722,7 +737,7 @@
 	<url>
 	<loc>http://localhost:4000/team/JLS/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -737,7 +752,7 @@
 	<url>
 	<loc>http://localhost:4000/team/MB/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -752,7 +767,7 @@
 	<url>
 	<loc>http://localhost:4000/team/MBe/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -767,7 +782,7 @@
 	<url>
 	<loc>http://localhost:4000/team/QF/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -782,7 +797,7 @@
 	<url>
 	<loc>http://localhost:4000/team/SL/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -797,7 +812,7 @@
 	<url>
 	<loc>http://localhost:4000/team/SM/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -812,7 +827,7 @@
 	<url>
 	<loc>http://localhost:4000/upcoming/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -827,7 +842,7 @@
 	<url>
 	<loc>http://localhost:4000/blog/page2/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -842,7 +857,7 @@
 	<url>
 	<loc>http://localhost:4000/blog/page3/</loc>
 	
-		<lastmod>2023-10-03T11:59:18+02:00</lastmod>
+		<lastmod>2023-10-03T12:03:47+02:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
