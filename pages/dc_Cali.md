@@ -11,7 +11,7 @@ header:
 
 widget2023a:
   title: "2023b High frequency dynamic mapping data dhallenge in California Xover"
-  url: https://github.com/SammyMetref/2023b_SSHmapping_HF_California
+  url: https://ocean-data-challenges.github.io/dc_2023b/
   image: DC_2023b.png
   text: 'A challenge on mapping high frequency SSH with artificial SWOT and nadir data in the Californian SWOT X-over created by Datlas and MEOM-IGE. [...]'
 
