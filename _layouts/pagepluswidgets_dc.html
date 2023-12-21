@@ -40,6 +40,15 @@ format: page-fullwidth
 </div><!-- /#header-home -->
 
 
+{% for datachallenge in site.data.datachallenges_yml %}
+   {% if datachallenge.region == page.region %}
+     {% assign target_id = page.region %}
+     {% assign datachallenge = site.data.datachallenges_yml | where: "id", target_id | first %}
+   {% endif %}
+{% endfor %}
+
+ <b> <a href={{ datachallenge.url-readthedocs }}>{{ datachallenge.name }}</a> </b></li>
+
 {% comment %}
 *
 * First check, if widget is empty or not by checking if there is a title

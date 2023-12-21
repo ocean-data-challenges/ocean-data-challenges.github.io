@@ -16,15 +16,48 @@ format: frontpage
 *
 {% endcomment %}
 
+
+{% comment %}
+*<div class="hover_img">
+*     <a href="#"> -------- <span><img src="images/odc_mballaro.jpeg" alt="image" height="100" /></span></a>
+*</div>
+{% endcomment %}
+
+
 <center>
-<div id="image_map"> <map name="map_example"> <area href="https://ocean-data-challenges.github.io/dc_GS/" target="_blank" alt="DC-GulfStream" shape=poly coords="310,155, 310,135, 340,135, 340,155"> <area href="https://ocean-data-challenges.github.io/dc_WestMed/" target="_blank" alt="DC-Western Mediterranean" shape=poly coords="490,150, 490,115, 530,115, 530,150"> <area href="https://ocean-data-challenges.github.io/dc_Cali/" target="_blank" alt="DC-Californian Current" shape=poly coords="150,165, 150,145, 165,145, 165,165"> <area href="https://ocean-data-challenges.github.io/dc_NorthAtl/" target="_blank" alt="DC-North Atlantic" shape=poly coords="225,220, 225,45, 475,45, 475,220"> <area href="https://ocean-data-challenges.github.io/dc_Glob/" target="_blank" alt="DC-Global" shape=poly coords="0,1000, 0,0, 1000,0, 1000,1000"> <img src="../images/dc_2023_ose_global_duacs_sla_map.png" alt="image map example" width=1000 height=632 usemap="#map_example"></map> </div> </center>
+<div id="image_map"> <map name="map_example"> <area href="https://ocean-data-challenges.github.io/dc_GS/" target="_blank" alt="DC-GulfStream" shape=poly coords="310,155, 310,135, 340,135, 340,155"> <area href="https://ocean-data-challenges.github.io/dc_WestMed/" target="_blank" alt="DC-Western Mediterranean" shape=poly coords="490,150, 490,115, 530,115, 530,150"> <area href="https://ocean-data-challenges.github.io/dc_Cali/" target="_blank" alt="DC-Californian Current" shape=poly coords="150,165, 150,145, 165,145, 165,165"> <area href="https://ocean-data-challenges.github.io/dc_NorthAtl/" target="_blank" alt="DC-North Atlantic" shape=poly coords="225,220, 225,45, 475,45, 475,220"> <area href="https://ocean-data-challenges.github.io/dc_Glob/" target="_blank" alt="DC-Global" shape=poly coords="0,1000, 0,0, 1000,0, 1000,1000"> <img src="../images/dc_2023_ose_global_duacs_sla_map.png" title="Gulf Stream" alt="image map example" width=1000 height=632 usemap="#map_example"></map> </div> </center>
 
 <hr>
 <center>
 <div class="font-size-h3 row t60"> <em><strong>If you are using one of the data challenges presented on this website, please cite the ODC group and the specific challenge that you have been using.</strong></em>  </div>
 </center>
 
+</br>
 
+</br>
+
+<div style="margin: auto; width: 450px; padding: 30px;">
+<b> Most recent data challenges </b>
+
+</br>
+
+{% assign target_id = "DC2023c" %}
+{% assign datachallenge = site.data.datachallenges_yml | where: "id", target_id | first %}
+
+<ul>
+  <li><b><a href="{{ datachallenge.url-readthedocs }}">{{ datachallenge.name }}</a></b></li>
+</ul>
+
+</br>
+<ul>
+{% for datachallenge in site.data.datachallenges_yml %}
+   {% if datachallenge.creationdate == 2024 %}
+     <li> <b> <a href={{ datachallenge.url-readthedocs }}>{{ datachallenge.name }}</a> </b></li> 
+   {% endif %}
+{% endfor %}
+</ul>
+
+</div>
 
 <div class="row t60">
 	{% if page.widget1.title %}

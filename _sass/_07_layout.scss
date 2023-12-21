@@ -40,7 +40,11 @@ body.video cite a, { color: #fff; }
 body.video cite a:visited, { color: #fff; }
 body.video cite { color: #fff; }
 
-
+/* Hovering images
+------------------------------------------------------------------- */
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
 
 /* Navigation
 ------------------------------------------------------------------- */
