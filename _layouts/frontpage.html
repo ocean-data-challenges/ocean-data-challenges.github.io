@@ -53,6 +53,7 @@ format: frontpage
 {% for datachallenge in site.data.datachallenges_yml %}
    {% if datachallenge.region == page.region %}
      <li> <b> <a href={{ datachallenge.url-readthedocs }}>{{ datachallenge.name }}</a> </b></li> 
+     <li> <b> <a>{{ page.region }}</a> </b></li> 
    {% endif %}
 {% endfor %}
 </ul>
