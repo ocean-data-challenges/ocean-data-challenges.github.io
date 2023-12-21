@@ -6,7 +6,7 @@ breadcrumb: true
 permalink: "/dc_WestMed/"
 header:
    image_fullwidth: "odc-banner.jpg" 
-region: "Mediterranean
+region: "Mediterranean"
 
 widget2023a:
   title: "2023a Real SSH mapping data challenge in the Western Mediterranean Sea"
