@@ -19,15 +19,6 @@ widget2023a:
 # Data challenges in the Californian current 
 
 
-</br>
-<ul>
-{% for datachallenge in site.data.datachallenges_yml %}
-   {% if datachallenge.creationdate == 2024 %}
-     <li> <b> <a href={{ datachallenge.url-readthedocs }}>{{ datachallenge.region }}</a> </b></li>
-   {% endif %}
-{% endfor %}
-</ul>
-
 
 
 ---
