@@ -6,6 +6,7 @@ breadcrumb: true
 permalink: "/dc_Cali/"
 header:
    image_fullwidth: "odc-banner.jpg" 
+region: "Californian Current"
 
 widget2023a:
   title: "2023b High frequency dynamic mapping data challenge in California Xover"
