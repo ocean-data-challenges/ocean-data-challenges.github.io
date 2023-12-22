@@ -39,46 +39,54 @@ format: page-fullwidth
     </div><!-- /.row -->
 </div><!-- /#header-home -->
 
-
-{% for datachallenge in site.data.datachallenges_yml %}
+<div class="row t60">
+ {% for datachallenge in site.data.datachallenges_yml %}
    {% if datachallenge.region == page.region %}
      {% assign target_id = page.region %}
      {% assign datachallenge = site.data.datachallenges_yml | where: "id", target_id | first %}
-     {% for dcwidget in site.data.dc_widgets %}
-        {% if datachallenge.widgetname == dcwidget.title %} 
-           {% include _frontpage-widget.html widget=dcwidget %}
-        {% endif %}
-     {% endfor %}
+     {% include _frontpage-widget.html widget=datachallenge %}
    {% endif %}
-{% endfor %}
+ {% endfor %}
+</div><!-- /.row -->
 
- <b> <a href={{ datachallenge.url-readthedocs }}>{{ dcwidget.title }}</a> </b></li>
+<div class="row t60">
+ {% for datachallenge in site.data.datachallenges_yml %}
+   {% if datachallenge.experiment == page.experiment %}
+     {% assign target_id = page.experiment %}
+     {% assign datachallenge = site.data.datachallenges_yml | where: "id", target_id | first %}
+     {% include _frontpage-widget.html widget=datachallenge %}
+   {% endif %}
+ {% endfor %}
+</div><!-- /.row -->
+
 
 {% comment %}
 *
 * First check, if widget is empty or not by checking if there is a title
 *
+* 
+*{% if page.widget2023a.title %} 
+*<div class="font-size-h2 row t60"> 2023</div>
+*
+*
+*<div class="row t60">  
+*	{% if page.widget2023a.title %}
+*		{% include _frontpage-widget.html widget=page.widget2023a %}
+*	{% endif %}
+*
+*	{% if page.widget2023b.title %}
+*		{% include _frontpage-widget.html widget=page.widget2023b %}
+*	{% endif %}
+*
+*	{% if page.widget2023c.title %}
+*		{% include _frontpage-widget.html widget=page.widget2023c %}
+*	{% endif %}	
+*</div><!-- /.row -->
+*{% endif %}
+*
 {% endcomment %}
- 
-{% if page.widget2023a.title %} 
-<div class="font-size-h2 row t60"> 2023</div>
 
-<div class="row t60">  
-	{% if page.widget2023a.title %}
-		{% include _frontpage-widget.html widget=page.widget2023a %}
-	{% endif %}
-
-	{% if page.widget2023b.title %}
-		{% include _frontpage-widget.html widget=page.widget2023b %}
-	{% endif %}
-
-	{% if page.widget2023c.title %}
-		{% include _frontpage-widget.html widget=page.widget2023c %}
-	{% endif %}	
-</div><!-- /.row -->
-{% endif %}
-
-
+{% comment %}
 {% if page.widget2022a.title %} 
 <div class="font-size-h2 row t60"> 2022 </div>
 
@@ -99,6 +107,7 @@ format: page-fullwidth
 	
 </div><!-- /.row -->
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 *
@@ -106,6 +115,7 @@ format: page-fullwidth
 *
 {% endcomment %}
 
+{% comment %}
 {% if page.widget2021a.title %} 
 <div class="font-size-h2 row t60"> 2021 (BOOST-SWOT, IGE)</div>
 
@@ -123,6 +133,7 @@ format: page-fullwidth
 	{% endif %}	
 </div><!-- /.row -->
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 
@@ -131,6 +142,7 @@ format: page-fullwidth
 *
 {% endcomment %}
 
+{% comment %}
 {% if page.widget2020a.title %} 
 <div class="font-size-h2 row t60"> 2020 (BOOST-SWOT, IGE)</div>
 
@@ -149,7 +161,7 @@ format: page-fullwidth
 </div><!-- /.row -->
 {% endif %}
 
-
+{% endcomment %}
 
 {% comment %}
 *

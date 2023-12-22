@@ -6,6 +6,8 @@ breadcrumb: true
 permalink: "/dc_L4_QG/"
 header:
    image_fullwidth: "odc-banner.jpg" 
+experiment: "map_toy_model"
+region: ""
 
 
 widget2022a:
