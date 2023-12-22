@@ -44,10 +44,15 @@ format: page-fullwidth
    {% if datachallenge.region == page.region %}
      {% assign target_id = page.region %}
      {% assign datachallenge = site.data.datachallenges_yml | where: "id", target_id | first %}
+     {% for dcwidget in site.data.dc_widgets %}
+        {% if datachallenge.widgetname == dcwidget.title %} 
+           {% include _frontpage-widget.html widget=dcwidget %}
+        {% endif %}
+     {% endfor %}
    {% endif %}
 {% endfor %}
 
- <b> <a href={{ datachallenge.url-readthedocs }}>{{ datachallenge.name }}</a> </b></li>
+ <b> <a href={{ datachallenge.url-readthedocs }}>{{ dcwidget.title }}</a> </b></li>
 
 {% comment %}
 *
