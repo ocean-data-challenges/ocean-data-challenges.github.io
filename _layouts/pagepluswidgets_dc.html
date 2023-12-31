@@ -41,7 +41,7 @@ format: page-fullwidth
 
 <div class="row t60">
  {% for datachallenge in site.data.datachallenges_yml %}
-   {% if datachallenge.region == page.region %}
+   {% if datachallenge.region contains page.region %}
      {% assign target_id = page.region %}
      {% assign datachallenge = site.data.datachallenges_yml | where: "id", target_id | first %}
      {% include _frontpage-widget.html widget=datachallenge %}

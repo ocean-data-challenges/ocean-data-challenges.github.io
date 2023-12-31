@@ -43,6 +43,7 @@ a:focus {
 
 a:active {
     color: darken( $ci-1, 20% );
+    background-color: darken( $ci-1, 20% ); //blue;
 }
 
 

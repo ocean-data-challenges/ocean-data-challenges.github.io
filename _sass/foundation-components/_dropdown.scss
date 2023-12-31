@@ -45,7 +45,7 @@ $f-dropdown-font-color: $charcoal !default;
 $f-dropdown-font-size: rem-calc(14) !default;
 $f-dropdown-list-padding: rem-calc(5, 10) !default;
 $f-dropdown-line-height: rem-calc(18) !default;
-$f-dropdown-list-hover-bg: $smoke !default;
+$f-dropdown-list-hover-bg: red; //$smoke !default;
 $dropdown-mobile-default-float: 0 !default;
 
 // We use this to control the styles for when the dropdown has custom content.

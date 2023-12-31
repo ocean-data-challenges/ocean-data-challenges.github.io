@@ -1,43 +1,54 @@
 
+- id: DC2024c 
+  widgetname: 'widget2024c'
+  url: https://github.com/ocean-data-challenges/2024c_DC_4DMedSea-ESA
+  url-readthedocs: https://2024c-dc-4dmedsea-esa.readthedocs.io
+  experiment: "ssh_mapping"
+  title: "2024-DC 4DMedSea ESA mapping OSE"
+  creationdate: 2024
+  image: DC_2023a.png
+  region: "Mediterranean"
+  
 - id: DC2024a 
   url: https://github.com/ocean-data-challenges/2024_DC_WOC
   url-readthedocs: https://2024-dc-woc-esa.readthedocs.io
-  experiment: "currents_regional_mapping"
-  title: "2024a WOC data challenge currents mapping"
+  experiment: "current_mapping"
+  title: "2024-DC WOC currents mapping OSE"
   creationdate: 2024
   image: DC_2023a.png
-  region: "Other region"
+  region: "North Atlantic, Mediterranean, Agulhas"
   widgetname: 'widget2024a'
   
   
 - id: DC2023d
   widgetname: 'widget2023d'
-  title: "2023 DC global altimetry mapping OSE"
-  experiment: "ssh_global_mapping"
+  title: "2023-DC global altimetry mapping OSE"
+  experiment: "ssh_mapping"
   creationdate: 2023
+  region: "Global"
   url: https://github.com/ocean-data-challenges/2023a_SSH_mapping_OSE
   url-readthedocs: https://2023a-ssh-mapping-ose.readthedocs.io
   image: DC_2023d.png
   text: 'A challenge on real conventional nadir mapping at global scales created by Datlas and CLS for the SLICING project (CMEMS). [...]'
   
 - id: DC2023c 
-  url: https://github.com/ocean-data-challenges/2023a_SSH_mapping_OSE
-  url-readthedocs: https://2023a-ssh-mapping-ose.readthedocs.io
-  experiment: "ssh_regional_mapping"
+  url: https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california
+  url-readthedocs: https://2023b-sshmapping-hf-california.readthedocs.io
+  experiment: "ssh_mapping"
   creationdate: 2023
   region: "Californian Current"
   widgetname: 'widget2023d' 
-  title: "2023b High frequency dynamic mapping data challenge in California Xover" 
+  title: "2023-DC SSH HF mapping in California" 
   image: DC_2023b.png
   text: 'A challenge on mapping high frequency SSH with artificial SWOT and nadir data in the Californian SWOT X-over created by Datlas and MEOM-IGE. [...]'
   
 - id: DC2023a 
   widgetname: 'widget2023a'
-  title: "2023a Real SSH mapping data challenge in the Western Mediterranean Sea"
-  experiment: "ssh_regional_mapping"
+  title: "2023-DC SSH mapping in the Western Mediterranean Sea OSE"
+  experiment: "ssh_mapping"
   creationdate: 2023
-  url: https://ocean-data-challenges.github.io/dc_2023a/
-  url-readthedocs: https://google.com
+  url: https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE
+  url-readthedocs: https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE
   region: "Western Mediterranean"
   image: DC_2023a.png
   text: 'A challenge on mapping real altimetric data in the Mediterranean Sea created by Datlas and MEOM-IGE. [...]'
@@ -45,7 +56,7 @@
 
 - id: DC2022c
   widgetname: 'widget2022c'
-  title: "2022c SWOT error calibration Gulf Stream"
+  title: "2022-DC SWOT error calibration Gulf Stream"
   experiment: "l3_processing"
   creationdate: 2022
   region: "Gulfstream"
@@ -55,8 +66,8 @@
 
 - id: DC2022b
   widgetname: 'widget2022b'
-  title: "2022b Altimetric mapping on a quasi-geostrophy model "
-  experiment: "map_toy_model"
+  title: "2022-DC Altimetric mapping on a quasi-geostrophy model "
+  experiment: "ssh_mapping"
   region: "None"
   creationdate: 2022
   url: https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping
@@ -68,7 +79,7 @@
   experiment: "l3_processing"
   region: "North Atlantic"
   creationdate: 2022
-  title: "2022a SWOT karin error filtering "
+  title: "2022-DC SWOT karin error filtering North Atlantic"
   url: https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering
   image: DC_2022a.png
   text: 'A challenge on the SWOT Karin instrumental error filtering organised by Datlas, IMT Altlantique and CLS. [...]'
@@ -77,8 +88,8 @@
 
 - id: DC2021a
   widgetname: 'widget2021a'
-  title: "2021a SSH Mapping Data Challenge"
-  experiment: "ssh_regional_mapping"
+  title: "2021-DC SSH Mapping in the Gulf Stream OSE"
+  experiment: "ssh_mapping"
   creationdate: 2021
   url: https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE
   image: DC_2021a.png
@@ -88,8 +99,8 @@
 
 - id: DC2020a 
   widgetname: 'widget2020a'
-  title: "2020a SSH Mapping Data Challenge"
-  experiment: "ssh_regional_mapping"
+  title: "2020-DC SSH Mapping in the Gulf Stream OSSE"
+  experiment: "ssh_mapping"
   creationdate: 2020
   url: https://ocean-data-challenges.github.io/dc_2020a/
   image: DC_2020a.png

@@ -26,14 +26,14 @@ $body-bg: 			#fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1: #4da9b4; //#334D5C;		// dark turquoise
-$ci-2: #FFFF00;		// turquoise
+$ci-1: #1c4587; // #4da9b4; //#334D5C;		// dark turquoise
+$ci-2: #1c4587; //#FFFF00;		// turquoise
 $ci-3: #E27A3F;		// yellow
 $ci-4: #E27A3F;		// orange
 $ci-5: #DF4949;		// red
 $ci-6: #A1D044;     // green
-$ci-7: #4da9b4; //datlas green
-$ci-8: #faed4f ; //datlas yellow
+$ci-7: #1c4587; //#4da9b4; //datlas green
+$ci-8: #1c4587; //#faed4f ; //datlas yellow
 $ci-9: #2D3F74 ; //datlas yellow
 
 
@@ -82,12 +82,12 @@ $topbar-bg: $topbar-bg-color;
 $topbar-dropdown-toggle-color: $ci-1;
 
 $topbar-link-color: #000;
-$topbar-link-color-hover: #000;
-$topbar-link-color-active: #000;
-$topbar-link-color-active-hover: #000;
+$topbar-link-color-hover: #FFF;
+$topbar-link-color-active: #FFF;
+$topbar-link-color-active-hover: #FFF;
 
 $topbar-dropdown-label-color: $ci-2;
-$topbar-dropdown-link-bg-hover: $ci-7;
+$topbar-dropdown-link-bg-hover: #3c78d8;
 
 $topbar-link-bg-active: $ci-7; // Active Navigation Link
 $topbar-link-bg-hover: $ci-8;
@@ -95,7 +95,7 @@ $topbar-link-bg-active-hover: $ci-7;
 
 
 $topbar-dropdown-bg: $ci-7; // Background Mobile Navigation
-$topbar-dropdown-link-color: #000;
+$topbar-dropdown-link-color: #FFF;
 $topbar-dropdown-link-bg: $ci-8;
 
 $topbar-menu-link-color-toggled: $ci-1;

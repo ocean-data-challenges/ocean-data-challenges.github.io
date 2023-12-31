@@ -1,3 +1,4 @@
+
 - title: "ODC"
   url: "/index.html"
   side: left
@@ -16,6 +17,7 @@
 - title: "Data challenges"
   url: "/concept/"
   side: left
+  dynamic: false
   dropdown:
   - title: "Description"
     url: "/concept/"
@@ -72,45 +74,35 @@
 #  side: right
 #  dropdown:
     
- 
 - title: "L3 preprocessing"
   url: "/dc_L3/"
-  side: left
+  side: left 
+  dynamic: true
+  experiment: 'l3_processing'
   dropdown: 
-  - title: "SWOT: OSSE Filtering North Atlantic"
-    url: "/dc_2022a/"
-  - title: "SWOT: OSSE Calibration Gulf Stream"
-    url: "/dc_2022c/"
+  - title:
+    url: 
 
 
-- title: "Toy Model Mapping"
-  url: "/dc_L4_QG/"
+- title: "SSH Mapping"
+  url: "/dc_L4_SSH/"
+  side: left 
+  dynamic: true
+  experiment: 'ssh_mapping'
+  dropdown: 
+  - title:
+    url:
+  
+
+
+- title: "Current Mapping"
+  url: "/dc_L4_Current/"
   side: left
-  dropdown:
-  - title: "QG simulation: OSSE SSH"
-    url: "/dc_2022b/"
-
-
-- title: "SSH Regional Mapping"
-  url: "/dc_L4_Reg/"
-  side: left
-  dropdown:
-  - title: "Gulf Stream: OSSE SWOT/nadirs"
-    url: "/dc_2020a/"
-  - title: "Gulf Stream: OSE nadirs"
-    url: "/dc_2021a/"
-  - title: "Mediterranean: OSE nadirs"
-    url: "/dc_2023a/"
-  - title: "Californian Xover: OSSE SWOT/nadirs high-frequency"
-    url: "/dc_2023b/"
-
-
-- title: "SSH Global Mapping"
-  url: "/dc_L4_Glob/"
-  side: left
-  dropdown:
-  - title: "OSE nadirs"
-    url: "/dc_2023d/"
+  dynamic: true
+  experiment: 'current_mapping'
+  dropdown: 
+  - title:
+    url: 
 
 
 - title: "Upcoming"
