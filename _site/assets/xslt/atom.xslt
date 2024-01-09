@@ -270,7 +270,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L3/">Level 3 SWOT processing</a>
+              <a  href="http://localhost:4000/dc_L3/">Level 3 SWOT</a>
               <ul class="dropdown">
 
               
@@ -325,7 +325,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_SSH/">Level 4 SSH processing</a>
+              <a  href="http://localhost:4000/dc_L4_SSH/">Level 4 SSH</a>
               <ul class="dropdown">
 
               
@@ -415,7 +415,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_Current/">Level 4 Currents processing</a>
+              <a  href="http://localhost:4000/dc_L4_Current/">Level 4 Currents</a>
               <ul class="dropdown">
 
               

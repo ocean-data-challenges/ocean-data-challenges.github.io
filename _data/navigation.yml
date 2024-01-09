@@ -20,7 +20,7 @@
     url: "/articles/" 
   
     
-- title: "Level 3 SWOT processing"
+- title: "Level 3 SWOT"
   url: "/dc_L3/"
   side: left 
   dynamic: true
@@ -30,7 +30,7 @@
     url: 
 
 
-- title: "Level 4 SSH processing"
+- title: "Level 4 SSH"
   url: "/dc_L4_SSH/"
   side: left 
   dynamic: true
@@ -39,7 +39,7 @@
   - title:
     url:
    
-- title: "Level 4 Currents processing"
+- title: "Level 4 Currents"
   url: "/dc_L4_Current/"
   side: left
   dynamic: true
