@@ -15,7 +15,7 @@
   creationdate: 2024 
   experiment: "current_mapping"
   region: "North Atlantic, Mediterranean, Agulhas"
-  url: https://github.com/ocean-data-challenges/2024_DC_WOC
+  url: https://github.com/ocean-data-challenges/2024_DC_WOC-ESA
   url-readthedocs: https://2024-dc-woc-esa.readthedocs.io
   url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2024_DC_WOC-ESA/catalog.html
   image: DC_2024a.jpg
@@ -40,7 +40,7 @@
   creationdate: 2023 
   experiment: "ssh_mapping"
   region: "Californian Current"
-  url: https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california
+  url: https://github.com/ocean-data-challenges/2023b_SSHmapping_HF_California
   url-readthedocs: https://2023b-sshmapping-hf-california.readthedocs.io
   url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2023b_SSHmapping_HF_California/catalog.html
   image: DC_2023b.png
@@ -112,7 +112,7 @@
   creationdate: 2020 
   experiment: "ssh_mapping"
   region: "Gulfstream"
-  url: https://ocean-data-challenges.github.io/dc_2020a/
+  url: https://github.com/ocean-data-challenges/2020a_SSH_mapping_NATL60
   url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2020a_SSH_mapping_NATL60/catalog.html
   image: DC_2020a.png
   text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps artificial nadir and SWOT satellite altimetry observations. '

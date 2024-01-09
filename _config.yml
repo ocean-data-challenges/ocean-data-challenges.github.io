@@ -52,7 +52,7 @@ urlimg: '/images/'
 #
 # Logo
 # logo: "logo_datlas_white_big.svg"
-logo: "odc-logo.jpg"
+# logo: "odc-logo.jpg"
 
 # Gems
 gems:

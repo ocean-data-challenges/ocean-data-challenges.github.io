@@ -354,7 +354,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california" target="_blank">2023-DC SSH HF mapping in California OSSE</a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2023b_SSHmapping_HF_California" target="_blank">2023-DC SSH HF mapping in California OSSE</a></li>
 
                
               
@@ -394,7 +394,7 @@
 
                           
 
-                          <li><a  href="https://ocean-data-challenges.github.io/dc_2020a/" target="_blank">2020-DC SSH Mapping in the Gulf Stream OSSE</a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2020a_SSH_mapping_NATL60" target="_blank">2020-DC SSH Mapping in the Gulf Stream OSSE</a></li>
 
                
               
@@ -426,7 +426,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2024_DC_WOC" target="_blank">2024-DC WOC currents mapping OSE</a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2024_DC_WOC-ESA" target="_blank">2024-DC WOC currents mapping OSE</a></li>
 
                
               
