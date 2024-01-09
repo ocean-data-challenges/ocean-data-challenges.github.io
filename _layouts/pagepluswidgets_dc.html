@@ -59,6 +59,13 @@ format: page-fullwidth
  {% endfor %}
 </div><!-- /.row -->
 
+{% if page.experiment == "all" and page.region == "all" %}
+ <div class="row t60">
+  {% for datachallenge in site.data.datachallenges_yml %}
+     {% include _frontpage-widget.html widget=datachallenge %}
+  {% endfor %}
+ </div><!-- /.row -->
+{% endif %}
 
 {% comment %}
 *

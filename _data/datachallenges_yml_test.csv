@@ -1,0 +1,5 @@
+id,widgetname,url,url-readthedocs,url-opendap,experiment,title,creationdate,image,region,text
+DC2024b,'widget2024b',https://github.com/ocean-data-challenges/2024c_DC_4DMedSea-ESA,https://2024c-dc-4dmedsea-esa.readthedocs.io,https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2024c_DC_4DMedSea-ESA/catalog.html,"ssh_mapping","2024-DC 4DMedSea ESA mapping OSE",2024,DC_2023a.png,"Mediterranean",'A challenge ESA - 4DMedSea project to provide SSH products in the Mediterranean for 4D reconstructions.'
+DC2024a,'widget2024a',https://github.com/ocean-data-challenges/2024_DC_WOC-ESA,https://2024-dc-woc-esa.readthedocs.io,https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2024_DC_WOC-ESA/catalog.html,"current_mapping","2024-DC WOC currents mapping OSE",2024,DC_2023a.png,"North Atlantic, Mediterranean, Agulhas",'A challenge ESA - World Ocean Current project to compare currents mapped products using various data types.'
+ 
+   

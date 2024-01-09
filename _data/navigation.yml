@@ -1,18 +1,9 @@
 
-- title: "ODC"
+- title: "ODC" 
   url: "/index.html"
   side: left
   dropdown:
-  
-#- title: "News"
-#  url: "/blog/"
-#  side: left
-#  dropdown:
-
-#- title: "About us"
-#  url: "/about-us/"
-#  side: left
-#  dropdown:
+   
 
 - title: "Data challenges"
   url: "/concept/"
@@ -21,60 +12,15 @@
   dropdown:
   - title: "Description"
     url: "/concept/"
-  - title: "Projects"
-    url: "/projects0/"
-  - title: "Other data challenges"
-    url: "/otherdc/"
-
-#- title: "About Us"
-#  url: "/about-us/"
-#  side: left
-#  dropdown:
-#  - title: "Our ambition"
-#    url: "/about-us/"
-#  - title: "Our values"
-#    url: "/about-us/"
-#  - title: "Funding agencies & partners"
-#    url: "/about-us/"
-
-# - title: "Clement Ubelmann "
- #   url: "/team/CU/"
- # - title: "Stephanie Leroux"
- #   url: "/team/SL/" 
- # - title: "Christine Andre"
- #   url: "/team/CA/"
- # - title: "Joseph Jenkins"
- #   url: "/team/JJ/" 
-# - title: "Sammy Metref"
-#    url: "/team/SM/" 
-# - title: "Laurent Brodeau"
-#    url: "/team/LB/" 
-#  - title: "Florian Leguillou"
-#    url: "/team/FL/" 
-#
-#- title: "Our Expertise"
-#  url: "/expertise/"
-#  side: left
-#  dropdown:
-#  - title: "Our services and products"
-#    url: "/expertise/"
-#  - title: "On-going activities"
-#    url: "/expertise/"
-#
-#- title: "Code & Data"
-#  url: "/code-data/"
-#  side: left
-#  dropdown:
-
-
-
-
-#- title: "Join us"
-#  url: "/join-us/"
-#  side: right
-#  dropdown:
+  - title: "All data challenges"
+    url: "/alldatachallenges/"
+  - title: "Datasets"
+    url: "/datasets/" 
+  - title: "Articles"
+    url: "/articles/" 
+  
     
-- title: "L3 preprocessing"
+- title: "Level 3 SWOT processing"
   url: "/dc_L3/"
   side: left 
   dynamic: true
@@ -84,7 +30,7 @@
     url: 
 
 
-- title: "SSH Mapping"
+- title: "Level 4 SSH processing"
   url: "/dc_L4_SSH/"
   side: left 
   dynamic: true
@@ -92,48 +38,37 @@
   dropdown: 
   - title:
     url:
-  
-
-
-- title: "Current Mapping"
+   
+- title: "Level 4 Currents processing"
   url: "/dc_L4_Current/"
   side: left
   dynamic: true
   experiment: 'current_mapping'
   dropdown: 
   - title:
-    url: 
+    url:  
 
+- title: "Participate"
+  url: "/participate/"
+  side: right
+  dropdown: 
+  
+- title: "Collaborate"
+  url: "/collaborate/"
+  side: right
+  dropdown: 
 
-- title: "Upcoming"
+ 
+- title: "More info on ODC"
   url: "/upcoming/"
   side: right
-  dropdown:
-
-- title: "Articles"
-  url: "/articles/"
-  side: right
-  dropdown:
-
-- title: "ODC group"
-  url: "/team/"
-  side: right
-  dropdown:
-
-
-
-#- title: "Map Mediterranean"
-#  url: "/dc_L4_Med/"
-#  side: left
-#  dropdown:
-#  - title: "OSE nadirs mapping Mediterranean"
-#    url: "/dc_2023a/"
-#
-#- title: "Map California"
-#  url: "/dc_L4_Cali/"
-#  side: left
-#  dropdown:
-#  - title: "OSSE SWOT/nadirs HF mapping Californian Xover"
-#    url: "/dc_2023b/"
-
+  dynamic: false
+  dropdown: 
+  - title: "The ODC group"
+    url: "/team/"
+  - title: "Contacts"
+    url: "/contacts/"
+  - title: "Fundings"
+    url: "/projects0/"
+  
 

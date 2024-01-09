@@ -139,7 +139,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/upcoming/">Upcoming</a></li>
+              <li><a  href="http://localhost:4000/participate/">Participate</a></li>
 
             
             
@@ -153,7 +153,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/articles/">Articles</a></li>
+              <li><a  href="http://localhost:4000/collaborate/">Collaborate</a></li>
 
             
             
@@ -166,10 +166,30 @@
           
             
             
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/team/">ODC group</a></li>
+               <li class="divider"></li>
+               <li class="has-dropdown">
+                <a  href="http://localhost:4000/upcoming/">More info on ODC</a>
 
-            
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/team/">The ODC group</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/contacts/">Contacts</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/projects0/">Fundings</a></li>
+                    
+                  </ul>
+
+               </li>
             
           
         
@@ -215,12 +235,17 @@
           
                       
 
-                      <li><a  href="http://localhost:4000/projects0/">Projects</a></li>
+                      <li><a  href="http://localhost:4000/alldatachallenges/">All data challenges</a></li>
                     
           
                       
 
-                      <li><a  href="http://localhost:4000/otherdc/">Other data challenges</a></li>
+                      <li><a  href="http://localhost:4000/datasets/">Datasets</a></li>
+                    
+          
+                      
+
+                      <li><a  href="http://localhost:4000/articles/">Articles</a></li>
                     
                   </ul>
 
@@ -240,7 +265,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L3/">L3 preprocessing</a>
+              <a  href="http://localhost:4000/dc_L3/">Level 3 SWOT processing</a>
               <ul class="dropdown">
 
               
@@ -295,7 +320,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_SSH/">SSH Mapping</a>
+              <a  href="http://localhost:4000/dc_L4_SSH/">Level 4 SSH processing</a>
               <ul class="dropdown">
 
               
@@ -324,7 +349,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california" target="_blank">2023-DC SSH HF mapping in California</a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california" target="_blank">2023-DC SSH HF mapping in California OSSE</a></li>
 
                
               
@@ -333,7 +358,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE" target="_blank">2023-DC SSH mapping in the Western Mediterranean Sea OSE</a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE" target="_blank">2023-DC SSH mapping in the Western Med Sea OSE</a></li>
 
                
               
@@ -344,7 +369,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping" target="_blank">2022-DC Altimetric mapping on a quasi-geostrophy model </a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping" target="_blank">2022-DC Altimetric mapping on a QG model </a></li>
 
                
               
@@ -385,7 +410,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_Current/">Current Mapping</a>
+              <a  href="http://localhost:4000/dc_L4_Current/">Level 4 Currents processing</a>
               <ul class="dropdown">
 
               
@@ -488,6 +513,8 @@
 <div class="font-size-h3 row t60"> <strong>To checkout the data challenges specific to a region click on the map !</strong>  </div>
 </center>
 
+<br>
+
 <style>
 body {
     margin: 0;
@@ -500,11 +527,15 @@ body {
 
   .highlight-area {
     position: absolute;
-    border: 2px solid red; /* Set the border style and color */
-    background-color: rgba(255, 0, 0, 0.1); /* Set the background color with transparency */
+    border: 2px solid blue; /* Set the border style and color */
+    background-color: rgba(28, 69, 135, 0.2); /* Set the background color with transparency */
     pointer-events: none; /* Make the rectangles non-interactive */
   }
 </style>
+
+
+
+
 
 <center>
   <div id="image_map">
@@ -522,128 +553,76 @@ body {
           
         
           
-            <area href="/dc_GS/" target="_blank" alt="DC - Gulf Stream" shape=poly coords="310,155, 310,130, 340,130, 155,340">
+            <!-- Splitting the coordinates and extracting individual values -->
 
-          
-        
-          
-        
-          
-        
-          
-            <area href="/dc_GS/" target="_blank" alt="DC - Gulf Stream" shape=poly coords="310,155, 310,130, 340,130, 155,340">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
-          
-        
-          
-            <area href="/dc_GS/" target="_blank" alt="DC - Gulf Stream" shape=poly coords="310,155, 310,130, 340,130, 155,340">
+            
+            
+            
+            
 
-          
-        
-      
-        
+            <area href="/dc_GS/" target="_blank" alt="DC - Gulf Stream" shape=rect coords="159.85,65.33,173.75,79.23">
           
         
           
-            <area href="/dc_NorthAtl/" target="_blank" alt="DC - North Atlantic" shape=poly coords="225,220, 225,50, 470,50, 220,470">
+        
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
 
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            <area href="/dc_NorthAtl/" target="_blank" alt="DC - North Atlantic" shape=poly coords="225,220, 225,50, 470,50, 220,470">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-            <area href="/dc_Med/" target="_blank" alt="DC - Mediterranean" shape=poly coords="485,165, 485,115, 580,115, 165,580">
+            
+            
+            
+            
 
+            <area href="/dc_GS/" target="_blank" alt="DC - Gulf Stream" shape=rect coords="159.85,65.33,173.75,79.23">
           
         
           
-            <area href="/dc_Med/" target="_blank" alt="DC - Mediterranean" shape=poly coords="485,165, 485,115, 580,115, 165,580">
+            <!-- Splitting the coordinates and extracting individual values -->
 
-          
-        
-          
-        
-          
-        
-          
-            <area href="/dc_Med/" target="_blank" alt="DC - Mediterranean" shape=poly coords="485,165, 485,115, 580,115, 165,580">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-            <area href="/dc_Cali/" target="_blank" alt="DC - Californian current" shape=poly coords="150,170, 150,145, 180,145, 170,180">
+            
+            
+            
+            
 
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
+            <area href="/dc_GS/" target="_blank" alt="DC - Gulf Stream" shape=rect coords="159.85,65.33,173.75,79.23">
           
         
       
@@ -651,35 +630,26 @@ body {
           
         
           
-            <area href="/dc_Agulhas/" target="_blank" alt="DC - Agulhas" shape=poly coords="540,370, 540,320, 595,320, 370,595">
+            <!-- Splitting the coordinates and extracting individual values -->
 
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-            <area href="/dc_Glob/" target="_blank" alt="DC Global" shape=poly coords="0,500, 0,0, 1000,0, 500,1000">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
+            
+            
+            
+            
+
+            <area href="/dc_NorthAtl/" target="_blank" alt="DC - North Atlantic" shape=rect coords="139.0,55.6,236.3,90.35">
           
         
           
@@ -693,47 +663,26 @@ body {
           
         
           
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_NorthAtl/" target="_blank" alt="DC - North Atlantic" shape=rect coords="139.0,55.6,236.3,90.35">
           
         
           
@@ -765,7 +714,156 @@ body {
       
         
           
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_Med/" target="_blank" alt="DC - Mediterranean" shape=rect coords="243.25,59.77,284.95,76.45">
+          
         
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_Med/" target="_blank" alt="DC - Mediterranean" shape=rect coords="243.25,59.77,284.95,76.45">
+          
+        
+          
+        
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_Med/" target="_blank" alt="DC - Mediterranean" shape=rect coords="243.25,59.77,284.95,76.45">
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_Cali/" target="_blank" alt="DC - Californian current" shape=rect coords="69.5,69.5,83.4,83.4">
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_Agulhas/" target="_blank" alt="DC - Agulhas" shape=rect coords="269.66,166.8,298.85,187.65">
           
         
           
@@ -791,115 +889,26 @@ body {
           
         
           
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_Glob/" target="_blank" alt="DC Global" shape=rect coords="0.0,0.0,500.4,250.2">
           
         
           
@@ -1095,58 +1104,6 @@ body {
       
         
           
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L3/" target="_blank" alt="DC - L3 SWOT" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-      
-        
-          
         
           
         
@@ -1172,9 +1129,6 @@ body {
         
           
         
-          
-            <area href="/dc_L4_Current/" target="_blank" alt="SSH Global Mapping" shape=poly coords=",, ,, ,, ,">
-
           
         
           
@@ -1216,22 +1170,13 @@ body {
       
         
           
-            <area href="/dc_L4_Med/" target="_blank" alt="DC - Map Mediterranean" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L4_Med/" target="_blank" alt="DC - Map Mediterranean" shape=poly coords=",, ,, ,, ,">
-
-          
         
           
         
           
         
           
-            <area href="/dc_L4_Med/" target="_blank" alt="DC - Map Mediterranean" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
@@ -1247,105 +1192,670 @@ body {
       
         
           
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
-          
         
-          
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
-          
-        
-          
-            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=poly coords=",, ,, ,, ,">
-
           
         
       
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
+          
+        
+      
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
-
+        
           
         
           
-            <area href="/dc_L4_SSH/" target="_blank" alt="DC - SSH Regional Mapping" shape=poly coords=",, ,, ,, ,">
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_Med/" target="_blank" alt="DC - Map Mediterranean" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_Med/" target="_blank" alt="DC - Map Mediterranean" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+        
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_Med/" target="_blank" alt="DC - Map Mediterranean" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+          
+            <!-- Splitting the coordinates and extracting individual values -->
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            <area href="/dc_L4_QG/" target="_blank" alt="Map Toy Models" shape=rect coords="250.2,125.1,250.2,125.1">
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
       
@@ -2076,9 +2586,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 310px; top: 130px; width: 30px; height: 25px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 158.745px; top: 64.055px; width: 13.925px; height: 13.925px;"></div>
           
         
           
@@ -2095,9 +2616,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 310px; top: 130px; width: 30px; height: 25px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 158.745px; top: 64.055px; width: 13.925px; height: 13.925px;"></div>
           
         
           
@@ -2110,9 +2642,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 310px; top: 130px; width: 30px; height: 25px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 158.745px; top: 64.055px; width: 13.925px; height: 13.925px;"></div>
           
         
       
@@ -2129,124 +2672,25 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 225px; top: 50px; width: 245px; height: 170px;"></div>
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
 
+            
+            
+            
+            
 
-            <!-- Splitting the coordinates and extracting individual values -->
             
             
             
             
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 225px; top: 50px; width: 245px; height: 170px;"></div>
-            
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
 
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 485px; top: 115px; width: 95px; height: 50px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 485px; top: 115px; width: 95px; height: 50px;"></div>
-            
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 137.8575px; top: 54.3075px; width: 97.475px; height: 34.8125px;"></div>
           
         
           
         
           
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 485px; top: 115px; width: 95px; height: 50px;"></div>
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
         
           
         
@@ -2264,458 +2708,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 150px; top: 145px; width: 30px; height: 25px;"></div>
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
 
+            
+            
+            
+            
 
-            <!-- Splitting the coordinates and extracting individual values -->
             
             
             
             
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 540px; top: 320px; width: 55px; height: 50px;"></div>
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
 
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 137.8575px; top: 54.3075px; width: 97.475px; height: 34.8125px;"></div>
           
         
           
@@ -2756,9 +2762,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 242.295px; top: 58.485px; width: 41.775px; height: 16.71px;"></div>
           
         
           
@@ -2771,240 +2788,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
 
+            
+            
+            
+            
 
-            <!-- Splitting the coordinates and extracting individual values -->
             
             
             
             
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
 
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 242.295px; top: 58.485px; width: 41.775px; height: 16.71px;"></div>
           
         
           
@@ -3021,9 +2818,730 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 242.295px; top: 58.485px; width: 41.775px; height: 16.71px;"></div>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+
+
+            <!-- Splitting the coordinates and extracting individual values -->
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 68.2325px; top: 68.2325px; width: 13.925px; height: 13.925px;"></div>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+
+
+            <!-- Splitting the coordinates and extracting individual values -->
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 268.7525px; top: 165.7075px; width: 29.2425px; height: 20.8875px;"></div>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+
+
+            <!-- Splitting the coordinates and extracting individual values -->
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: -1.3925px; top: -1.3925px; width: 501.3px; height: 250.65px;"></div>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
           
@@ -3048,9 +3566,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3063,9 +3592,24 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
+          
+        
+          
+        
           
         
           
@@ -3078,114 +3622,30 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
+        
           
         
           
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
         
           
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
         
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
-          
-        
-          
-
-
-            <!-- Splitting the coordinates and extracting individual values -->
-            
-            
-            
-            
-            
-            
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
-            
           
         
       
@@ -3200,9 +3660,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3215,9 +3686,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3230,9 +3712,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3245,9 +3738,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3260,9 +3764,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3275,9 +3790,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3290,9 +3816,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3305,9 +3842,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3320,9 +3868,20 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
           
         
           
@@ -3335,9 +3894,64 @@ body {
             
             
             
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
+
             
+            
+            
+            
+
+            
+            
+            
+            
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: 249.2575px; top: 123.9325px; width: 0.0px; height: 0.0px;"></div>
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
       
@@ -4047,7 +4661,7 @@ body {
       
 
 
-    <img src="../images/DC_2023a_logo_rtd.png" title="Global Image" alt="image map example" width=1000 height=632 usemap="#map_example">
+    <img src="../images/DC_2023a_logo_rtd.png" title="Global Image" alt="image map example" width=500 usemap="#map_example">
     </map>
 
   </div>
@@ -4061,7 +4675,7 @@ body {
 <div style="margin: auto; width: 450px; padding: 30px;">
 <hr>
 <center>
-<div class="font-size-h3 row t60"> <strong>Most recent data challenges</strong>  </div>
+<div class="font-size-h3 row t60"> <strong>Latest data challenges</strong>  </div>
 </center>
 
 </br>
@@ -4069,23 +4683,38 @@ body {
 <ul>
 
    
-     <li> <b> <a href=https://2024c-dc-4dmedsea-esa.readthedocs.io>2024-DC 4DMedSea ESA mapping OSE</a> </b></li> 
+     
+       <li> <b> <a href=https://2024c-dc-4dmedsea-esa.readthedocs.io>2024-DC 4DMedSea ESA mapping OSE</a> </b></li>
+     
+     </br> 
    
 
    
-     <li> <b> <a href=https://2024-dc-woc-esa.readthedocs.io>2024-DC WOC currents mapping OSE</a> </b></li> 
+     
+       <li> <b> <a href=https://2024-dc-woc-esa.readthedocs.io>2024-DC WOC currents mapping OSE</a> </b></li>
+     
+     </br> 
    
 
    
-     <li> <b> <a href=https://2023a-ssh-mapping-ose.readthedocs.io>2023-DC global altimetry mapping OSE</a> </b></li> 
+     
+       <li> <b> <a href=https://2023a-ssh-mapping-ose.readthedocs.io>2023-DC global altimetry mapping OSE</a> </b></li>
+     
+     </br> 
    
 
    
-     <li> <b> <a href=https://2023b-sshmapping-hf-california.readthedocs.io>2023-DC SSH HF mapping in California</a> </b></li> 
+     
+       <li> <b> <a href=https://2023b-sshmapping-hf-california.readthedocs.io>2023-DC SSH HF mapping in California OSSE</a> </b></li>
+     
+     </br> 
    
 
    
-     <li> <b> <a href=https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE>2023-DC SSH mapping in the Western Mediterranean Sea OSE</a> </b></li> 
+     
+       <li> <b> <a href=https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE>2023-DC SSH mapping in the Western Med Sea OSE</a> </b></li>
+     
+     </br> 
    
 
    
@@ -4125,8 +4754,10 @@ body {
 	
 	<h2 class="font-size-h3 t10">Data challenges</h2>
 	<p>The concept of data challenges is fairly new and originates from the artificial intelligence community. It is now used by [...]</p>
+	<p></p>
 	<p><a class="button tiny radius" href="http://localhost:4000/concept/">More ›</a></p>
 </div>
+
 	
 
 
@@ -4147,8 +4778,10 @@ body {
 	
 	<h2 class="font-size-h3 t10">Projects</h2>
 	<p>The efforts made to create these data challenges were only possible thanks to the fundings of several projects [...]</p>
+	<p></p>
 	<p><a class="button tiny radius" href="http://localhost:4000/projects0/">More ›</a></p>
 </div>
+
 	
 
 
@@ -4169,8 +4802,10 @@ body {
 	
 	<h2 class="font-size-h3 t10">Related articles</h2>
 	<p>Here are listed the published scientific articles related to the data challenges [...]</p>
+	<p></p>
 	<p><a class="button tiny radius" href="http://localhost:4000/articles/">More ›</a></p>
 </div>
+
 	
 	
 </div><!-- /.row -->

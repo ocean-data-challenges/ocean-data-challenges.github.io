@@ -35,63 +35,63 @@ In our case, Ocean Data Challenges advocates for a more collaborative data chall
 
 ---
 
-### [<u>L3 Preprocessing</u>](/dc_L3/)
+### [<u>Level 3 SWOT processing</u>](/dc_L3/)
 <br> 
-- [SWOT: OSSE filtering North-Atlantic](/dc_2022a/)
 
-<div style="text-align: justify">
-This Filtering SWOT in the North-Atlantic data challenge provides a platform to investigate the most appropriate filtering methods to reduce the uncorrelated instrumental (KaRIn) noise from the SWOT data.
-</div>
-<br>
+<ul>
+ {% for datachallenge in site.data.datachallenges_yml %} 
+    {% if datachallenge.experiment == "l3_processing"%}
+      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a>
+      <div style="text-align: justify">
+       {{ datachallenge.text }} 
+      </div>
+      </li>
+      <br> 
+    {% endif %} 
+ {% endfor %} 
+          
+</ul>
+ 
+ 
 
-- [SWOT: OSSE calibration Gulf Stream](/dc_2022c/)
+### [<u>Level 4 SSH processing</u>](/dc_L4_SSH/)
 
-<div style="text-align: justify">
-This SWOT Calibration in the Gulf Stream data challenge provides a platform to investigate the most appropriate calibration procedures to reduce the spatially correlated errors from the SWOT data.
-</div>
-<br>
-
-### [<u>Toy model mapping</u>](/dc_L4_QG/)
 <br> 
-- [QG simulation: OSSE SSH](/dc_2022b/)
 
-<div style="text-align: justify">
-The goal of this simplified altimetric mapping data challenge is to open a new entry point for people from other communities to play and bring their outside knowlegde to this oceanographic problem.
-</div>
-<br>
+<ul>
+ {% for datachallenge in site.data.datachallenges_yml %} 
+    {% if datachallenge.experiment == "ssh_mapping"%}
+      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a>
+      <div style="text-align: justify">
+       {{ datachallenge.text }} 
+      </div>
+      </li>
+      <br> 
+    {% endif %} 
+ {% endfor %} 
+          
+</ul>
 
-### [<u>SSH regional mapping</u>](/dc_L4_Reg/)
+
+
+### [<u>Level 4 currents processing</u>](/dc_L4_Current/)
+
 <br> 
-- [Gulf Stream: OSSE SWOT/nadirs](/dc_2020a/) 
 
-<div style="text-align: justify">
-This data challenge investigates how to best reconstruct sequences of Sea Surface Height (SSH) maps in the Gulf Stream from satellite altimetry observations, including SWOT data, in a synthetic experiment.
-</div>
-<br>
+<ul>
+ {% for datachallenge in site.data.datachallenges_yml %} 
+    {% if datachallenge.experiment == "current_mapping"%}
+      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a>
+      <div style="text-align: justify">
+       {{ datachallenge.text }} 
+      </div>
+      </li>
+      <br> 
+    {% endif %} 
+ {% endfor %} 
+          
+</ul>
 
-- [Gulf Stream: OSE nadirs](/dc_2021a/)
 
-<div style="text-align: justify">
-This OSE nadirs data challenge is a follow-up of the previous one but with real altimeter data (and no SWOT). 
-</div>
-<br>
-
-- [Mediterranean: OSE nadirs](/dc_2023a/)
-
-<div style="text-align: justify">
-Similarly to the OSE nadirs Gulf Stream data challenge, this one investigates how to best reconstruct SSH maps from real altimeter data in the West Mediterranean Sea.  
-</div>
-<br>
-
-- [Californian Xover: OSSE SWOT/nadirs high-frequency](/dc_2023b/)
-
-<div style="text-align: justify">
-In a synthetic experiment setting, this data challenge investigates the mapping of nadirs and SWOT data (fast sampling phase) at high temporal frequency (hourly).
-</div>
-<br>
-
-### [<u>SSH global mapping</u>](/dc_L4_Glob/)
-<br> 
-- [OSE nadirs](/dc_2023d/)
 
 

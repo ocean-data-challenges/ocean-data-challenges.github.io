@@ -22,6 +22,8 @@ format: frontpage
 <div class="font-size-h3 row t60"> <strong>To checkout the data challenges specific to a region click on the map !</strong>  </div>
 </center>
 
+<br>
+
 <style>
 body {
     margin: 0;
@@ -34,11 +36,15 @@ body {
 
   .highlight-area {
     position: absolute;
-    border: 2px solid red; /* Set the border style and color */
-    background-color: rgba(255, 0, 0, 0.1); /* Set the background color with transparency */
+    border: 2px solid blue; /* Set the border style and color */
+    background-color: rgba(28, 69, 135, 0.2); /* Set the background color with transparency */
     pointer-events: none; /* Make the rectangles non-interactive */
   }
 </style>
+
+{% assign width_img = 500 | plus: 0 %}
+{% assign height_img = 200 | plus: 0 %}
+
 
 <center>
   <div id="image_map">
@@ -46,8 +52,26 @@ body {
       {% for page in site.pages %}
         {% for dc in site.data.datachallenges_yml %}
           {% if dc.region contains page.region %}
-            <area href="{{ page.url }}" target="_blank" alt="{{ page.title }}" shape=poly coords="{{ page.coords1 }},{{ page.coords2 }}, {{ page.coords1 }},{{ page.coords3 }}, {{ page.coords4 }},{{ page.coords3 }}, {{ page.coords2 }},{{ page.coords4 }}">
+            <!-- Splitting the coordinates and extracting individual values -->
 
+            {% assign coords1 = page.lon_min | plus: 180 %}
+            {% assign coords2 = page.lat_min | times: -1 %}
+            {% assign coords2 = coords2 | plus: 90 %}
+            {% assign coords3 = page.lat_max | times: -1 %}
+            {% assign coords3 = coords3 | plus: 90 %}
+            {% assign coords4 = page.lon_max | plus: 180 %}
+            
+            {% assign x1 = coords1 | times: 0.00278 %}
+            {% assign y1 = coords3 | times: 0.00278 %}
+            {% assign x2 = coords4 | times: 0.00278 %}
+            {% assign y2 = coords2 | times: 0.00278 %}
+
+            {% assign x1 = x1 | times: width_img %}
+            {% assign y1 = y1 | times: width_img %}
+            {% assign x2 = x2 | times: width_img %}
+            {% assign y2 = y2 | times: width_img %}
+
+            <area href="{{ page.url }}" target="_blank" alt="{{ page.title }}" shape=rect coords="{{ x1 }},{{ y1 }},{{ x2 }},{{ y2 }}">
           {% endif %}
         {% endfor %}
       {% endfor %}
@@ -58,21 +82,32 @@ body {
 
 
             <!-- Splitting the coordinates and extracting individual values -->
-            {% assign x1 = page.coords1 | plus: 0 %}
-            {% assign y1 = page.coords3 | plus: 0 %}
-            {% assign x2 = page.coords4 | plus: 0 %}
-            {% assign y2 = page.coords2 | plus: 0 %}
-            
-            {% if y2 != 500 %}
-             <!-- Add a div for highlighting -->
-             <div class="highlight-area" style="left: {{ x1 }}px; top: {{ y1 }}px; width: {{ x2 | minus: x1 }}px; height: {{ y2 | minus: y1 }}px;"></div>
-            {% endif %}
+            {% assign coords1 = page.lon_min | plus: 179 %}
+            {% assign coords2 = page.lat_min | times: -1 %}
+            {% assign coords2 = coords2 | plus: 89 %}
+            {% assign coords3 = page.lat_max | times: -1 %}
+            {% assign coords3 = coords3 | plus: 89 %}
+            {% assign coords4 = page.lon_max | plus: 179 %}
+
+            {% assign x1 = coords1 | times: 0.002785 %}
+            {% assign y1 = coords3 | times: 0.002785 %}
+            {% assign x2 = coords4 | times: 0.002785 %}
+            {% assign y2 = coords2 | times: 0.002785 %}
+
+            {% assign x1 = x1 | times: width_img %}
+            {% assign y1 = y1 | times: width_img %}
+            {% assign x2 = x2 | times: width_img %}
+            {% assign y2 = y2 | times: width_img %}
+
+ 
+            <!-- Add a div for highlighting -->
+            <div class="highlight-area" style="left: {{ x1 }}px; top: {{ y1 }}px; width: {{ x2 | minus: x1 }}px; height: {{ y2 | minus: y1 }}px;"></div>
           {% endif %}
         {% endfor %}
       {% endfor %}
 
 
-    <img src="../images/DC_2023a_logo_rtd.png" title="Global Image" alt="image map example" width=1000 height=632 usemap="#map_example">
+    <img src="../images/DC_2023a_logo_rtd.png" title="Global Image" alt="image map example" width={{ width_img }} usemap="#map_example">
     </map>
 
   </div>
@@ -105,7 +140,7 @@ body {
 <div style="margin: auto; width: 450px; padding: 30px;">
 <hr>
 <center>
-<div class="font-size-h3 row t60"> <strong>Most recent data challenges</strong>  </div>
+<div class="font-size-h3 row t60"> <strong>Latest data challenges</strong>  </div>
 </center>
 
 </br>
@@ -113,7 +148,12 @@ body {
 <ul>
 {% for datachallenge in site.data.datachallenges_yml %}
    {% if datachallenge.creationdate == 2024 or datachallenge.creationdate == 2023 %}
-     <li> <b> <a href={{ datachallenge.url-readthedocs }}>{{ datachallenge.title }}</a> </b></li> 
+     {% if datachallenge.url-readthedocs == nil %}
+       <li> <b> <a href={{ datachallenge.url }}>{{ datachallenge.title }}</a> </b></li>
+     {% else %}
+       <li> <b> <a href={{ datachallenge.url-readthedocs }}>{{ datachallenge.title }}</a> </b></li>
+     {% endif %}
+     </br> 
    {% endif %}
 {% endfor %}
 </ul>

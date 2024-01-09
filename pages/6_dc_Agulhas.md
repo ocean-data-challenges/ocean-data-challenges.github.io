@@ -6,11 +6,12 @@ breadcrumb: true
 permalink: "/dc_Agulhas/"
 header:
    image_fullwidth: "odc-banner.jpg" 
-region: Agulhas 
-coords1: 540
-coords2: 370
-coords3: 320
-coords4: 595
+region: Agulhas  
+lon_min: 14
+lon_max: 35
+lat_min: -45
+lat_max: -30 
+  
   
 --- 
 

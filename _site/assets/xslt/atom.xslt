@@ -144,7 +144,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/upcoming/">Upcoming</a></li>
+              <li><a  href="http://localhost:4000/participate/">Participate</a></li>
 
             
             
@@ -158,7 +158,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="http://localhost:4000/articles/">Articles</a></li>
+              <li><a  href="http://localhost:4000/collaborate/">Collaborate</a></li>
 
             
             
@@ -171,10 +171,30 @@
           
             
             
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/team/">ODC group</a></li>
+               <li class="divider"></li>
+               <li class="has-dropdown">
+                <a  href="http://localhost:4000/upcoming/">More info on ODC</a>
 
-            
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/team/">The ODC group</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/contacts/">Contacts</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/projects0/">Fundings</a></li>
+                    
+                  </ul>
+
+               </li>
             
           
         
@@ -220,12 +240,17 @@
           
                       
 
-                      <li><a  href="http://localhost:4000/projects0/">Projects</a></li>
+                      <li><a  href="http://localhost:4000/alldatachallenges/">All data challenges</a></li>
                     
           
                       
 
-                      <li><a  href="http://localhost:4000/otherdc/">Other data challenges</a></li>
+                      <li><a  href="http://localhost:4000/datasets/">Datasets</a></li>
+                    
+          
+                      
+
+                      <li><a  href="http://localhost:4000/articles/">Articles</a></li>
                     
                   </ul>
 
@@ -245,7 +270,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L3/">L3 preprocessing</a>
+              <a  href="http://localhost:4000/dc_L3/">Level 3 SWOT processing</a>
               <ul class="dropdown">
 
               
@@ -300,7 +325,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_SSH/">SSH Mapping</a>
+              <a  href="http://localhost:4000/dc_L4_SSH/">Level 4 SSH processing</a>
               <ul class="dropdown">
 
               
@@ -329,7 +354,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california" target="_blank">2023-DC SSH HF mapping in California</a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california" target="_blank">2023-DC SSH HF mapping in California OSSE</a></li>
 
                
               
@@ -338,7 +363,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE" target="_blank">2023-DC SSH mapping in the Western Mediterranean Sea OSE</a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE" target="_blank">2023-DC SSH mapping in the Western Med Sea OSE</a></li>
 
                
               
@@ -349,7 +374,7 @@
 
                           
 
-                          <li><a  href="https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping" target="_blank">2022-DC Altimetric mapping on a quasi-geostrophy model </a></li>
+                          <li><a  href="https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping" target="_blank">2022-DC Altimetric mapping on a QG model </a></li>
 
                
               
@@ -390,7 +415,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_Current/">Current Mapping</a>
+              <a  href="http://localhost:4000/dc_L4_Current/">Level 4 Currents processing</a>
               <ul class="dropdown">
 
               

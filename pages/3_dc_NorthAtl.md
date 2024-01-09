@@ -7,11 +7,12 @@ permalink: "/dc_NorthAtl/"
 header:
    image_fullwidth: "odc-banner.jpg" 
 experiment: ""
-region: "North Atlantic" 
-coords1: 225
-coords2: 220
-coords3: 50
-coords4: 470
+region: "North Atlantic"  
+
+lon_min: -80
+lon_max: -10
+lat_min: 25
+lat_max: 50 
 
 --- 
 

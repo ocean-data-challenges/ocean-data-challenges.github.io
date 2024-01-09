@@ -6,10 +6,10 @@ breadcrumb: true
 permalink: "/dc_L3/"
 header:
    image_fullwidth: "odc-banner.jpg" 
-experiment: "l3_processing"
-region: ""
+experiment: "l3_processing" 
 
 --- 
 
+## <center> <b> Data L3 preprocessing </b> </center>
   
 ---

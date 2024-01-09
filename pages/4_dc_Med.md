@@ -7,11 +7,13 @@ permalink: "/dc_Med/"
 header:
    image_fullwidth: "odc-banner.jpg" 
 experiment: ""
-region: "Mediterranean"  
-coords1: 485
-coords2: 165
-coords3: 115
-coords4: 580
+region: "Mediterranean"   
+
+lon_min: -5
+lon_max: 25
+lat_min: 35
+lat_max: 47 
+  
  
 --- 
 

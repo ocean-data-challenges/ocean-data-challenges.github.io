@@ -1,110 +1,124 @@
 
-- id: DC2024c 
-  widgetname: 'widget2024c'
+- id: DC2024b 
+  title: "2024-DC 4DMedSea ESA mapping OSE"
+  creationdate: 2024 
+  experiment: "ssh_mapping"
+  region: "Mediterranean"
   url: https://github.com/ocean-data-challenges/2024c_DC_4DMedSea-ESA
   url-readthedocs: https://2024c-dc-4dmedsea-esa.readthedocs.io
-  experiment: "ssh_mapping"
-  title: "2024-DC 4DMedSea ESA mapping OSE"
-  creationdate: 2024
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2024c_DC_4DMedSea-ESA/catalog.html
   image: DC_2023a.png
-  region: "Mediterranean"
+  text: 'A challenge ESA - 4DMedSea project to provide SSH products in the Mediterranean for 4D reconstructions.'
   
 - id: DC2024a 
+  title: "2024-DC WOC currents mapping OSE"
+  creationdate: 2024 
+  experiment: "current_mapping"
+  region: "North Atlantic, Mediterranean, Agulhas"
   url: https://github.com/ocean-data-challenges/2024_DC_WOC
   url-readthedocs: https://2024-dc-woc-esa.readthedocs.io
-  experiment: "current_mapping"
-  title: "2024-DC WOC currents mapping OSE"
-  creationdate: 2024
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2024_DC_WOC-ESA/catalog.html
   image: DC_2023a.png
-  region: "North Atlantic, Mediterranean, Agulhas"
-  widgetname: 'widget2024a'
+  text: 'A challenge ESA - World Ocean Current project to compare currents mapped products using various data types.'
+  articles: 
+      - 'Le Guillou, F., Gaultier, L., Ballarotta, M., Metref, S., Ubelmann, C., Cosme, E., & Rio, M. H. (2023). Regional mapping of energetic short mesoscale ocean dynamics from altimetry: performances from real observations. Ocean Science, 19(5), 1517-1527.'
   
   
-- id: DC2023d
-  widgetname: 'widget2023d'
+- id: DC2023c
   title: "2023-DC global altimetry mapping OSE"
+  creationdate: 2023 
   experiment: "ssh_mapping"
-  creationdate: 2023
   region: "Global"
   url: https://github.com/ocean-data-challenges/2023a_SSH_mapping_OSE
   url-readthedocs: https://2023a-ssh-mapping-ose.readthedocs.io
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2023a_SSH_mapping_OSE/catalog.html
   image: DC_2023d.png
-  text: 'A challenge on real conventional nadir mapping at global scales created by Datlas and CLS for the SLICING project (CMEMS). [...]'
+  text: 'A challenge on real conventional nadir mapping at global scales and in regional zooms. '
   
-- id: DC2023c 
+- id: DC2023b 
+  title: "2023-DC SSH HF mapping in California OSSE" 
+  creationdate: 2023 
+  experiment: "ssh_mapping"
+  region: "Californian Current"
   url: https://github.com/ocean-data-challenges/2023b-sshmapping-hf-california
   url-readthedocs: https://2023b-sshmapping-hf-california.readthedocs.io
-  experiment: "ssh_mapping"
-  creationdate: 2023
-  region: "Californian Current"
-  widgetname: 'widget2023d' 
-  title: "2023-DC SSH HF mapping in California" 
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2023b_SSHmapping_HF_California/catalog.html
   image: DC_2023b.png
-  text: 'A challenge on mapping high frequency SSH with artificial SWOT and nadir data in the Californian SWOT X-over created by Datlas and MEOM-IGE. [...]'
+  text: 'A challenge on mapping high frequency SSH with artificial SWOT and nadir data in the Californian SWOT X-over.'
   
 - id: DC2023a 
-  widgetname: 'widget2023a'
-  title: "2023-DC SSH mapping in the Western Mediterranean Sea OSE"
+  title: "2023-DC SSH mapping in the Western Med Sea OSE"
+  creationdate: 2023 
   experiment: "ssh_mapping"
-  creationdate: 2023
+  region: "Western Mediterranean"
   url: https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE
   url-readthedocs: https://github.com/ocean-data-challenges/2023a_SSH_MapMed_OSE
-  region: "Western Mediterranean"
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2023a_SSH_MapMed_OSE/catalog.html
   image: DC_2023a.png
-  text: 'A challenge on mapping real altimetric data in the Mediterranean Sea created by Datlas and MEOM-IGE. [...]'
+  text: 'A challenge on mapping real altimetric data in the Western Mediterranean Sea.'
  
 
 - id: DC2022c
-  widgetname: 'widget2022c'
   title: "2022-DC SWOT error calibration Gulf Stream"
+  creationdate: 2022 
   experiment: "l3_processing"
-  creationdate: 2022
   region: "Gulfstream"
   url: https://github.com/ocean-data-challenges/2022c_SWOT_error_calibration_GS
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2022c_SWOT_error_calibration_GS/catalog.html
   image: DC_2022c.png
-  text: 'A challenge on the SWOT satellite error calibration organised by Datlas, IGE, IMT Altlantique and CLS. [...]'
+  text: 'A challenge on the SWOT satellite spatially correlated error calibration in the Gulf Stream region. '
+  articles: 
+      - 'Febvre, Q.; Fablet, R.; Le Sommer, J.; Ubelmann, C. Joint Calibration and Mapping of Satellite Altimetry Data Using Trainable Variational Models. ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore, Singapore, 2022, pp. 1536-1540. https://doi.org/10.1109/ICASSP43922.2022.9746889' 
 
 - id: DC2022b
-  widgetname: 'widget2022b'
-  title: "2022-DC Altimetric mapping on a quasi-geostrophy model "
+  title: "2022-DC Altimetric mapping on a QG model "
+  creationdate: 2022 
   experiment: "ssh_mapping"
   region: "None"
-  creationdate: 2022
   url: https://github.com/ocean-data-challenges/2022b_SSH_QG_mapping
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2022b_SSH_QG_mapping/catalog.html
   image: DC_2022b.png
-  text: 'A challenge on mapping pseudo altimetric data on a QG model created by Datlas and MEOM-IGE. [...]'
+  text: 'A challenge on mapping pseudo altimetric data on a quasi-geostrophic model for educational purposes.'
  
 - id: DC2022a
-  widgetname: 'widget2022a'
+  title: "2022-DC SWOT karin error filtering North Atlantic"
+  creationdate: 2022 
   experiment: "l3_processing"
   region: "North Atlantic"
-  creationdate: 2022
-  title: "2022-DC SWOT karin error filtering North Atlantic"
   url: https://github.com/ocean-data-challenges/2022a_SWOT_karin_error_filtering
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2022a_SWOT_karin_error_filtering/catalog.html
   image: DC_2022a.png
-  text: 'A challenge on the SWOT Karin instrumental error filtering organised by Datlas, IMT Altlantique and CLS. [...]'
+  text: 'A challenge on the SWOT Karin instrumental error filtering in the North-Atlantic basin.'
+  articles: 'Tréboutte, A.; Carli, E.; Ballarotta, M.; Carpentier, B.; Faugère, Y.; Dibarboure, G. KaRIn Noise Reduction Using a Convolutional Neural Network for the SWOT Ocean Products. Remote Sens. 2023, 15, 2183. https://doi.org/10.3390/rs15082183'
 
 
 
 - id: DC2021a
-  widgetname: 'widget2021a'
   title: "2021-DC SSH Mapping in the Gulf Stream OSE"
+  creationdate: 2021 
   experiment: "ssh_mapping"
-  creationdate: 2021
-  url: https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE
-  image: DC_2021a.png
-  text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps from real nadir satellite altimetry observations. [...]'
   region: "Gulfstream"
+  url: https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2021a-SSH-mapping-OSE/catalog.html
+  image: DC_2021a.png
+  text: 'The goal is to investigate how to best reconstruct sequences of SSH maps from real nadir satellite altimetry observations.'
+  articles:
+      - 'Fablet, R.; Febvre, Q.; Chapron, B. Multimodal 4DVarNets for the Reconstruction of Sea Surface Dynamics From SST-SSH Synergies. IEEE Transactions on Geoscience and Remote Sensing, vol. 61, pp. 1-14, 2023, Art no. 4204214, https://doi.org/10.1109/TGRS.2023.3268006'
+      - 'Martin, S. A.; Manucharyan, G. E.; Klein, P. Synthesizing sea surface temperature and satellite altimetry observations using deep learning improves the accuracy and resolution of gridded sea surface height anomalies. Journal of Advances in Modeling Earth Systems. 2023. 15, e2022MS003589. https://doi.org/10.1029/2022MS003589'
    
 
 - id: DC2020a 
-  widgetname: 'widget2020a'
   title: "2020-DC SSH Mapping in the Gulf Stream OSSE"
+  creationdate: 2020 
   experiment: "ssh_mapping"
-  creationdate: 2020
-  url: https://ocean-data-challenges.github.io/dc_2020a/
-  image: DC_2020a.png
-  text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps artificial nadir and SWOT satellite altimetry observations. [...]'
   region: "Gulfstream"
+  url: https://ocean-data-challenges.github.io/dc_2020a/
+  url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2020a_SSH_mapping_NATL60/catalog.html
+  image: DC_2020a.png
+  text: 'The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps artificial nadir and SWOT satellite altimetry observations. '
+  articles: 
+      - 'Le Guillou, F.; Metref, S.; Cosme, E.; Ubelmann, C.; Ballarotta, M.; Le Sommer, J.; Verron, J. Mapping Altimetry in the Forthcoming SWOT Era by Back-and-Forth Nudging a One-Layer Quasigeostrophic Model. J. Atmos. Oceanic Technol. 2021, 38, 697–710. https://doi.org/10.1175/JTECH-D-20-0104.1'
+      - 'Beauchamp, M.; Febvre, Q.; Georgenthum, H.; Fablet, R. 4DVarNet-SSH: end-to-end learning of variational interpolation schemes for nadir and wide-swath satellite altimetry. Geoscientific Model Development Discussions. 2022, 1-37. https://doi.org/10.5194/gmd-16-2119-2023'
+      - 'Febvre, Q.; Fablet, R.; Le Sommer, J.; Ubelmann, C. Joint Calibration and Mapping of Satellite Altimetry Data Using Trainable Variational Models. ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore, Singapore, 2022, pp. 1536-1540. https://doi.org/10.1109/ICASSP43922.2022.9746889'
  
 
