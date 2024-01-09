@@ -26,9 +26,7 @@ breadcrumb: true
 - **Some ideas or methods to test !**
 
 <br>
-
-<br>
-
+ 
 ### 2) How to propose a solution 
 
 <br>
@@ -45,9 +43,7 @@ The only restriction to participate is that:
 
 Example evaluation notebooks are available in each data challenge repo. 
 
-<br>
-
-<br>
+<br> 
 
 ### 3) Details on the different steps
 

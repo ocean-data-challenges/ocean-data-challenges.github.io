@@ -7,7 +7,7 @@
   url: https://github.com/ocean-data-challenges/2024c_DC_4DMedSea-ESA
   url-readthedocs: https://2024c-dc-4dmedsea-esa.readthedocs.io
   url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2024c_DC_4DMedSea-ESA/catalog.html
-  image: DC_2023a.png
+  image: DC_2024b.jpg
   text: 'A challenge ESA - 4DMedSea project to provide SSH products in the Mediterranean for 4D reconstructions.'
   
 - id: DC2024a 
@@ -18,7 +18,7 @@
   url: https://github.com/ocean-data-challenges/2024_DC_WOC
   url-readthedocs: https://2024-dc-woc-esa.readthedocs.io
   url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2024_DC_WOC-ESA/catalog.html
-  image: DC_2023a.png
+  image: DC_2024a.jpg
   text: 'A challenge ESA - World Ocean Current project to compare currents mapped products using various data types.'
   articles: 
       - 'Le Guillou, F., Gaultier, L., Ballarotta, M., Metref, S., Ubelmann, C., Cosme, E., & Rio, M. H. (2023). Regional mapping of energetic short mesoscale ocean dynamics from altimetry: performances from real observations. Ocean Science, 19(5), 1517-1527.'

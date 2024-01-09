@@ -10,6 +10,6 @@ experiment: "l3_processing"
 
 --- 
 
-## <center> <b> Data L3 preprocessing </b> </center>
+## <center> <b> Level 3 SWOT processing </b> </center>
   
 ---
