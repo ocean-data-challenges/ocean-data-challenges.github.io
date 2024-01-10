@@ -16,7 +16,7 @@ For any information related to its operation or use, we kindly ask you to contac
 
 ---
 
-- Webmasters : Sammy Metref (datlas),
+- Webmasters : Sammy Metref (Datlas),
 - Content : [Jekyll](https://jekyllrb.com/) (inspired from the template [Feeling Responsive](https://github.com/Phlow/feeling-responsive)),
 - Host : [github](https://www.github.com).
 
@@ -26,5 +26,5 @@ __-Intellectual property -__ The ODC web site is a work of creation exclusive pr
 
 __-Non-responsability clause-__ The responsibility of the ODC group cannot, in any way, be engaged as for the contents of the information appearing on this site or the consequences which can result from their use or interpretation.
 
-__-Hyperlinks -__ The setting up of hyperlinks by third parties to pages or documents published on the datlas website is authorized provided that the links do not contravene the interests of datlas and that they guarantee the possibility for the user to identify the origin and the author of the document.
+__-Hyperlinks -__ The setting up of hyperlinks by third parties to pages or documents published on the ODC website is authorized provided that the links do not contravene the interests of datlas and that they guarantee the possibility for the user to identify the origin and the author of the document.
 

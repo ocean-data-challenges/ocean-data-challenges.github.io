@@ -7,7 +7,7 @@ teaser: ""
 permalink: "/collaborate/"
 header:
    image_fullwidth: "odc-banner.jpg"
-breadcrumb: true
+breadcrumb: false
 ---
 
 ## <center> <b> Collaborate to ODC and propose your own data challenge </b> </center>

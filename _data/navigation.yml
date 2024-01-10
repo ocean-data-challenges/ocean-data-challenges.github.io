@@ -20,7 +20,7 @@
     url: "/articles/" 
   
     
-- title: "Level 3 SWOT"
+- title: "SWOT Processing"
   url: "/dc_L3/"
   side: left 
   dynamic: true
@@ -30,7 +30,7 @@
     url: 
 
 
-- title: "Level 4 SSH"
+- title: "SSH Mapping"
   url: "/dc_L4_SSH/"
   side: left 
   dynamic: true
@@ -39,7 +39,7 @@
   - title:
     url:
    
-- title: "Level 4 Currents"
+- title: "Currents Mapping"
   url: "/dc_L4_Current/"
   side: left
   dynamic: true
@@ -59,8 +59,8 @@
   dropdown: 
 
  
-- title: "More info on ODC"
-  url: "/upcoming/"
+- title: "More on ODC"
+  url: "/team/"
   side: right
   dynamic: false
   dropdown: 

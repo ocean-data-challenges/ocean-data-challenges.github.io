@@ -37,7 +37,7 @@ breadcrumb: true
 
 The only restriction to participate is that:
 
-<span> <center> <a> Participants must provide the evaluation notebooks than ran for your method.</a> </center>  </span>
+<span> <center> <a> Participants must provide the evaluation notebooks than ran for their methods.</a> </center>  </span>
 
 <br>
 
@@ -73,7 +73,7 @@ For anymore details or clarifications, do not hesitate to contact us through the
 ---
 
 
-#### <span> <center> <a href="/alldatachallenges/"> To start check out the list of available data challenges !</a> </center>  </span>
+#### <span> <center> <a href="/alldatachallenges/"> To start playing, check out the list of available data challenges !</a> </center>  </span>
 
 ---
 

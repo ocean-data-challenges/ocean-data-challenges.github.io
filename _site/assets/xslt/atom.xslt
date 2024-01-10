@@ -173,7 +173,7 @@
             
                <li class="divider"></li>
                <li class="has-dropdown">
-                <a  href="http://localhost:4000/upcoming/">More info on ODC</a>
+                <a  href="http://localhost:4000/team/">More on ODC</a>
 
                   <ul class="dropdown">
                     
@@ -270,7 +270,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L3/">Level 3 SWOT</a>
+              <a  href="http://localhost:4000/dc_L3/">SWOT Processing</a>
               <ul class="dropdown">
 
               
@@ -325,7 +325,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_SSH/">Level 4 SSH</a>
+              <a  href="http://localhost:4000/dc_L4_SSH/">SSH Mapping</a>
               <ul class="dropdown">
 
               
@@ -415,7 +415,7 @@
             
              
               <li class="has-dropdown">
-              <a  href="http://localhost:4000/dc_L4_Current/">Level 4 Currents</a>
+              <a  href="http://localhost:4000/dc_L4_Current/">Currents Mapping</a>
               <ul class="dropdown">
 
               
@@ -576,8 +576,6 @@
             
               
             
-              
-            
 
               <ul class="no-bullet shadow-black">
               
@@ -588,17 +586,12 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000/team/"  title="Contact the ODC group">Contact the ODC group</a>
+                    <a href="http://localhost:4000/contacts/"  title="Contact the ODC group">Contact the ODC group</a>
                   </li>
               
                 
                   <li >
                     <a href="http://localhost:4000/ml/"  title="Legal mentions">Legal mentions</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
@@ -626,7 +619,7 @@
           <section id="subfooter-right" class="small-12 medium-6 columns">
             <ul class="inline-list social-icons">
             
-              <li><a href="https://github.com/datlas-ocean" target="_blank" class="icon-github" title="Our codes to share."></a></li>
+              <li><a href="https://github.com/ocean-data-challenges" target="_blank" class="icon-github" title="Our codes to share."></a></li>
             
             </ul>
           </section>

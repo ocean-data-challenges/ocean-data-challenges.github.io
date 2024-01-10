@@ -1,7 +1,7 @@
 - menu_name: "Services"
 
 - name: "Contact the ODC group"
-  url: "/team/"
+  url: "/contacts/"
   title: "Contact the ODC group"
 
 - name: "Legal mentions"
@@ -16,6 +16,6 @@
 #  url: "/atom.xml"
 #  title: "Subscribe to Atom Feed"
 
-- name: "sitemap.xml"
-  url: "/sitemap.xml"
-  title: "Sitemap for Google Webmaster Tools"
+#- name: "sitemap.xml"
+#  url: "/sitemap.xml"
+#  title: "Sitemap for Google Webmaster Tools"
