@@ -10,17 +10,41 @@ format: frontpage
 </div><!-- /#header-home -->
 
 
-{% comment %}
-*
-* First check, if widget is empty or not by checking if there is a title
-*
-{% endcomment %}
 
+<br>
+
+<br>
+
+<div style="margin: auto; width: 1000px; padding: 0px;">
+
+<!-- Html Elements for Search -->
+
+<div class="font-size-h4 "> <strong> Find a data challenge </strong>  </div>
+
+
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Search..">
+<ul id="results-container"></ul>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="assets/js/search_script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: 'search.json'
+})
+</script>
+
+
+</div>
 <div style="margin: auto; width: 1400px; padding: 0px;">
 
-<hr>
 <center>
-<div class="font-size-h3 row t60"> <strong>To checkout the data challenges specific to a region click on the map !</strong>  </div>
+<div class="font-size-h3 row t60"> <strong>To checkout the data challenges specific to a region click on the map {{ fname }} !</strong>  </div><!-- /.row -->
 </center>
 
 <br>
@@ -141,7 +165,7 @@ body {
 <div style="margin: auto; width: 500px; padding: 30px;">
 <hr>
 <center>
-<div class="font-size-h3 row t60"> <strong>Latest data challenges</strong>  </div>
+<div class="font-size-h3 row t60"> <strong>Latest data challenges</strong>  </div><!-- /.row -->
 </center>
 
 </br>
@@ -207,7 +231,7 @@ body {
 
 <hr>
 <center>
-<div class="font-size-h3 row t60"> <em><strong>If you are using one of the data challenges presented on this website in a scientific publication, please acknowledge the ODC group and cite the specific challenge.</strong></em>  </div>
+<div class="font-size-h3 row t60"> <em><strong>If you are using one of the data challenges presented on this website in a scientific publication, please acknowledge the ODC group and cite the specific challenge.</strong></em>  </div><!-- /.row -->
 </center>
 
 <br>

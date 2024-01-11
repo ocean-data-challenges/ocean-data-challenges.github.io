@@ -1,0 +1,17 @@
+---
+---
+[
+  {% for datachallenge in site.data.datachallenges_yml %}
+    {
+
+      "title"    : "{{ datachallenge.title | escape }}",
+      "date"     : "{{ datachallenge.creationdate }}",
+      "experiment" : "{{ datachallenge.experiment }}",
+      "region" : "{{ datachallenge.region }}",
+      "text" : "{{ datachallenge.text }}",
+      "author" : "{{ datachallenge.author }}",
+      "url" : "{{ datachallenge.url }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

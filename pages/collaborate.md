@@ -36,6 +36,7 @@ breadcrumb: false
     - id: "your_DC_id"
       title: "your_DC_name"
       creationdate: 2024 
+      author: "your_name_or_institute"
       experiment: "your_DC_experiment_type"
       region: "your_DC_region"
       url: https://your_DC.github.io
@@ -52,7 +53,7 @@ breadcrumb: false
 To respect this template, you need to: 
 
 - choose any id you want (hopefully one that does not already exist),
-- provide the title/name of your DC (don't make it too long), 
+- provide the title/name of your DC and your name or institution (don't make them too long), 
 - choose **your_DC_experiment_type** from ```"l3_processing"```, ```"ssh_mapping"``` and ```"current_mapping"```, 
 - choose **your_DC_region** from the existing regions (```"North Atlantic"```, ```"Gulfstream"```, ```"Mediterranean"```, ```"California"```, ```"Agulhas"```)
 - provide at least the github url of your DC in ```'url:'```
@@ -68,7 +69,7 @@ Note, that if either **your_DC_experiment_type** or **your_DC_region** do not co
     - id: DC2020a 
       title: "2020-DC SSH Mapping in the Gulf Stream OSSE"
       creationdate: 2020
-      widgetname: 'widget2020a'
+      author: 'MEOM and CLS'
       experiment: "ssh_mapping"
       region: "Gulfstream"
       url: https://ocean-data-challenges.github.io/dc_2020a/

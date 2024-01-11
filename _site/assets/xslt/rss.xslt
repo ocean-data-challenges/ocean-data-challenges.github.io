@@ -285,6 +285,8 @@
                
               
                
+              
+               
                           
 
                           
@@ -336,6 +338,8 @@
 
                           <li><a  href="https://github.com/ocean-data-challenges/2024c_DC_4DMedSea-ESA" target="_blank">2024-DC 4DMedSea ESA mapping OSE</a></li>
 
+               
+              
                
               
                
@@ -427,6 +431,15 @@
                           
 
                           <li><a  href="https://github.com/ocean-data-challenges/2024_DC_WOC-ESA" target="_blank">2024-DC WOC currents mapping OSE</a></li>
+
+               
+              
+               
+                          
+
+                          
+
+                          <li><a  href="https://github.com/CIA-Oceanix/2023-OSSE-SSC-NATL60-GF" target="_blank">2023 OSSE SSC NATL60 GF</a></li>
 
                
               

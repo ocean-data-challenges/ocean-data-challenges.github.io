@@ -2,7 +2,7 @@
 layout: pagepluswidgets
 title: "Contacts"
 subheadline: ""
-teaser: ""
+teaser: "Your main two points of contacts for the ODC group are:"
 permalink: "/contacts/"
 breadcrumb: true
 header:
@@ -13,19 +13,16 @@ widget1:
   title: "Sammy Metref"
   url: /team/SM/
   image: team-SM.png
-  text: 'Datlas'
+  text: 'Datlas' 
   teaser: 'sammy.metref@datlas.fr'
-
+ 
 widget2:
   title: "Maxime Ballarotta"
   url: /team/MB/
   image: odc_mballaro.jpeg
   text: 'Collecte Localisation Satellites'
-  teaser: 'mballarotta@groupcls.com'
+  teaser: 'mballarotta@groupcls.com' 
+ 
 
-  
+ 
 ---
-
-
-### Your main two points of contacts for the ODC group are: 
-

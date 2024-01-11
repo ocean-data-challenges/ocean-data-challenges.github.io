@@ -28,7 +28,12 @@ breadcrumb: true
         {% for datachallenge in site.data.datachallenges_yml %} 
           <tr> 
              <td> <b>  {{ datachallenge.title }} </b></td> 
-             <td> <a href="{{ datachallenge.url-opendap }}"><center>opendap</center></a></td> 
+             <td> {% if datachallenge.url-opendap == nil %} 
+                 <i><center>Upon request</center></i> 
+                  {% else %}
+                 <a href="{{ datachallenge.url-opendap }}"><center>opendap</center></a> 
+                  {% endif %}
+             </td>
              <td> {% if datachallenge.url-readthedocs == nil %} 
                     <a href="{{ datachallenge.url }}"><center>github</center></a>
                   {% else %}
