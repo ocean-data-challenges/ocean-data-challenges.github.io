@@ -2,6 +2,8 @@
 - title: "ODC" 
   url: "/index.html"
   side: left
+  img1: "/images/odc-logo-blue.jpg"
+  img2: "/images/odc-logo-white.jpg"
   dropdown:
    
 
