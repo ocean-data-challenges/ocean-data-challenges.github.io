@@ -41,7 +41,8 @@ In our case, Ocean Data Challenges advocates for a more collaborative data chall
 <ul>
  {% for datachallenge in site.data.datachallenges_yml %} 
     {% if datachallenge.experiment == "l3_processing"%}
-      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a>
+      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a> <br>
+          <b><i> By {{ datachallenge.author }} </i> </b> 
       <div style="text-align: justify">
        {{ datachallenge.text }} 
       </div>
@@ -61,7 +62,8 @@ In our case, Ocean Data Challenges advocates for a more collaborative data chall
 <ul>
  {% for datachallenge in site.data.datachallenges_yml %} 
     {% if datachallenge.experiment == "ssh_mapping"%}
-      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a>
+      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a> <br>
+          <b><i> By {{ datachallenge.author }} </i> </b>
       <div style="text-align: justify">
        {{ datachallenge.text }} 
       </div>
@@ -81,7 +83,8 @@ In our case, Ocean Data Challenges advocates for a more collaborative data chall
 <ul>
  {% for datachallenge in site.data.datachallenges_yml %} 
     {% if datachallenge.experiment == "current_mapping"%}
-      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a>
+      <li>  <a href="{{ datachallenge.url }}">{{ datachallenge.title }} </a> <br>
+          <b><i> By {{ datachallenge.author }} </i> </b>
       <div style="text-align: justify">
        {{ datachallenge.text }} 
       </div>

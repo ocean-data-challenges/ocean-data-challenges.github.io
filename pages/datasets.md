@@ -20,6 +20,7 @@ breadcrumb: true
   <thead>
     <tr>
       <th><center>Data Challenge</center></th>
+      <th><center>Authors</center></th>
       <th><center>Datasets</center></th>
       <th><center>  Documentation  </center></th>
     </tr>
@@ -28,6 +29,7 @@ breadcrumb: true
         {% for datachallenge in site.data.datachallenges_yml %} 
           <tr> 
              <td> <b>  {{ datachallenge.title }} </b></td> 
+             <td> <i>  {{ datachallenge.author }} </i></td> 
              <td> {% if datachallenge.url-opendap == nil %} 
                  <i><center>Upon request</center></i> 
                   {% else %}
@@ -46,4 +48,4 @@ breadcrumb: true
       
   </tbody>
 </table>
-</center>
+</center> 
