@@ -21,9 +21,9 @@ breadcrumb: false
 
 <br> 
 
-- 1) Fill the informations related to your data challenge into a yaml format
+1) Fill the informations related to your data challenge into a yaml format
 
-- 2) Provide us with these info
+2) Provide us with these info
 
 <br> 
 

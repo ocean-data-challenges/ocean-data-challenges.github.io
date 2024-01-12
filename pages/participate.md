@@ -55,7 +55,7 @@ All data challenges have repositories hosted on GitHub. In those repositories yo
 - how to download the necessary datasets and
 - how to start playing. 
 
-Some data challenges also have readthedocs web pages that illustrate and explained in a more fancy way the data challenges. 
+Some data challenges also have readthedocs web pages that illustrate and explain in a more fancy way the data challenges. 
 
 In other words, you will need to :
 

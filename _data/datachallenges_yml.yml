@@ -33,6 +33,7 @@
   experiment: "current_mapping"
   region: "Gulfstream"
   url: https://github.com/CIA-Oceanix/2023-OSSE-SSC-NATL60-GF   
+  url-opendap: "wasabisys (see doc)"
   image: DC_2023d.jpg
   text: 'A challenge on inversion of sea surface currents from satellite-derived SST-SSH synergies.'
   articles: 

@@ -33,7 +33,11 @@ breadcrumb: true
              <td> {% if datachallenge.url-opendap == nil %} 
                  <i><center>Upon request</center></i> 
                   {% else %}
-                 <a href="{{ datachallenge.url-opendap }}"><center>opendap</center></a> 
+                    {% if datachallenge.url-opendap contains 'http' %}
+                      <a href="{{ datachallenge.url-opendap }}"><center>opendap</center></a> 
+                    {% else %}
+                      <b><center>{{ datachallenge.url-opendap }}</center></b> 
+                    {% endif %}
                   {% endif %}
              </td>
              <td> {% if datachallenge.url-readthedocs == nil %} 
