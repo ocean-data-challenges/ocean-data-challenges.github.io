@@ -14,15 +14,15 @@ widget1:
   image: odc_frontpage1.png
   text: 'The concept of data challenges is fairly new and originates from the artificial intelligence community. It is now used by [...]'
 widget2:
-  title: "Projects"
-  url: /projects0/
-  image: odc_frontpage2.png
-  text: 'The efforts made to create these data challenges were only possible thanks to the fundings of several projects [...]'
+  title: "Participate"
+  url: /participate/
+  image: odc_frontpage4.jpg
+  text: 'How to participate to a data challenge, what you need and how to propose a solution[...]'
 widget3:
-  title: "Related articles"
-  url: /articles/
-  image: odc_frontpage3.png
-  text: 'Here are listed the published scientific articles related to the data challenges [...]'
+  title: "Collaborate"
+  url: /collaborate/
+  image: odc_frontpage2.png
+  text: 'How to collaborate to ODC and propose your own data challenge. To have your data challenge appear on the ODC website, [...]'
 
 #widget3:
 #  title: "The ODC group"
