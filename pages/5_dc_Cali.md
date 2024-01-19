@@ -6,7 +6,7 @@ breadcrumb: true
 permalink: "/dc_Cali/"
 header:
    image_fullwidth: "odc-banner.jpg" 
-region: "Californian Current" 
+region: "Xover-Cali" 
 lon_min: -130
 lon_max: -120
 lat_min: 30

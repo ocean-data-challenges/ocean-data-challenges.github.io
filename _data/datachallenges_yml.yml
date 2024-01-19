@@ -1,4 +1,17 @@
 
+
+- id: DC2024c 
+  title: "2024-DC SWOT denoising OSE"
+  creationdate: 2024 
+  author: "Datlas, CLS and IMEDEA"
+  experiment: "l3_processing"
+  region: "Gulfstream, Mediterranean, Xover-Mada, Xover-Cali, Xover-ACC"
+  url: https://github.com/ocean-data-challenges/2024b_DC_SWOTdenoising
+  url-readthedocs: https://2024c-dc-4dmedsea-esa.readthedocs.io
+  url-opendap: "Not available yet"
+  image: DC_2024c.jpg
+  text: 'A challenge CNES on removing the uncorrelated KaRIN instrumental noise from the SWOT data.'
+  
 - id: DC2024b 
   title: "2024-DC 4DMedSea ESA mapping OSE"
   creationdate: 2024 
@@ -56,7 +69,7 @@
   creationdate: 2023 
   author: "Datlas and MEOM"
   experiment: "ssh_mapping"
-  region: "Californian Current"
+  region: "Xover-Cali"
   url: https://github.com/ocean-data-challenges/2023b_SSHmapping_HF_California
   url-readthedocs: https://2023b-sshmapping-hf-california.readthedocs.io
   url-opendap: https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/OCEAN_DATA_CHALLENGES/2023b_SSHmapping_HF_California/catalog.html

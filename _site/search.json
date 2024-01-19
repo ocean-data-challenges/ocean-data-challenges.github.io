@@ -2,6 +2,18 @@
   
     {
 
+      "title"    : "2024-DC SWOT denoising OSE",
+      "date"     : "2024",
+      "experiment" : "l3_processing",
+      "region" : "Gulfstream, Mediterranean, Xover-Mada, Xover-Cali, Xover-ACC",
+      "text" : "A challenge CNES on removing the uncorrelated KaRIN instrumental noise from the SWOT data.",
+      "author" : "Datlas, CLS and IMEDEA",
+      "url" : "https://github.com/ocean-data-challenges/2024b_DC_SWOTdenoising"
+
+    } ,
+  
+    {
+
       "title"    : "2024-DC 4DMedSea ESA mapping OSE",
       "date"     : "2024",
       "experiment" : "ssh_mapping",
@@ -53,7 +65,7 @@
       "title"    : "2023-DC SSH HF mapping in California OSSE",
       "date"     : "2023",
       "experiment" : "ssh_mapping",
-      "region" : "Californian Current",
+      "region" : "Xover-Cali",
       "text" : "A challenge on mapping high frequency SSH with artificial SWOT and nadir data in the Californian SWOT Xover.",
       "author" : "Datlas and MEOM",
       "url" : "https://github.com/ocean-data-challenges/2023b_SSHmapping_HF_California"

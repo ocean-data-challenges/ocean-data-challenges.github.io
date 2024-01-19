@@ -275,6 +275,15 @@
 
               
                
+                          
+
+                          
+
+                          <li><a  href="https://github.com/ocean-data-challenges/2024b_DC_SWOTdenoising" target="_blank">2024-DC SWOT denoising OSE</a></li>
+
+               
+              
+               
               
                
               
@@ -330,6 +339,8 @@
               <a  href="http://localhost:4000/dc_L4_SSH/">SSH Mapping</a>
               <ul class="dropdown">
 
+              
+               
               
                
                           
@@ -422,6 +433,8 @@
               <a  href="http://localhost:4000/dc_L4_Current/">Currents Mapping</a>
               <ul class="dropdown">
 
+              
+               
               
                
               
