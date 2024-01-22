@@ -41,6 +41,8 @@ SimpleJekyllSearch({
 
 
 </div>
+
+
 <div style="margin: auto; width: 1400px; padding: 0px;">
 
 <center>
@@ -67,8 +69,8 @@ body {
   }
 </style>
 
-{% assign width_img = 500 | plus: 0 %}
-{% assign height_img = 200 | plus: 0 %}
+{% assign width_img = 800 | plus: 0 %}
+{% assign height_img = 300 | plus: 0 %}
 
 
 <center>
@@ -138,29 +140,25 @@ body {
   </div>
 </center>
 
-
-{% comment %}
-<center>
-<div id="image_map"> 
-<map name="map_example"> 
-{% for page in site.pages%}
-  {% for dc in site.data.datachallenges_yml %}
-   {% if dc.region contains page.region %}
-     <a href={{ dc.url-readthedocs }}>{{ page.coords }}</a>
-
-     <area href="{{ page.url }}" target="_blank" alt="{{ page.title }}" shape=poly coords="{{ page.coords1 }},{{ page.coords2 }}, {{ page.coords1 }},{{ page.coords3 }}, {{ page.coords4 }},{{ page.coords3 }}, {{ page.coords4 }},{{ page.coords2 }}"> 
-   {% endif %}
-
-  {% endfor %}
-{% endfor %}
-
-<img src="../images/dc_2023_ose_global_duacs_sla_map.png" title="Global Image" alt="image map example" width=1000 height=632 usemap="#map_example">
-</map>
-</div>
-</center>
-{% endcomment %}
-
 </br>
+
+<div class="row t60">
+        {% if page.widget1.title %}
+                {% include _frontpage-widget.html widget=page.widget1 %}
+        {% endif %}
+
+
+        {% if page.widget2.title %}
+                {% include _frontpage-widget.html widget=page.widget2 %}
+        {% endif %}
+
+
+        {% if page.widget3.title %}
+                {% include _frontpage-widget.html widget=page.widget3 %}
+        {% endif %}
+
+</div><!-- /.row -->
+
 
 <div style="margin: auto; width: 500px; padding: 30px;">
 <hr>
@@ -189,23 +187,6 @@ body {
 
 
 </div>
-
-<div class="row t60">
-	{% if page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
-	{% endif %}
-
-
-	{% if page.widget2.title %}
-		{% include _frontpage-widget.html widget=page.widget2 %}
-	{% endif %}
-
-
-	{% if page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
-	{% endif %}
-	
-</div><!-- /.row -->
 
 
 

@@ -2,11 +2,11 @@
 - title: "ODC" 
   url: "/index.html"
   side: left
-  img1: "/images/odc-logo-blue.jpg"
-  img2: "/images/odc-logo-white.jpg"
+  img1: "/images/odc-logo-blue1.jpg"
+  img2: "/images/odc-logo-white1.jpg"
   dropdown:
    
-
+ 
 - title: "Data challenges"
   url: "/concept/"
   side: left
