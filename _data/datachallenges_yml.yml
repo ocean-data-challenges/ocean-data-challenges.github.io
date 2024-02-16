@@ -7,7 +7,7 @@
   experiment: "l3_processing"
   region: "Gulfstream, Mediterranean, Xover-Mada, Xover-Cali, Xover-ACC"
   url: https://github.com/ocean-data-challenges/2024b_DC_SWOTdenoising
-  url-readthedocs: https://2024c-dc-4dmedsea-esa.readthedocs.io
+  url-readthedocs: https://2024b-dc-swotdenoising.readthedocs.io
   url-opendap: "Not available yet"
   image: DC_2024c.jpg
   text: 'A challenge CNES on removing the uncorrelated KaRIN instrumental noise from the SWOT data.'
