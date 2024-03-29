@@ -5,7 +5,7 @@
   creationdate: 2024 
   author: "IMT-Atlantique and CLS"
   experiment: "ssh_mapping"
-  region: "Gulfstream, Madeira, Greenland"
+  region: "ExtGulfstream, Madeira, Greenland"
   url: https://github.com/ocean-data-challenges/2023_SSH_mapping_train_eNATL60_test_NATL60-   
   url-opendap: "wasabisys (see doc)"
   image: DC2024d.jpg
