@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>OSE nadirs mapping Gulf Stream</title>
+	<title>DC - Greenland</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -33,13 +33,13 @@
 	
 	
 	
-	<link rel="canonical" href="http://localhost:4000/dc_2021a/">
+	<link rel="canonical" href="http://localhost:4000/dc_GRE/">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="OSE nadirs mapping Gulf Stream">
+	<meta property="og:title" content="DC - Greenland">
 	<meta property="og:description" content="">
-	<meta property="og:url" content="http://localhost:4000/dc_2021a/">
+	<meta property="og:url" content="http://localhost:4000/dc_GRE/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="">
@@ -85,7 +85,7 @@
 
 </head>
 
-<body id="top-of-page" class="post">
+<body id="top-of-page" class="page-fullwidth">
 	
 	
 <div id="navigation" class="sticky">
@@ -536,7 +536,7 @@
  <a href="http://localhost:4000">Home</a>
  
    
-        <a href="http://localhost:4000/dc_2021a/">dc_2021a</a>
+        <a href="http://localhost:4000/dc_GRE/">dc_GRE</a>
   
 </nav>
 
@@ -547,195 +547,142 @@
 
 
 
-	<div class="row t30">
-	<div class="medium-8 columns medium-offset-2 end">
-		<article itemscope itemtype="http://schema.org/Article">
-			<header>
-				
+	
 
-				<div itemprop="name">
-					
-					<h1>OSE nadirs mapping Gulf Stream</h1>
-				</div>
-			</header>
 
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article> 
 
 			
-			<p class="teaser" itemprop="description">
+			<p class="teaser">
 				
 			</p>
 			
 
-			<div itemprop="articleSection">
-			<hr />
-<center>
-
-<a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE"><img src="/images/odc_ongithub.png" width="200" />  </a>
-</center>
+			<h1 id="data-challenges-in-the-greenland-region">Data challenges in the Greenland region</h1>
 
 <hr />
 
-<p><a href="https://doi.org/10.5281/zenodo.5511905"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5511905.svg" alt="DOI" /></a></p>
-
-<h1 id="ssh-mapping-data-challenge-2021a">SSH Mapping Data Challenge (2021a)</h1>
-
-<p>This repository contains codes and sample notebooks for downloading and processing the SSH mapping data challenge.</p>
-
-<p>#The quickstart can be run online by clicking here:
-#<a href="https://binder.pangeo.io/v2/gh/ocean-data-challenges/2020a_SSH_mapping_NATL60/master?filepath=quickstart.ipynb"><img src="https://binder.pangeo.io/badge_logo.svg" alt="Binder" /></a></p>
-
-<h2 id="motivation">Motivation</h2>
-
-<p>The goal is to investigate how to best reconstruct sequences of Sea Surface Height (SSH) maps from partial satellite altimetry observations. This data challenge follows an <em>Observation System Experiment</em> framework: Satellite observations are from real sea surface height data from altimeter. The practical goal of the challenge is to investigate the best mapping method according to scores described below and in Jupyter notebooks.</p>
-
-<h3 id="observations">Observations</h3>
-<p>The SSH observations include SARAL/Altika, Jason 2, Jason 3, Sentinel 3A, Haiyang-2A and Cryosat-2 altimeter data. This nadir altimeters constellation was operating during the 20170101-20171231 period. Note that for the mapping the Cryosat-2 altimeter data are not taken in the mapping to perfor the independent assessment of the various reconstructions.</p>
-
-<h3 id="data-sequence-and-use">Data sequence and use</h3>
-
-<p>The SSH reconstructions are assessed over the period from 2017-01-01 to 2017-12-31.</p>
-
-<p>For reconstruction methods that need a spin-up, the <strong>observations</strong> can be used from 2016-12-01 until the beginning of the evaluation period (31 days). This spin-up period is not included in the evaluation. For reconstruction methods that need learning from full fields, the <strong>baseline reconstruction</strong> or <strong>duacs reconstrcution</strong> can be used from 2017-01-01 to 2017-12-31. The altimeter data from Cryosat-2  should never be used so that any reconstruction can be considered uncorrelated to the evaluation period.</p>
-
-<p><img src="/images/dc2021a_data_availability.png" alt="Data Sequence" /></p>
-
-<h2 id="leaderboard">Leaderboard</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Method</th>
-      <th style="text-align: right">µ(RMSE)</th>
-      <th style="text-align: right">σ(RMSE)</th>
-      <th style="text-align: right">λx (km)</th>
-      <th style="text-align: left">Notes</th>
-      <th style="text-align: left">Reference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">BASELINE</td>
-      <td style="text-align: right">0.85</td>
-      <td style="text-align: right">0.09</td>
-      <td style="text-align: right">140</td>
-      <td style="text-align: left">Covariances BASELINE OI</td>
-      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/example_eval_baseline.ipynb">example_eval_baseline.ipynb</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">DUACS</td>
-      <td style="text-align: right">0.88</td>
-      <td style="text-align: right">0.07</td>
-      <td style="text-align: right">152</td>
-      <td style="text-align: left">Covariances DUACS DT2018</td>
-      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/example_eval_duacs.ipynb">example_eval_duacs.ipynb</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">MIOST</td>
-      <td style="text-align: right">0.89</td>
-      <td style="text-align: right">0.08</td>
-      <td style="text-align: right">139</td>
-      <td style="text-align: left">Multiscale mapping</td>
-      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/example_eval_miost.ipynb">example_eval_miost.ipynb</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">DYMOST</td>
-      <td style="text-align: right">0.89</td>
-      <td style="text-align: right">0.06</td>
-      <td style="text-align: right">129</td>
-      <td style="text-align: left">Dynamic mapping</td>
-      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/example_eval_dymost.ipynb">example_eval_dymost.ipynb</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BNF</td>
-      <td style="text-align: right">0.88</td>
-      <td style="text-align: right">0.06</td>
-      <td style="text-align: right">122</td>
-      <td style="text-align: left">BFN mapping</td>
-      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/example_eval_bfn.ipynb">example_eval_bfn.ipynb</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">4DVarNet (v2021)</td>
-      <td style="text-align: right"><strong>0.89</strong></td>
-      <td style="text-align: right"><strong>0.06</strong></td>
-      <td style="text-align: right">122</td>
-      <td style="text-align: left">4DVarNet mapping</td>
-      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/example_eval_4dvarnet.ipynb">example_eval_4DVarnet.ipynb</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">4DVarNet (v2022)</td>
-      <td style="text-align: right"><strong>0.89</strong></td>
-      <td style="text-align: right">0.09</td>
-      <td style="text-align: right"><strong>109</strong></td>
-      <td style="text-align: left">4DVarNet mapping</td>
-      <td style="text-align: left"><a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/example_eval_4dvarnet_v2022.ipynb">example_eval_4DVarnet_v2022.ipynb</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><strong>µ(RMSE)</strong>: average RMSE score.<br />
-<strong>σ(RMSE)</strong>: standard deviation of the RMSE score.<br />
-<strong>λx</strong>: minimum spatial scale resolved.</p>
-
-<h2 id="quick-start">Quick start</h2>
-<p>You can follow the quickstart guide in <a href="https://github.com/ocean-data-challenges/2020a_SSH_mapping_NATL60/blob/master/quickstart.ipynb">this notebook</a> or launch it directly from <a href="https://binder.pangeo.io/v2/gh/ocean-data-challenges/2020a_SSH_mapping_NATL60/master?filepath=quickstart.ipynb" target="_blank">binder</a>.</p>
-
-<h2 id="download-the-data">Download the data</h2>
-<p>The data are hosted on the <a href="https://www.aviso.altimetry.fr/en/data/products/ocean-data-challenges/2021a-ssh-mapping-ose.html">AVISO+ website</a> and tagged with DOI: 10.24400/527896/a01-2021.005. The website also provides a data handbook. This is the recommended access. This <a href="https://github.com/ocean-data-challenges/2020a_SSH_mapping_NATL60/wiki/AVISO---account-creation">wiki</a> can help you create an AVISO account to access the data. The data are also temporarily available <a href="https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/ocean-data-challenges/dc_data1/catalog.html">here</a>. They are presented with the following directory structure:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>. 
-|-- dc_obs
-|   |-- dt_global_alg_phy_l3_20161201-20180131_285-315_23-53.nc
-|   |-- dt_global_c2_phy_l3_20161201-20180131_285-315_23-53.nc 
-|   |-- dt_global_h2g_phy_l3_20161201-20180131_285-315_23-53.nc
-|   |-- dt_global_j2g_phy_l3_20161201-20180131_285-315_23-53.nc
-|   |-- dt_global_j2n_phy_l3_20161201-20180131_285-315_23-53.nc
-|   |-- dt_global_j3_phy_l3_20161201-20180131_285-315_23-53.nc
-|   |-- dt_global_s3a_phy_l3_20161201-20180131_285-315_23-53.nc
-
-|-- dc_maps
-|   |-- OSE_ssh_mapping_BASELINE.nc
-|   |-- OSE_ssh_mapping_BFN.nc
-|   |-- OSE_ssh_mapping_DUACS.nc
-|   |-- OSE_ssh_mapping_DYMOST.nc
-|   |-- OSE_ssh_mapping_MIOST.nc
-|   |-- OSE_ssh_mapping_4dvarNet.nc
-|   |-- OSE_ssh_mapping_4dvarNet_2022.nc (NOT on AVISO+ yet !!!!)
-|   |-- mdt.nc
-
-</code></pre></div></div>
-
-<h2 id="baseline-and-evaluation">Baseline and evaluation</h2>
-
-<h3 id="baseline">Baseline</h3>
-<p>The baseline mapping method is optimal interpolation (OI), in the spirit of the present-day standard for DUACS products provided by AVISO. OI is implemented in the <a href="https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE/blob/master/notebooks/baseline_oi.ipynb"><code class="language-plaintext highlighter-rouge">baseline_oi</code></a> Jupyter notebook. The SSH reconstructions are saved as a NetCDF file in the <code class="language-plaintext highlighter-rouge">results</code> directory. The content of this directory is git-ignored.</p>
-
-<h3 id="evaluation">Evaluation</h3>
-
-<p>The evaluation of the mapping methods is based on the comparison of the SSH reconstructions with the <em>independent</em> Cryosat-2 along-track dataset. It includes two scores, one based on the Root-Mean-Square Error (RMSE), the other based on Fourier wavenumber spectra. The evaluation notebook <a href="https://github.com/ocean-data-challenges/2020a_SSH_mapping_NATL60/blob/master/notebooks/example_data_eval.ipynb"><code class="language-plaintext highlighter-rouge">example_data_eval</code></a> implements the computation of these two scores as they could appear in the leaderboard. The notebook also provides additional, graphical diagnostics based on RMSE and spectra.</p>
-
-<h2 id="data-processing">Data processing</h2>
-
-<p>Cross-functional modules are gathered in the <code class="language-plaintext highlighter-rouge">src</code> directory. They include tools for regridding, plots, evaluation, writing and reading NetCDF files. The directory also contains a module that implements the baseline method.</p>
-
-<h2 id="acknowledgement">Acknowledgement</h2>
-
-<p>The structure of this data challenge was to a large extent inspired by <a href="https://github.com/pangeo-data/WeatherBench">WeatherBench</a>.</p>
-
-
-			</div>
-
-			
-
-			
 		</article>
-	</div><!-- /.medium-8.columns -->
-
-
-	
-
-
-	
+	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
+
+<div id="header-home">
+    <div class="row">
+        <div class="small-12 columns">
+        </div><!-- /.medium-4.columns -->
+    </div><!-- /.row -->
+</div><!-- /#header-home -->
+
+<div class="row t60">
+ 
+   
+     
+     
+     <div class="medium-4 columns frontpage-widget">
+	
+	
+		<a href="https://github.com/ocean-data-challenges/2023_SSH_mapping_train_eNATL60_test_NATL60-">
+			
+				
+				
+				
+				
+				<img src="/images/DC2024d.jpg" alt="" />
+				
+			
+		</a>
+	
+	<h2 class="font-size-h3 t10">2023 SSH mapping train eNATL60 test NATL60</h2>
+	<p>A challenge on mapping SSH from artificial satellite altimeters, training on eNAtl60 simulation and testing on NAtl60.</p>
+	<p></p>
+	<p><b><i>IMT-Atlantique and CLS</b></i></p>
+	<p><a class="button tiny radius" href="https://github.com/ocean-data-challenges/2023_SSH_mapping_train_eNATL60_test_NATL60-">More ›</a></p>
+</div>
+
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+</div><!-- /.row -->
+
+<div class="row t60">
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+</div><!-- /.row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	

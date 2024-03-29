@@ -2,6 +2,18 @@
   
     {
 
+      "title"    : "2023 SSH mapping train eNATL60 test NATL60",
+      "date"     : "2024",
+      "experiment" : "ssh_mapping",
+      "region" : "Gulfstream, Madeira, Greenland",
+      "text" : "A challenge on mapping SSH from artificial satellite altimeters, training on eNAtl60 simulation and testing on NAtl60.",
+      "author" : "IMT-Atlantique and CLS",
+      "url" : "https://github.com/ocean-data-challenges/2023_SSH_mapping_train_eNATL60_test_NATL60-"
+
+    } ,
+  
+    {
+
       "title"    : "2024-DC SWOT denoising OSE",
       "date"     : "2024",
       "experiment" : "l3_processing",

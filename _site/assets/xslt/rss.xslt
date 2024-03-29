@@ -275,6 +275,8 @@
 
               
                
+              
+               
                           
 
                           
@@ -339,6 +341,15 @@
               <a  href="http://localhost:4000/dc_L4_SSH/">SSH Mapping</a>
               <ul class="dropdown">
 
+              
+               
+                          
+
+                          
+
+                          <li><a  href="https://github.com/ocean-data-challenges/2023_SSH_mapping_train_eNATL60_test_NATL60-" target="_blank">2023 SSH mapping train eNATL60 test NATL60</a></li>
+
+               
               
                
               
@@ -433,6 +444,8 @@
               <a  href="http://localhost:4000/dc_L4_Current/">Currents Mapping</a>
               <ul class="dropdown">
 
+              
+               
               
                
               
