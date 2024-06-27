@@ -277,6 +277,8 @@
                
               
                
+              
+               
                           
 
                           
@@ -341,6 +343,15 @@
               <a  href="http://localhost:4000/dc_L4_SSH/">SSH Mapping</a>
               <ul class="dropdown">
 
+              
+               
+                          
+
+                          
+
+                          <li><a  href="https://github.com/ocean-data-challenges/2024_DC_SSH_mapping_SWOT_OSE" target="_blank">2024 DC global mapping SWOT OSE</a></li>
+
+               
               
                
                           
@@ -444,6 +455,8 @@
               <a  href="http://localhost:4000/dc_L4_Current/">Currents Mapping</a>
               <ul class="dropdown">
 
+              
+               
               
                
               
